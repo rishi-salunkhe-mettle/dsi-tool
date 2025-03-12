@@ -1,6 +1,6 @@
-# Machine Learning Model Accuracy Metrics
+# DSI Tool
 
-This Streamlit application calculates and displays accuracy metrics for a machine learning model. It supports subgroup analysis and visualizes ROC curves.
+This tool calculates and displays accuracy metrics for a healthcare machine learning model. It supports subgroup analysis and visualizes ROC curves.
 
 ## Installation
 
