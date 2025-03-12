@@ -6,8 +6,8 @@ This Streamlit application calculates and displays accuracy metrics for a machin
 
 1. Clone this repository:
    ```sh
-   git clone <repository_url>
-   cd <repository_name>
+   git clone [https://github.com/rishi-salunkhe-mettle/dsi-tool](https://github.com/rishi-salunkhe-mettle/dsi-tool)
+   cd dsi-tool
    ```
 
 2. Create a virtual environment (optional but recommended):
@@ -28,7 +28,7 @@ This Streamlit application calculates and displays accuracy metrics for a machin
    streamlit run Streamlit_ML_Metrics.py
    ```
 
-2. Upload a CSV file containing input features along with training labels (second last column) and prediction labels (last column).
+2. Upload a CSV file (sample file: diabetes_prediction_data.csv) containing input features along with training labels (second last column) and prediction labels (last column).
 
 3. The application will display:
    - The first 10 rows of the uploaded dataset
