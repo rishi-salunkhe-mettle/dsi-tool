@@ -68,7 +68,7 @@ def plot_roc_curve(fpr, tpr):
     plt.legend(loc='lower right')
     st.pyplot(plt)
 
-st.title("Machine Learning Model Accuracy Metrics")
+st.title("Onset of CKD")
 
 uploaded_file = st.file_uploader("Upload Data (CSV)", type=["csv"])
 
@@ -91,7 +91,7 @@ if uploaded_file:
     st.subheader("ROC Curve")
     plot_roc_curve(*metrics['ROC Curve'])
     
-    selected_feature = st.selectbox("Select an input column for subgroup analysis", data.columns[:-2])
+    selected_feature = st.selectbox("Select an input column for subgroup analysis", ['Blood Sugar Level', 'Family Diabetes History'])
     subgroup_metrics_df = calculate_subgroup_metrics(data, y_true, y_pred, selected_feature)
     
     st.subheader(f"Subgroup Metrics for {selected_feature}")
