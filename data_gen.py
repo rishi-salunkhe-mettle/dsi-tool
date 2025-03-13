@@ -13,7 +13,7 @@ data = {
     "Race": np.random.choice(["White", "Black", "Asian", "Hispanic", "Other"], num_rows),
     "Blood Sugar Level": np.random.randint(70, 201, num_rows),
     "Family Diabetes History": np.random.choice(["Yes", "No"], num_rows),
-    "Training Label": np.random.choice([0, 1], num_rows, p=[0.7, 0.3]),  # 70% no diabetes, 30% diabetes
+    "Actual Value": np.random.choice([0, 1], num_rows, p=[0.7, 0.3]),  # 70% no diabetes, 30% diabetes
 }
 
 # Simulate predictions with some noise
