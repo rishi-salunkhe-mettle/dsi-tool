@@ -39,7 +39,7 @@ This tool calculates and displays accuracy metrics for a healthcare machine lear
 ## CSV File Format
 The uploaded CSV should have the following structure:
 
-| Age | Gender | Race | Blood Sugar Level | Family Diabetes History | Training Label | Prediction Label |
+| Age | Gender | Race | Blood Sugar Level | Family Diabetes History | Actual Value | Predicted Value |
 |-----|--------|------|------------------|----------------------|---------------|-----------------|
 | 45  | Male   | White | 120              | Yes                  | 1             | 1               |
 | 32  | Female | Asian | 85               | No                   | 0             | 0               |
