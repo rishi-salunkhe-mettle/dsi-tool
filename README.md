@@ -6,7 +6,7 @@ This tool calculates and displays accuracy metrics for a healthcare machine lear
 
 1. Clone this repository:
    ```sh
-   git clone [https://github.com/rishi-salunkhe-mettle/dsi-tool](https://github.com/rishi-salunkhe-mettle/dsi-tool)
+   git clone https://github.com/rishi-salunkhe-mettle/dsi-tool
    cd dsi-tool
    ```
 
@@ -25,7 +25,7 @@ This tool calculates and displays accuracy metrics for a healthcare machine lear
 
 1. Run the Streamlit application:
    ```sh
-   streamlit run Streamlit_ML_Metrics.py
+   streamlit run accuracy_prototype.py
    ```
 
 2. Upload a CSV file (sample file: diabetes_prediction_data.csv) containing input features along with training labels (second last column) and prediction labels (last column).
