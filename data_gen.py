@@ -17,10 +17,10 @@ data = {
 }
 
 # Simulate predictions with some noise
-data["Prediction Label"] = np.where(
+data["Predicted Value"] = np.where(
     np.random.rand(num_rows) > 0.1,  # 90% of predictions match the training label
-    data["Training Label"],
-    1 - data["Training Label"]  # 10% flipped for error simulation
+    data["Actual Value"],
+    1 - data["Actual Value"]  # 10% flipped for error simulation
 )
 
 # Create DataFrame
