@@ -1,4 +1,4 @@
-Age,Gender,Race,Blood Sugar Level,Family Diabetes History,Training Label,Prediction Label
+Age,Gender,Race,Blood Sugar Level,Family Diabetes History,Actual Value,Predicted Value
 69,Male,Black,127,No,1,1
 32,Male,Hispanic,144,No,1,1
 89,Male,Black,92,No,0,0
