@@ -52,6 +52,7 @@ The uploaded CSV should have the following structure:
 - NumPy
 - Scikit-learn
 - Matplotlib
+- Seaborn
 
 ## License
 This project is licensed under the MIT License.
