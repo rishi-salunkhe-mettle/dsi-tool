@@ -62,16 +62,24 @@ def calculate_subgroup_metrics(data, y_true, y_pred, selected_feature):
     return pd.DataFrame(subgroup_metrics)
 
 def plot_subgroup_metrics(subgroup_metrics_df, selected_feature):
+    subgroup_metrics_df = subgroup_metrics_df.drop(columns=['True Positive', 'True Negative', 'False Positive', 'False Negative', 'ROC Curve', 'Confusion Matrix'])
+    melted_df = subgroup_metrics_df.melt(id_vars=['Subgroup'], var_name='Metric', value_name='Score')
     plt.figure(figsize=(10, 6))
-    subgroup_metrics_df = subgroup_metrics_df.drop(columns=['True Positive', 'True Negative', 'False Positive', 'False Negative'])
-    colors = sns.color_palette('tab10', n_colors=len(subgroup_metrics_df.columns))  
-    subgroup_metrics_df.set_index('Subgroup').plot(kind='bar', figsize=(10, 6), color=colors)
+    ax = sns.barplot(data=melted_df, x='Metric', y='Score', hue='Subgroup', palette='tab10')
+
+    # Add value labels on top of bars
+    for p in ax.patches:
+        if p.get_height() > 0:
+            ax.annotate(f'{p.get_height():.2f}', 
+                (p.get_x() + p.get_width() / 2, p.get_height()), 
+                ha='center', va='bottom', fontsize=9, fontweight='bold')
+
     plt.xticks(rotation=45, ha='right')
     plt.ylabel('Score')
-    plt.xlabel(selected_feature)
-    plt.title(f'Subgroup Analysis Metrics by {selected_feature}')
+    plt.xlabel('Accuracy Metrics')
+    plt.title(f'Subgroup Analysis across {selected_feature}')
     plt.ylim(0, 1.2)
-    plt.legend(loc='lower right')
+    plt.legend(loc='upper right')
     st.pyplot(plt)
     st.markdown("This bar chart visualizes multiple accuracy metrics across different subgroups within the selected input column.")
 
@@ -84,6 +92,7 @@ def plot_roc_curve(fpr, tpr):
     plt.legend(loc='lower right')
     st.pyplot(plt)
     st.markdown("**ROC Curve**: plots the True Positive Rate against the False Positive Rate, showing the performance of the classification model at different thresholds.")
+    st.markdown("**AUROC (Area Under the Receiver Operating Characteristic Curve)**: measures a classifier's ability to distinguish between classes, with a higher value (closer to 1) indicating better performance.")
 
 def plot_confusion_matrix(cm, tpr, tnr, fpr, fnr):
     plt.figure(figsize=(6, 5))
