@@ -39,11 +39,11 @@ This tool calculates and displays accuracy metrics for a healthcare machine lear
 ## CSV File Format
 The uploaded CSV should have the following structure:
 
-| Age | Gender | Race | Blood Sugar Level | Family Diabetes History | Actual Value | Predicted Value |
-|-----|--------|------|------------------|----------------------|---------------|-----------------|
-| 45  | Male   | White | 120              | Yes                  | 1             | 1               |
-| 32  | Female | Asian | 85               | No                   | 0             | 0               |
-| ... | ...    | ...  | ...              | ...                  | ...           | ...             |
+ | Patient_ID | Prediction_Timestamp | Predicted_Probability | Age | Gender | Race  | HbA1c (%) | eGFR | UACR | Comorbidities        | Actual_Outcome | Predicted_Outcome | 
+ |------------|----------------------|-----------------------|-----|--------|-------|-----------|------|------|----------------------|----------------|-------------------|
+ | P001       | 2024-03-15 08:00 AM  | 0.37                  | 64  | Female | Black | 6.6       | 35   | 634  | "CKD, Heart Failure" | 0              | 0                 | 
+ | P002       | 2024-03-15 08:15 AM  | 0.95                  | 29  | Female | White | 10.4      | 118  | 22   | Heart Failure        | 0              | 1                 | 
+ | ...        | ...                  | ...                   | ... | ...    | ...   | ...       | ...  | ...  | ...                  | ...            | ...               | 
 
 ## Dependencies
 - Python 3.x
