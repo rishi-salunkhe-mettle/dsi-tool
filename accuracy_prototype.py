@@ -132,6 +132,8 @@ if uploaded_file:
     st.subheader("First 10 Rows of Data")
     st.write(data.head(10))
     
+    data = data.drop(columns=['Patient_ID', 'Prediction_Timestamp'])
+
     y_true = data.iloc[:, -2].values  # Assuming second last column is the actual label
     y_pred = data.iloc[:, -1].values  # Assuming last column is the predictions
     
@@ -147,13 +149,13 @@ if uploaded_file:
     plot_roc_curve(*metrics['ROC Curve'])
 
     st.subheader("Subgroup Analysis")
-    selected_feature = st.selectbox("Select an input column for subgroup analysis", ['Blood Sugar Level', 'Family Diabetes History'])
+    selected_feature = st.selectbox("Select an input column for subgroup analysis", ['Age', 'Gender', 'Race', 'Comorbidities'])
     subgroup_metrics_df = calculate_subgroup_metrics(data, y_true, y_pred, selected_feature)
     
     st.subheader(f"Subgroup Metrics for {selected_feature}")
     st.dataframe(subgroup_metrics_df)
 
-    selected_feature = st.selectbox("Select an input column for subgroup analysis visualization", ['Family Diabetes History'])
+    selected_feature = st.selectbox("Select an input column for subgroup analysis visualization", ['Gender', 'Race', 'Comorbidities'])
     subgroup_metrics_df = calculate_subgroup_metrics(data, y_true, y_pred, selected_feature)
     
     st.subheader(f"Subgroup Analysis Visualization: {selected_feature}")

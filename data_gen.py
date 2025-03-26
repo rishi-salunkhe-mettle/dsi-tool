@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+from datetime import datetime, timedelta
 
 # Set random seed for reproducibility
 np.random.seed(42)
@@ -8,20 +9,21 @@ np.random.seed(42)
 num_rows = 1000
 
 data = {
+    "Patient_ID": [f"P{str(i).zfill(3)}" for i in range(1, num_rows + 1)],
+    "Prediction_Timestamp": [(datetime(2024, 3, 15, 8, 0) + timedelta(minutes=15 * i)).strftime("%Y-%m-%d %I:%M %p") for i in range(num_rows)],
+    "Predicted_Probability": np.round(np.random.uniform(0, 1, num_rows), 2),
     "Age": np.random.randint(18, 91, num_rows),
     "Gender": np.random.choice(["Male", "Female"], num_rows),
     "Race": np.random.choice(["White", "Black", "Asian", "Hispanic", "Other"], num_rows),
-    "Blood Sugar Level": np.random.randint(70, 201, num_rows),
-    "Family Diabetes History": np.random.choice(["Yes", "No"], num_rows),
-    "Actual Value": np.random.choice([0, 1], num_rows, p=[0.7, 0.3]),  # 70% no diabetes, 30% diabetes
+    "HbA1c (%)": np.round(np.random.uniform(4.5, 12.0, num_rows), 1),
+    "eGFR": np.random.randint(15, 120, num_rows),
+    "UACR": np.random.randint(10, 1000, num_rows),
+    "Comorbidities": np.random.choice([
+        "Diabetes", "Hypertension", "CKD", "Heart Failure", "Diabetes, Hypertension", "Diabetes, CKD", "CKD, Heart Failure", "None"
+    ], num_rows),
+    "Actual_Outcome": np.random.choice([0, 1], num_rows),
+    "Predicted_Outcome": np.random.choice([0, 1], num_rows)
 }
-
-# Simulate predictions with some noise
-data["Predicted Value"] = np.where(
-    np.random.rand(num_rows) > 0.1,  # 90% of predictions match the training label
-    data["Actual Value"],
-    1 - data["Actual Value"]  # 10% flipped for error simulation
-)
 
 # Create DataFrame
 df = pd.DataFrame(data)
