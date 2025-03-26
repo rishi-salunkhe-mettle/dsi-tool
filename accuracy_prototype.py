@@ -32,6 +32,7 @@ def calculate_metrics(y_true, y_pred):
         fpr_vals, tpr_vals, auroc = [0], [0], 0
 
     return {
+        'Accuracy': (tp + tn) / (tp + tn + fp + fn),
         'True Positive': tp,
         'True Negative': tn,
         'False Positive': fp,
@@ -109,14 +110,19 @@ def plot_confusion_matrix(cm, tpr, tnr, fpr, fnr):
 
 def plot_metric_bar_chart(metrics):
     plt.figure(figsize=(6, 4))
-    metric_names = ['Precision', 'Recall', 'F1 Score', 'Brier Score']
+    metric_names = ['Accuracy', 'Precision', 'Recall', 'F1 Score', 'Brier Score']
     metric_values = [metrics[m] for m in metric_names]
     ax = sns.barplot(x=metric_names, y=metric_values, palette='Blues')
     for i, v in enumerate(metric_values):
         ax.text(i, v + 0.02, f'{v:.2f}', ha='center', fontsize=10, fontweight='bold')
+
+    line = plt.axhline(y=0.8, color='red', linestyle='--', linewidth=1.5, label=f'Claimed Accuracy')
     plt.ylim(0, 1)
     plt.ylabel('Score')
+    
+    plt.legend(handles=[line], loc='upper right')
     st.pyplot(plt)
+    st.markdown("**Accuracy**: The ratio of correct predictions to total predictions.")
     st.markdown("**Precision**: The proportion of predicted positives that are actually positive.")
     st.markdown("**Recall**: The proportion of actual positives that are correctly identified (same as TPR).")
     st.markdown("**F1 Score**: The harmonic mean of precision and recall, providing a balance between the two.")
