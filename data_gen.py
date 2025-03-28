@@ -2,8 +2,6 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 
-# Set random seed for reproducibility
-np.random.seed(42)
 
 # Generate 1000 rows of synthetic data
 num_rows = 1000
