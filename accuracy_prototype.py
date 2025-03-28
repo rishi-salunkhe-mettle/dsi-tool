@@ -4,6 +4,10 @@ import numpy as np
 from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score, roc_curve, auc, brier_score_loss
 import matplotlib.pyplot as plt
 import seaborn as sns
+from datetime import datetime
+import os
+
+ACC_FILE = "accuracy_history.csv"
 
 def calculate_metrics(y_true, y_pred):
     cm = confusion_matrix(y_true, y_pred, labels=[0, 1])
@@ -49,6 +53,42 @@ def calculate_metrics(y_true, y_pred):
         'ROC Curve': (fpr_vals, tpr_vals),
         'Confusion Matrix': cm
     }
+
+def save_accuracy(metrics):
+    df = pd.DataFrame([metrics])
+    df['Date'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    try:
+        df_existing = pd.read_csv(ACC_FILE)
+        df_existing = pd.concat([df_existing, df], ignore_index=True)
+    except FileNotFoundError:
+        df_existing = df
+    df_existing.to_csv(ACC_FILE, index=False)
+
+def plot_accuracy_trend():
+    try:
+        df = pd.read_csv(ACC_FILE)
+        df['Date'] = pd.to_datetime(df['Date'])
+        plt.figure(figsize=(10, 5))
+        line = plt.axhline(y=0.8, color='red', linestyle='--', linewidth=1.5, label=f'Claimed Accuracy')
+    
+        plt.plot(df['Date'], df['Accuracy'], marker='o', linestyle='-', label='Accuracy')
+        plt.xlabel('Date')
+        plt.ylabel('Accuracy')
+        plt.ylim(0, 1.2)
+        plt.title('Accuracy Trend Over Time')
+        plt.xticks(rotation=45)
+        plt.legend()
+        plt.legend(handles=[line], loc='upper right')
+        st.pyplot(plt)
+    except FileNotFoundError:
+        st.warning("No accuracy history found. Run the model at least once to generate data.")
+
+def delete_accuracy_history():
+    if os.path.exists(ACC_FILE):
+        os.remove(ACC_FILE)
+        st.success("Accuracy history deleted successfully.")
+    else:
+        st.warning("No accuracy history file found.")
 
 def calculate_subgroup_metrics(data, y_true, y_pred, selected_feature):
     subgroup_metrics = []
@@ -116,11 +156,9 @@ def plot_metric_bar_chart(metrics):
     for i, v in enumerate(metric_values):
         ax.text(i, v + 0.02, f'{v:.2f}', ha='center', fontsize=10, fontweight='bold')
 
-    line = plt.axhline(y=0.8, color='red', linestyle='--', linewidth=1.5, label=f'Claimed Accuracy')
     plt.ylim(0, 1)
     plt.ylabel('Score')
     
-    plt.legend(handles=[line], loc='upper right')
     st.pyplot(plt)
     st.markdown("**Accuracy**: The ratio of correct predictions to total predictions.")
     st.markdown("**Precision**: The proportion of predicted positives that are actually positive.")
@@ -166,3 +204,22 @@ if uploaded_file:
     
     st.subheader(f"Subgroup Analysis Visualization: {selected_feature}")
     plot_subgroup_metrics(subgroup_metrics_df, selected_feature)
+
+    save_accuracy(metrics)
+    
+    # Plot accuracy trend
+    st.subheader("Accuracy Trend Over Time")
+    plot_accuracy_trend()
+
+    # Delete accuracy history button
+    st.markdown("""
+        <style>
+            div.stButton > button:first-child {
+                background-color: red;
+                color: white;
+            }
+        </style>
+    """, unsafe_allow_html=True)
+
+    if st.button("Clear Accuracy History"):
+        delete_accuracy_history()
