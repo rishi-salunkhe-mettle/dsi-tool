@@ -82,7 +82,7 @@ def calculate_subgroup_metrics(data, y_true, y_pred, selected_feature):
             subgroup_metrics.append(metrics)
     return pd.DataFrame(subgroup_metrics)
 
-@app.route('/calculate_metrics', methods=['POST'])
+@app.route('/calculate_metrics', methods=['GET'])
 def metrics_endpoint():
     data = pd.read_csv(DATA_FILE)
     data = data.drop(columns=['Patient_ID', 'Prediction_Timestamp'])
@@ -94,7 +94,7 @@ def metrics_endpoint():
     metrics = {k: float(v) if isinstance(v, (np.float32, np.float64)) else int(v) if isinstance(v, (np.int32, np.int64)) else v for k, v in metrics.items()}
     return jsonify(metrics), 200
 
-@app.route('/subgroup_metrics', methods=['POST'])
+@app.route('/subgroup_metrics', methods=['GET'])
 def subgroup_metrics_endpoint():
     selected_feature = request.args.get('feature')  # Use query parameter
     if not selected_feature:
