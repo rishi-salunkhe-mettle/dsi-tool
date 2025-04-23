@@ -10,6 +10,7 @@ app = Flask(__name__)
 CORS(app)
 
 ACC_FILE = "accuracy_history.csv"
+DATA_FILE = "diabetes_prediction_data.csv"
 
 def calculate_metrics(y_true, y_pred):
     cm = confusion_matrix(y_true, y_pred, labels=[0, 1])
@@ -83,10 +84,7 @@ def calculate_subgroup_metrics(data, y_true, y_pred, selected_feature):
 
 @app.route('/calculate_metrics', methods=['POST'])
 def metrics_endpoint():
-    if 'file' not in request.files:
-        return jsonify({'error': 'No file uploaded'}), 400
-    file = request.files['file']
-    data = pd.read_csv(file)
+    data = pd.read_csv(DATA_FILE)
     data = data.drop(columns=['Patient_ID', 'Prediction_Timestamp'])
     y_true = data.iloc[:, -2].values
     y_pred = data.iloc[:, -1].values
@@ -98,10 +96,6 @@ def metrics_endpoint():
 
 @app.route('/subgroup_metrics', methods=['POST'])
 def subgroup_metrics_endpoint():
-    if 'file' not in request.files:
-        return jsonify({'error': 'No file uploaded'}), 400
-    file = request.files['file']
-    
     selected_feature = request.args.get('feature')  # Use query parameter
     if not selected_feature:
         return jsonify({'error': 'No feature provided'}), 400
@@ -109,7 +103,7 @@ def subgroup_metrics_endpoint():
     if selected_feature not in ['Age', 'Gender', 'Race', 'Comorbidities']:
         return jsonify({'error': 'Provided feature is not supported. Please provide one of the following: Age, Gender, Race, Comorbidities'}), 400
 
-    data = pd.read_csv(file)
+    data = pd.read_csv(DATA_FILE)
     data = data.drop(columns=['Patient_ID', 'Prediction_Timestamp'])
     y_true = data.iloc[:, -2].values
     y_pred = data.iloc[:, -1].values
