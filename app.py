@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import pandas as pd
 import numpy as np
 import os
@@ -6,6 +7,7 @@ from datetime import datetime
 from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score, roc_curve, auc, brier_score_loss
 
 app = Flask(__name__)
+CORS(app)
 
 ACC_FILE = "accuracy_history.csv"
 
