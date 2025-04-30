@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app)
 
 ACC_FILE = "accuracy_history.csv"
-DATA_FILE = "diabetes_prediction_data.csv"
+DATA_FILE = "diabetes_prediction_trajectory_data.csv"
 
 # PostgreSQL connection config
 DB_CONFIG = {
@@ -128,7 +128,7 @@ def subgroup_metrics_endpoint():
     if not selected_feature:
         return jsonify({'error': 'No feature provided'}), 400
 
-    if selected_feature not in ['Age', 'Gender', 'Race', 'Comorbidities']:
+    if selected_feature not in ['Gender', 'Race', 'Comorbidities']:
         return jsonify({'error': 'Provided feature is not supported. Please provide one of the following: Age, Gender, Race, Comorbidities'}), 400
 
     data = pd.read_csv(DATA_FILE)
