@@ -206,4 +206,4 @@ def get_prediction_by_patient():
         return jsonify({'error': 'Failed to fetch data from database'}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,host="0.0.0.0", port=5000)
