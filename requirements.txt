@@ -5,3 +5,4 @@ scikit-learn
 matplotlib
 seaborn
 flask-cors
+psycopg2-binary

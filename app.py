@@ -5,12 +5,40 @@ import numpy as np
 import os
 from datetime import datetime
 from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score, roc_curve, auc, brier_score_loss
+import psycopg2
+from psycopg2.extras import execute_values
 
 app = Flask(__name__)
 CORS(app)
 
 ACC_FILE = "accuracy_history.csv"
 DATA_FILE = "diabetes_prediction_data.csv"
+
+# PostgreSQL connection config
+DB_CONFIG = {
+    'dbname': 'lava',
+    'user': 'lava',
+    'password': 'password',
+    'host': 'localhost',
+    'port': 5433
+}
+
+def insert_into_postgres(data):
+    try:
+        conn = psycopg2.connect(**DB_CONFIG)
+        cursor = conn.cursor()
+        insert_query = """
+            INSERT INTO predictions (patient_id, prediction_timestamp, predicted_prob, predicted_outcome)
+            VALUES %s
+        """
+        execute_values(cursor, insert_query, data)
+        conn.commit()
+        cursor.close()
+        conn.close()
+        return True
+    except Exception as e:
+        print("Database error:", e)
+        return False
 
 def calculate_metrics(y_true, y_pred):
     cm = confusion_matrix(y_true, y_pred, labels=[0, 1])
@@ -117,6 +145,65 @@ def clear_history():
     if delete_accuracy_history():
         return jsonify({'message': 'Accuracy history deleted'}), 200
     return jsonify({'message': 'No history to delete'}), 200
+
+@app.route('/upload_prediction_data', methods=['POST'])
+def upload_prediction_data():
+    if 'file' not in request.files:
+        return jsonify({'error': 'No file uploaded'}), 400
+
+    file = request.files['file']
+    if not file.filename.endswith('.csv'):
+        return jsonify({'error': 'File must be a CSV'}), 400
+
+    df = pd.read_csv(file)
+    required_cols = ['Patient_ID', 'Prediction_Timestamp', 'Predicted_Probability', 'Predicted_Outcome']
+    if not all(col in df.columns for col in required_cols):
+        return jsonify({'error': 'CSV missing required columns'}), 400
+
+    rows = df[required_cols].values.tolist()
+
+    success = insert_into_postgres(rows)
+    if success:
+        return jsonify({'message': 'Data inserted into PostgreSQL successfully'}), 200
+    else:
+        return jsonify({'error': 'Failed to insert into database'}), 500
+
+@app.route('/get_prediction_by_patient', methods=['POST'])
+def get_prediction_by_patient():
+    data = request.get_json()
+    if not data or 'patient_id' not in data:
+        return jsonify({'error': 'patient_id is required in JSON body'}), 400
+
+    patient_id = data['patient_id']
+
+    try:
+        conn = psycopg2.connect(**DB_CONFIG)
+        cursor = conn.cursor()
+        query = """
+            SELECT patient_id, prediction_timestamp, predicted_prob, predicted_outcome
+            FROM predictions
+            WHERE patient_id = %s
+        """
+        cursor.execute(query, (patient_id,))
+        rows = cursor.fetchall()
+        cursor.close()
+        conn.close()
+
+        if not rows:
+            return jsonify({'message': f'No data found for patient_id: {patient_id}'}), 404
+
+        result = [{
+            'patient_id': row[0],
+            'prediction_timestamp': row[1].isoformat() if hasattr(row[1], 'isoformat') else str(row[1]),
+            'predicted_prob': float(row[2]),
+            'predicted_outcome': int(row[3])
+        } for row in rows]
+
+        return jsonify(result), 200
+
+    except Exception as e:
+        print("Database fetch error:", e)
+        return jsonify({'error': 'Failed to fetch data from database'}), 500
 
 if __name__ == '__main__':
     app.run(debug=True)
