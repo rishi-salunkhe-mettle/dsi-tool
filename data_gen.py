@@ -57,6 +57,12 @@ for i in range(1, patients + 1):
         else:
             predicted_probability = np.round(np.random.uniform(0.5, 1.0), 2)
 
+        # Determine medications based on comorbidity
+        if "Diabetes" in comorbidity:
+            medications = np.random.choice(["Metformin", "Metformin, Jardiance"])
+        else:
+            medications = np.nan  # or use "" for an empty string if preferred
+
         data.append({
             "Patient_ID": patient_id,
             "Prediction_Timestamp": timestamp.strftime("%Y-%m-%d %I:%M %p"),
@@ -67,8 +73,9 @@ for i in range(1, patients + 1):
             "HbA1c (%)": np.round(hba1c, 1),
             "eGFR": int(round(egfr)),
             "UACR": int(round(uacr)),
-            "Comorbidities": comorbidity,
-            "Actual_Outcome": actual_outcome,
+            "Conditions": comorbidity,
+            "Medications": medications,
+            "CKD_Actual_Outcome": actual_outcome,
             "Predicted_Outcome": predicted_outcome
         })
 
