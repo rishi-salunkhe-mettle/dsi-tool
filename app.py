@@ -122,6 +122,21 @@ def metrics_endpoint():
     metrics = {k: float(v) if isinstance(v, (np.float32, np.float64)) else int(v) if isinstance(v, (np.int32, np.int64)) else v for k, v in metrics.items()}
     return jsonify(metrics), 200
 
+@app.route('/calculate_metrics', methods=['POST'])
+def post_metrics_endpoint():
+    if 'file' not in request.files:
+        return jsonify({'error': 'No file uploaded'}), 400
+    file = request.files['file']
+    data = pd.read_csv(file)
+    data = data.drop(columns=['Patient_ID', 'Prediction_Timestamp'])
+    y_true = data.iloc[:, -2].values
+    y_pred = data.iloc[:, -1].values
+    metrics = calculate_metrics(y_true, y_pred)
+    save_accuracy(metrics)
+
+    metrics = {k: float(v) if isinstance(v, (np.float32, np.float64)) else int(v) if isinstance(v, (np.int32, np.int64)) else v for k, v in metrics.items()}
+    return jsonify(metrics), 200
+
 @app.route('/subgroup_metrics', methods=['GET'])
 def subgroup_metrics_endpoint():
     selected_feature = request.args.get('feature')  # Use query parameter
