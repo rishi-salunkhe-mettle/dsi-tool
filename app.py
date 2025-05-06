@@ -12,7 +12,6 @@ app = Flask(__name__)
 CORS(app)
 
 ACC_FILE = "accuracy_history.csv"
-DATA_FILE = "diabetes_prediction_trajectory_data.csv"
 
 # PostgreSQL connection config
 DB_CONFIG = {
@@ -41,7 +40,11 @@ def insert_into_postgres(data):
         return False
 
 def calculate_metrics(y_true, y_pred):
+    for i in range(len(y_pred)):
+        y_pred[i] = (1 - y_true[i]) if y_pred[i] == 9 else y_pred[i]
+
     cm = confusion_matrix(y_true, y_pred, labels=[0, 1])
+
     if cm.shape == (2, 2):
         tn, fp, fn, tp = cm.ravel()
     else:
@@ -112,13 +115,80 @@ def calculate_subgroup_metrics(data, y_true, y_pred, selected_feature):
 
 @app.route('/calculate_metrics', methods=['GET'])
 def metrics_endpoint():
+    prediction_type = request.args.get('prediction_type')
+    if not prediction_type:
+            return jsonify({'error': 'No prediction_type provided'}), 400
+
+    DATA_FILE = 'diabetes_prediction_' + prediction_type + '_data.csv'
     data = pd.read_csv(DATA_FILE)
+
+    # Ensure Prediction_Timestamp is datetime
+    data['Prediction_Timestamp'] = pd.to_datetime(data['Prediction_Timestamp'])
+
+    # Get optional date filters from query params
+    start_date_str = request.args.get('start_date')
+    end_date_str = request.args.get('end_date')
+
+    # Filter by date range if provided
+    if start_date_str and end_date_str:
+        try:
+            start_date = pd.to_datetime(start_date_str)
+            end_date = pd.to_datetime(end_date_str)
+            data = data[(data['Prediction_Timestamp'] >= start_date) & (data['Prediction_Timestamp'] <= end_date)]
+        except Exception as e:
+            return jsonify({'error': f'Invalid date format: {e}'}), 400
+
+    # Sort and keep latest per patient
+    data = data.sort_values('Prediction_Timestamp').drop_duplicates('Patient_ID', keep='last')
+
+    if data.empty:
+        return jsonify({'error': 'No data available for the given date range'}), 400
+
+    # Drop identifiers
     data = data.drop(columns=['Patient_ID', 'Prediction_Timestamp'])
+
     y_true = data.iloc[:, -2].values
     y_pred = data.iloc[:, -1].values
+
+    if isinstance(y_pred[0], str):
+        data = request.get_json()
+        if not data or 'categories' not in data:
+            return jsonify({'error': 'categories is required in JSON body'}), 400
+        
+        categories = data['categories']
+
+        # Create mapping from categories to values between 0 and 1
+        mapped_values = np.linspace(0, 1, len(categories))
+        category_to_value = dict(zip(categories, mapped_values))
+
+        # Replace values in y_pred with corresponding mapped values
+        y_pred = [category_to_value[val] for val in y_pred]
+    
+    threshold = request.args.get('threshold')  # Use query parameter
+    
+    if y_pred[0] not in [0, 1]:
+        if not threshold:
+            return jsonify({'error': 'No threshold provided'}), 400
+
+        threshold = float(threshold)
+
+        def modify_list(values, threshold):
+            updated_values = []
+            for val in values:
+                if abs(val - 0) <= threshold:
+                    updated_values.append(0)
+                elif abs(val - 1) <= threshold:
+                    updated_values.append(1)
+                else:
+                    updated_values.append(9)
+            return updated_values
+        
+        y_pred = modify_list(y_pred, threshold)
+
     metrics = calculate_metrics(y_true, y_pred)
     save_accuracy(metrics)
 
+    # Convert numpy types to native Python types
     metrics = {k: float(v) if isinstance(v, (np.float32, np.float64)) else int(v) if isinstance(v, (np.int32, np.int64)) else v for k, v in metrics.items()}
     return jsonify(metrics), 200
 
@@ -131,7 +201,14 @@ def subgroup_metrics_endpoint():
     if selected_feature not in ['Gender', 'Race', 'Comorbidities']:
         return jsonify({'error': 'Provided feature is not supported. Please provide one of the following: Age, Gender, Race, Comorbidities'}), 400
 
+    
+    prediction_type = request.args.get('prediction_type')  # Use query parameter
+    if not prediction_type:
+        return jsonify({'error': 'No prediction_type provided'}), 400
+    
+    DATA_FILE = 'diabetes_prediction_' + prediction_type + '_data.csv'
     data = pd.read_csv(DATA_FILE)
+
     data = data.drop(columns=['Patient_ID', 'Prediction_Timestamp'])
     y_true = data.iloc[:, -2].values
     y_pred = data.iloc[:, -1].values
