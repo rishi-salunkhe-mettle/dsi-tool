@@ -1,0 +1,1001 @@
+Patient_ID,Prediction_Timestamp,Predicted_Probability,Birthdate,Gender,Race,HbA1c (%),eGFR,UACR,Conditions,Medications,CKD_Actual_Outcome,Predicted_Outcome
+P001,2024-03-15 08:15 AM,0.83,1945-04-12,Male,White,8.1,45,252,"Diabetes, Heart Failure",Metformin,1,0.83
+P001,2024-04-14 08:15 AM,0.12,1945-04-12,Male,White,8.4,41,257,"Diabetes, Heart Failure",Metformin,1,0.12
+P001,2024-05-14 08:15 AM,0.18,1945-04-12,Male,White,8.5,40,266,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.18
+P001,2024-06-13 08:15 AM,0.29,1945-04-12,Male,White,8.8,39,278,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.29
+P001,2024-07-13 08:15 AM,0.03,1945-04-12,Male,White,9.2,37,303,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.03
+P002,2024-03-15 08:30 AM,0.09,1980-04-30,Female,Hispanic,7.5,33,193,Hypertension,,0,0.09
+P002,2024-04-14 08:30 AM,0.29,1980-04-30,Female,Hispanic,7.0,38,179,Hypertension,,0,0.29
+P002,2024-05-14 08:30 AM,0.06,1980-04-30,Female,Hispanic,6.7,39,162,Hypertension,,0,0.06
+P002,2024-06-13 08:30 AM,0.87,1980-04-30,Female,Hispanic,6.5,43,153,Hypertension,,0,0.87
+P002,2024-07-13 08:30 AM,0.31,1980-04-30,Female,Hispanic,6.3,47,123,Hypertension,,0,0.31
+P003,2024-03-15 08:45 AM,0.92,1970-04-28,Male,Other,7.5,34,469,Hypertension,,0,0.92
+P003,2024-04-14 08:45 AM,0.04,1970-04-28,Male,Other,8.0,31,480,Hypertension,,0,0.04
+P003,2024-05-14 08:45 AM,0.98,1970-04-28,Male,Other,8.4,29,494,Hypertension,,0,0.98
+P003,2024-06-13 08:45 AM,0.5,1970-04-28,Male,Other,8.9,26,522,Hypertension,,0,0.5
+P003,2024-07-13 08:45 AM,0.91,1970-04-28,Male,Other,9.2,21,541,Hypertension,,0,0.91
+P004,2024-03-15 09:00 AM,0.96,1978-10-16,Male,Black,6.4,47,460,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.96
+P004,2024-04-14 09:00 AM,0.89,1978-10-16,Male,Black,6.1,48,442,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.89
+P004,2024-05-14 09:00 AM,0.75,1978-10-16,Male,Black,6.0,53,429,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.75
+P004,2024-06-13 09:00 AM,0.57,1978-10-16,Male,Black,5.5,57,409,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.57
+P004,2024-07-13 09:00 AM,0.48,1978-10-16,Male,Black,5.3,60,400,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.48
+P005,2024-03-15 09:15 AM,0.43,1994-06-07,Female,Black,8.7,75,87,"Diabetes, Hypertension","Metformin, Jardiance",1,0.43
+P005,2024-04-14 09:15 AM,0.74,1994-06-07,Female,Black,9.1,73,97,"Diabetes, Hypertension",Metformin,1,0.74
+P005,2024-05-14 09:15 AM,0.18,1994-06-07,Female,Black,9.3,68,114,"Diabetes, Hypertension",Metformin,1,0.18
+P005,2024-06-13 09:15 AM,0.56,1994-06-07,Female,Black,9.5,67,137,"Diabetes, Hypertension",Metformin,1,0.56
+P005,2024-07-13 09:15 AM,0.45,1994-06-07,Female,Black,9.8,65,160,"Diabetes, Hypertension",Metformin,1,0.45
+P006,2024-03-15 09:30 AM,0.18,1947-08-06,Female,Hispanic,7.0,84,226,Heart Failure,,1,0.18
+P006,2024-04-14 09:30 AM,0.89,1947-08-06,Female,Hispanic,6.9,87,221,Heart Failure,,1,0.89
+P006,2024-05-14 09:30 AM,0.61,1947-08-06,Female,Hispanic,6.6,90,196,Heart Failure,,1,0.61
+P006,2024-06-13 09:30 AM,0.98,1947-08-06,Female,Hispanic,6.3,91,170,Heart Failure,,1,0.98
+P006,2024-07-13 09:30 AM,0.78,1947-08-06,Female,Hispanic,6.1,93,157,Heart Failure,,1,0.78
+P007,2024-03-15 09:45 AM,0.9,1979-08-04,Female,Black,6.3,45,165,"Hypertension, Heart Failure",,0,0.9
+P007,2024-04-14 09:45 AM,0.68,1979-08-04,Female,Black,6.6,42,185,"Hypertension, Heart Failure",,0,0.68
+P007,2024-05-14 09:45 AM,0.26,1979-08-04,Female,Black,6.8,39,193,"Hypertension, Heart Failure",,0,0.26
+P007,2024-06-13 09:45 AM,0.68,1979-08-04,Female,Black,7.1,35,218,"Hypertension, Heart Failure",,0,0.68
+P007,2024-07-13 09:45 AM,0.05,1979-08-04,Female,Black,7.6,33,234,"Hypertension, Heart Failure",,0,0.05
+P008,2024-03-15 10:00 AM,0.96,2000-11-16,Male,Black,7.0,57,380,"Diabetes, Hypertension",Metformin,1,0.96
+P008,2024-04-14 10:00 AM,0.89,2000-11-16,Male,Black,6.6,60,360,"Diabetes, Hypertension","Metformin, Jardiance",1,0.89
+P008,2024-05-14 10:00 AM,0.26,2000-11-16,Male,Black,6.3,62,336,"Diabetes, Hypertension",Metformin,1,0.26
+P008,2024-06-13 10:00 AM,0.9,2000-11-16,Male,Black,6.0,64,308,"Diabetes, Hypertension",Metformin,1,0.9
+P008,2024-07-13 10:00 AM,0.6,2000-11-16,Male,Black,5.7,66,287,"Diabetes, Hypertension",Metformin,1,0.6
+P009,2024-03-15 10:15 AM,0.89,1962-09-19,Female,Hispanic,6.3,37,91,"Diabetes, Heart Failure",Metformin,0,0.89
+P009,2024-04-14 10:15 AM,0.3,1962-09-19,Female,Hispanic,6.6,33,111,"Diabetes, Heart Failure","Metformin, Jardiance",0,0.3
+P009,2024-05-14 10:15 AM,0.51,1962-09-19,Female,Hispanic,7.1,31,129,"Diabetes, Heart Failure","Metformin, Jardiance",0,0.51
+P009,2024-06-13 10:15 AM,0.45,1962-09-19,Female,Hispanic,7.4,28,149,"Diabetes, Heart Failure",Metformin,0,0.45
+P009,2024-07-13 10:15 AM,0.73,1962-09-19,Female,Hispanic,7.9,24,162,"Diabetes, Heart Failure",Metformin,0,0.73
+P010,2024-03-15 10:30 AM,0.35,1958-06-11,Male,Asian,6.5,90,30,Hypertension,,1,0.35
+P010,2024-04-14 10:30 AM,0.92,1958-06-11,Male,Asian,6.4,90,29,Hypertension,,1,0.92
+P010,2024-05-14 10:30 AM,0.4,1958-06-11,Male,Asian,6.4,90,29,Hypertension,,1,0.4
+P010,2024-06-13 10:30 AM,0.08,1958-06-11,Male,Asian,6.5,90,26,Hypertension,,1,0.08
+P010,2024-07-13 10:30 AM,0.21,1958-06-11,Male,Asian,6.4,90,30,Hypertension,,1,0.21
+P011,2024-03-15 10:45 AM,0.33,1942-11-30,Female,White,7.5,59,53,None,,1,0.33
+P011,2024-04-14 10:45 AM,0.18,1942-11-30,Female,White,7.3,62,33,None,,1,0.18
+P011,2024-05-14 10:45 AM,0.3,1942-11-30,Female,White,7.1,65,18,None,,1,0.3
+P011,2024-06-13 10:45 AM,0.23,1942-11-30,Female,White,6.7,70,10,None,,1,0.23
+P011,2024-07-13 10:45 AM,0.24,1942-11-30,Female,White,6.4,71,10,None,,1,0.24
+P012,2024-03-15 11:00 AM,0.31,1970-07-09,Male,Asian,7.3,49,205,"Hypertension, Heart Failure",,1,0.31
+P012,2024-04-14 11:00 AM,0.73,1970-07-09,Male,Asian,7.7,45,219,"Hypertension, Heart Failure",,1,0.73
+P012,2024-05-14 11:00 AM,0.9,1970-07-09,Male,Asian,8.0,41,241,"Hypertension, Heart Failure",,1,0.9
+P012,2024-06-13 11:00 AM,0.69,1970-07-09,Male,Asian,8.3,37,254,"Hypertension, Heart Failure",,1,0.69
+P012,2024-07-13 11:00 AM,0.89,1970-07-09,Male,Asian,8.6,36,265,"Hypertension, Heart Failure",,1,0.89
+P013,2024-03-15 11:15 AM,0.87,1965-08-22,Female,Other,8.2,48,181,"Diabetes, Hypertension","Metformin, Jardiance",0,0.87
+P013,2024-04-14 11:15 AM,0.49,1965-08-22,Female,Other,8.6,44,211,"Diabetes, Hypertension","Metformin, Jardiance",0,0.49
+P013,2024-05-14 11:15 AM,0.11,1965-08-22,Female,Other,8.9,42,224,"Diabetes, Hypertension",Metformin,0,0.11
+P013,2024-06-13 11:15 AM,0.76,1965-08-22,Female,Other,9.0,38,244,"Diabetes, Hypertension",Metformin,0,0.76
+P013,2024-07-13 11:15 AM,0.15,1965-08-22,Female,Other,9.3,33,268,"Diabetes, Hypertension",Metformin,0,0.15
+P014,2024-03-15 11:30 AM,0.21,1981-08-14,Female,Asian,6.1,90,30,"Diabetes, Heart Failure",Metformin,0,0.21
+P014,2024-04-14 11:30 AM,0.28,1981-08-14,Female,Asian,6.2,90,30,"Diabetes, Heart Failure",Metformin,0,0.28
+P014,2024-05-14 11:30 AM,0.4,1981-08-14,Female,Asian,6.2,91,29,"Diabetes, Heart Failure",Metformin,0,0.4
+P014,2024-06-13 11:30 AM,0.09,1981-08-14,Female,Asian,6.3,90,30,"Diabetes, Heart Failure",Metformin,0,0.09
+P014,2024-07-13 11:30 AM,0.46,1981-08-14,Female,Asian,6.3,90,26,"Diabetes, Heart Failure","Metformin, Jardiance",0,0.46
+P015,2024-03-15 11:45 AM,0.27,1986-03-04,Female,Other,9.5,33,349,None,,0,0.27
+P015,2024-04-14 11:45 AM,0.58,1986-03-04,Female,Other,9.3,37,343,None,,0,0.58
+P015,2024-05-14 11:45 AM,0.95,1986-03-04,Female,Other,9.1,39,326,None,,0,0.95
+P015,2024-06-13 11:45 AM,0.58,1986-03-04,Female,Other,9.0,42,306,None,,0,0.58
+P015,2024-07-13 11:45 AM,0.18,1986-03-04,Female,Other,8.8,45,299,None,,0,0.18
+P016,2024-03-15 12:00 PM,0.24,1948-03-22,Female,Other,6.5,90,30,Heart Failure,,0,0.24
+P016,2024-04-14 12:00 PM,0.5,1948-03-22,Female,Other,6.5,90,26,Heart Failure,,0,0.5
+P016,2024-05-14 12:00 PM,0.44,1948-03-22,Female,Other,6.4,90,23,Heart Failure,,0,0.44
+P016,2024-06-13 12:00 PM,0.72,1948-03-22,Female,Other,6.4,90,23,Heart Failure,,0,0.72
+P016,2024-07-13 12:00 PM,0.39,1948-03-22,Female,Other,6.4,90,27,Heart Failure,,0,0.39
+P017,2024-03-15 12:15 PM,0.8,1974-10-08,Male,White,6.5,90,30,Diabetes,Metformin,1,0.8
+P017,2024-04-14 12:15 PM,0.78,1974-10-08,Male,White,6.4,90,25,Diabetes,Metformin,1,0.78
+P017,2024-05-14 12:15 PM,0.89,1974-10-08,Male,White,6.4,90,30,Diabetes,Metformin,1,0.89
+P017,2024-06-13 12:15 PM,0.82,1974-10-08,Male,White,6.3,90,28,Diabetes,Metformin,1,0.82
+P017,2024-07-13 12:15 PM,0.11,1974-10-08,Male,White,6.3,91,30,Diabetes,Metformin,1,0.11
+P018,2024-03-15 12:30 PM,0.35,1941-08-23,Female,Hispanic,6.8,76,309,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.35
+P018,2024-04-14 12:30 PM,0.54,1941-08-23,Female,Hispanic,7.1,72,335,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.54
+P018,2024-05-14 12:30 PM,0.12,1941-08-23,Female,Hispanic,7.4,71,340,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.12
+P018,2024-06-13 12:30 PM,0.4,1941-08-23,Female,Hispanic,7.5,67,354,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.4
+P018,2024-07-13 12:30 PM,0.9,1941-08-23,Female,Hispanic,7.9,64,380,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.9
+P019,2024-03-15 12:45 PM,0.58,1943-08-07,Female,White,6.5,90,30,Diabetes,"Metformin, Jardiance",0,0.58
+P019,2024-04-14 12:45 PM,0.3,1943-08-07,Female,White,6.5,90,30,Diabetes,"Metformin, Jardiance",0,0.3
+P019,2024-05-14 12:45 PM,0.53,1943-08-07,Female,White,6.5,90,27,Diabetes,Metformin,0,0.53
+P019,2024-06-13 12:45 PM,0.24,1943-08-07,Female,White,6.5,91,29,Diabetes,Metformin,0,0.24
+P019,2024-07-13 12:45 PM,0.13,1943-08-07,Female,White,6.4,91,30,Diabetes,Metformin,0,0.13
+P020,2024-03-15 01:00 PM,0.09,1954-08-30,Female,Other,6.6,54,406,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.09
+P020,2024-04-14 01:00 PM,0.19,1954-08-30,Female,Other,6.3,58,388,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.19
+P020,2024-05-14 01:00 PM,0.7,1954-08-30,Female,Other,5.9,60,382,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.7
+P020,2024-06-13 01:00 PM,0.17,1954-08-30,Female,Other,5.5,61,362,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.17
+P020,2024-07-13 01:00 PM,1.0,1954-08-30,Female,Other,5.0,65,357,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,1.0
+P021,2024-03-15 01:15 PM,0.12,1977-11-26,Male,Other,6.0,49,358,None,,0,0.12
+P021,2024-04-14 01:15 PM,0.77,1977-11-26,Male,Other,5.8,51,330,None,,0,0.77
+P021,2024-05-14 01:15 PM,0.42,1977-11-26,Male,Other,5.4,54,319,None,,0,0.42
+P021,2024-06-13 01:15 PM,0.97,1977-11-26,Male,Other,5.0,55,290,None,,0,0.97
+P021,2024-07-13 01:15 PM,0.21,1977-11-26,Male,Other,4.7,56,273,None,,0,0.21
+P022,2024-03-15 01:30 PM,0.71,1982-10-15,Female,Other,6.5,90,30,Heart Failure,,0,0.71
+P022,2024-04-14 01:30 PM,0.8,1982-10-15,Female,Other,6.5,90,30,Heart Failure,,0,0.8
+P022,2024-05-14 01:30 PM,0.62,1982-10-15,Female,Other,6.4,90,28,Heart Failure,,0,0.62
+P022,2024-06-13 01:30 PM,0.54,1982-10-15,Female,Other,6.4,90,30,Heart Failure,,0,0.54
+P022,2024-07-13 01:30 PM,0.13,1982-10-15,Female,Other,6.4,90,30,Heart Failure,,0,0.13
+P023,2024-03-15 01:45 PM,0.54,1933-07-24,Male,Hispanic,5.5,62,210,Diabetes,Metformin,1,0.54
+P023,2024-04-14 01:45 PM,0.86,1933-07-24,Male,Hispanic,5.1,67,192,Diabetes,"Metformin, Jardiance",1,0.86
+P023,2024-05-14 01:45 PM,0.22,1933-07-24,Male,Hispanic,4.9,69,167,Diabetes,Metformin,1,0.22
+P023,2024-06-13 01:45 PM,0.96,1933-07-24,Male,Hispanic,4.6,70,161,Diabetes,Metformin,1,0.96
+P023,2024-07-13 01:45 PM,0.11,1933-07-24,Male,Hispanic,4.5,75,136,Diabetes,Metformin,1,0.11
+P024,2024-03-15 02:00 PM,0.07,1987-04-24,Female,Black,9.0,46,173,"Hypertension, Heart Failure",,0,0.07
+P024,2024-04-14 02:00 PM,0.45,1987-04-24,Female,Black,8.6,48,161,"Hypertension, Heart Failure",,0,0.45
+P024,2024-05-14 02:00 PM,0.19,1987-04-24,Female,Black,8.4,51,133,"Hypertension, Heart Failure",,0,0.19
+P024,2024-06-13 02:00 PM,0.12,1987-04-24,Female,Black,7.9,56,111,"Hypertension, Heart Failure",,0,0.12
+P024,2024-07-13 02:00 PM,0.36,1987-04-24,Female,Black,7.7,60,104,"Hypertension, Heart Failure",,0,0.36
+P025,2024-03-15 02:15 PM,0.57,1960-09-28,Female,Asian,6.5,38,238,Diabetes,Metformin,1,0.57
+P025,2024-04-14 02:15 PM,0.26,1960-09-28,Female,Asian,6.1,40,231,Diabetes,"Metformin, Jardiance",1,0.26
+P025,2024-05-14 02:15 PM,0.98,1960-09-28,Female,Asian,5.7,44,210,Diabetes,"Metformin, Jardiance",1,0.98
+P025,2024-06-13 02:15 PM,0.28,1960-09-28,Female,Asian,5.3,49,197,Diabetes,Metformin,1,0.28
+P025,2024-07-13 02:15 PM,0.45,1960-09-28,Female,Asian,4.8,52,177,Diabetes,Metformin,1,0.45
+P026,2024-03-15 02:30 PM,0.41,1952-10-04,Female,White,9.8,45,223,Diabetes,Metformin,0,0.41
+P026,2024-04-14 02:30 PM,0.36,1952-10-04,Female,White,10.1,43,250,Diabetes,Metformin,0,0.36
+P026,2024-05-14 02:30 PM,0.6,1952-10-04,Female,White,10.6,41,271,Diabetes,"Metformin, Jardiance",0,0.6
+P026,2024-06-13 02:30 PM,0.54,1952-10-04,Female,White,10.8,37,289,Diabetes,"Metformin, Jardiance",0,0.54
+P026,2024-07-13 02:30 PM,0.77,1952-10-04,Female,White,11.3,33,304,Diabetes,Metformin,0,0.77
+P027,2024-03-15 02:45 PM,0.08,1964-12-28,Female,White,6.5,90,30,Heart Failure,,1,0.08
+P027,2024-04-14 02:45 PM,0.78,1964-12-28,Female,White,6.5,90,29,Heart Failure,,1,0.78
+P027,2024-05-14 02:45 PM,0.13,1964-12-28,Female,White,6.4,91,26,Heart Failure,,1,0.13
+P027,2024-06-13 02:45 PM,0.87,1964-12-28,Female,White,6.5,92,24,Heart Failure,,1,0.87
+P027,2024-07-13 02:45 PM,0.56,1964-12-28,Female,White,6.4,91,23,Heart Failure,,1,0.56
+P028,2024-03-15 03:00 PM,0.89,1956-01-23,Male,Other,6.5,90,30,None,,0,0.89
+P028,2024-04-14 03:00 PM,0.58,1956-01-23,Male,Other,6.4,91,30,None,,0,0.58
+P028,2024-05-14 03:00 PM,0.61,1956-01-23,Male,Other,6.4,91,30,None,,0,0.61
+P028,2024-06-13 03:00 PM,0.48,1956-01-23,Male,Other,6.3,90,30,None,,0,0.48
+P028,2024-07-13 03:00 PM,0.96,1956-01-23,Male,Other,6.4,91,30,None,,0,0.96
+P029,2024-03-15 03:15 PM,0.85,1942-12-10,Male,White,5.8,90,30,"Diabetes, Heart Failure",Metformin,1,0.85
+P029,2024-04-14 03:15 PM,0.14,1942-12-10,Male,White,5.7,90,30,"Diabetes, Heart Failure",Metformin,1,0.14
+P029,2024-05-14 03:15 PM,0.16,1942-12-10,Male,White,5.8,91,30,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.16
+P029,2024-06-13 03:15 PM,0.1,1942-12-10,Male,White,5.7,90,30,"Diabetes, Heart Failure",Metformin,1,0.1
+P029,2024-07-13 03:15 PM,0.96,1942-12-10,Male,White,5.7,90,30,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.96
+P030,2024-03-15 03:30 PM,0.3,1985-06-26,Female,Hispanic,8.0,29,433,Heart Failure,,1,0.3
+P030,2024-04-14 03:30 PM,0.72,1985-06-26,Female,Hispanic,8.4,26,445,Heart Failure,,1,0.72
+P030,2024-05-14 03:30 PM,0.77,1985-06-26,Female,Hispanic,8.8,24,452,Heart Failure,,1,0.77
+P030,2024-06-13 03:30 PM,0.88,1985-06-26,Female,Hispanic,9.0,20,466,Heart Failure,,1,0.88
+P030,2024-07-13 03:30 PM,0.71,1985-06-26,Female,Hispanic,9.4,16,489,Heart Failure,,1,0.71
+P031,2024-03-15 03:45 PM,0.88,1947-02-11,Female,Hispanic,8.5,36,392,Hypertension,,1,0.88
+P031,2024-04-14 03:45 PM,0.05,1947-02-11,Female,Hispanic,8.8,33,408,Hypertension,,1,0.05
+P031,2024-05-14 03:45 PM,0.26,1947-02-11,Female,Hispanic,8.9,28,418,Hypertension,,1,0.26
+P031,2024-06-13 03:45 PM,0.99,1947-02-11,Female,Hispanic,9.2,24,439,Hypertension,,1,0.99
+P031,2024-07-13 03:45 PM,0.75,1947-02-11,Female,Hispanic,9.4,20,463,Hypertension,,1,0.75
+P032,2024-03-15 04:00 PM,0.01,1983-04-28,Male,White,9.4,42,337,"Hypertension, Heart Failure",,0,0.01
+P032,2024-04-14 04:00 PM,0.17,1983-04-28,Male,White,9.7,38,365,"Hypertension, Heart Failure",,0,0.17
+P032,2024-05-14 04:00 PM,0.4,1983-04-28,Male,White,10.0,36,392,"Hypertension, Heart Failure",,0,0.4
+P032,2024-06-13 04:00 PM,0.61,1983-04-28,Male,White,10.2,33,397,"Hypertension, Heart Failure",,0,0.61
+P032,2024-07-13 04:00 PM,0.72,1983-04-28,Male,White,10.6,32,420,"Hypertension, Heart Failure",,0,0.72
+P033,2024-03-15 04:15 PM,0.84,1959-08-04,Female,Other,6.5,90,30,Diabetes,Metformin,0,0.84
+P033,2024-04-14 04:15 PM,0.33,1959-08-04,Female,Other,6.5,90,29,Diabetes,Metformin,0,0.33
+P033,2024-05-14 04:15 PM,0.26,1959-08-04,Female,Other,6.5,90,30,Diabetes,"Metformin, Jardiance",0,0.26
+P033,2024-06-13 04:15 PM,0.02,1959-08-04,Female,Other,6.4,90,30,Diabetes,"Metformin, Jardiance",0,0.02
+P033,2024-07-13 04:15 PM,0.74,1959-08-04,Female,Other,6.3,90,30,Diabetes,Metformin,0,0.74
+P034,2024-03-15 04:30 PM,0.14,1993-03-14,Male,Asian,8.4,47,55,None,,1,0.14
+P034,2024-04-14 04:30 PM,0.2,1993-03-14,Male,Asian,8.0,51,41,None,,1,0.2
+P034,2024-05-14 04:30 PM,0.24,1993-03-14,Male,Asian,7.6,56,14,None,,1,0.24
+P034,2024-06-13 04:30 PM,0.88,1993-03-14,Male,Asian,7.2,58,10,None,,1,0.88
+P034,2024-07-13 04:30 PM,0.04,1993-03-14,Male,Asian,6.8,59,10,None,,1,0.04
+P035,2024-03-15 04:45 PM,0.74,1966-07-22,Female,Asian,6.5,90,30,"Hypertension, Heart Failure",,1,0.74
+P035,2024-04-14 04:45 PM,0.53,1966-07-22,Female,Asian,6.5,91,30,"Hypertension, Heart Failure",,1,0.53
+P035,2024-05-14 04:45 PM,0.17,1966-07-22,Female,Asian,6.5,92,27,"Hypertension, Heart Failure",,1,0.17
+P035,2024-06-13 04:45 PM,0.07,1966-07-22,Female,Asian,6.4,91,28,"Hypertension, Heart Failure",,1,0.07
+P035,2024-07-13 04:45 PM,0.47,1966-07-22,Female,Asian,6.3,90,30,"Hypertension, Heart Failure",,1,0.47
+P036,2024-03-15 05:00 PM,0.47,1961-05-29,Female,Hispanic,6.5,90,30,None,,0,0.47
+P036,2024-04-14 05:00 PM,0.53,1961-05-29,Female,Hispanic,6.5,90,29,None,,0,0.53
+P036,2024-05-14 05:00 PM,0.76,1961-05-29,Female,Hispanic,6.5,90,30,None,,0,0.76
+P036,2024-06-13 05:00 PM,0.0,1961-05-29,Female,Hispanic,6.5,90,30,None,,0,0.0
+P036,2024-07-13 05:00 PM,0.86,1961-05-29,Female,Hispanic,6.4,91,30,None,,0,0.86
+P037,2024-03-15 05:15 PM,0.91,1999-12-05,Female,White,6.5,90,30,"Diabetes, Hypertension","Metformin, Jardiance",0,0.91
+P037,2024-04-14 05:15 PM,0.33,1999-12-05,Female,White,6.5,90,29,"Diabetes, Hypertension","Metformin, Jardiance",0,0.33
+P037,2024-05-14 05:15 PM,0.7,1999-12-05,Female,White,6.5,90,30,"Diabetes, Hypertension",Metformin,0,0.7
+P037,2024-06-13 05:15 PM,0.47,1999-12-05,Female,White,6.4,90,30,"Diabetes, Hypertension","Metformin, Jardiance",0,0.47
+P037,2024-07-13 05:15 PM,0.32,1999-12-05,Female,White,6.5,90,27,"Diabetes, Hypertension","Metformin, Jardiance",0,0.32
+P038,2024-03-15 05:30 PM,0.62,1982-03-24,Female,White,9.3,38,279,"Diabetes, Hypertension",Metformin,1,0.62
+P038,2024-04-14 05:30 PM,0.2,1982-03-24,Female,White,8.9,42,266,"Diabetes, Hypertension","Metformin, Jardiance",1,0.2
+P038,2024-05-14 05:30 PM,0.69,1982-03-24,Female,White,8.6,44,240,"Diabetes, Hypertension",Metformin,1,0.69
+P038,2024-06-13 05:30 PM,0.84,1982-03-24,Female,White,8.1,47,225,"Diabetes, Hypertension","Metformin, Jardiance",1,0.84
+P038,2024-07-13 05:30 PM,0.64,1982-03-24,Female,White,8.0,51,215,"Diabetes, Hypertension","Metformin, Jardiance",1,0.64
+P039,2024-03-15 05:45 PM,0.58,1994-05-23,Male,Other,6.3,46,134,"Diabetes, Hypertension","Metformin, Jardiance",0,0.58
+P039,2024-04-14 05:45 PM,0.44,1994-05-23,Male,Other,5.8,49,117,"Diabetes, Hypertension","Metformin, Jardiance",0,0.44
+P039,2024-05-14 05:45 PM,0.74,1994-05-23,Male,Other,5.6,52,92,"Diabetes, Hypertension","Metformin, Jardiance",0,0.74
+P039,2024-06-13 05:45 PM,0.03,1994-05-23,Male,Other,5.4,53,86,"Diabetes, Hypertension","Metformin, Jardiance",0,0.03
+P039,2024-07-13 05:45 PM,0.29,1994-05-23,Male,Other,5.2,58,63,"Diabetes, Hypertension",Metformin,0,0.29
+P040,2024-03-15 06:00 PM,0.03,2005-03-29,Female,Other,5.6,42,106,Hypertension,,1,0.03
+P040,2024-04-14 06:00 PM,0.42,2005-03-29,Female,Other,5.2,46,100,Hypertension,,1,0.42
+P040,2024-05-14 06:00 PM,0.57,2005-03-29,Female,Other,5.1,50,86,Hypertension,,1,0.57
+P040,2024-06-13 06:00 PM,0.95,2005-03-29,Female,Other,4.7,51,77,Hypertension,,1,0.95
+P040,2024-07-13 06:00 PM,0.92,2005-03-29,Female,Other,4.5,53,51,Hypertension,,1,0.92
+P041,2024-03-15 06:15 PM,0.74,1944-02-09,Female,White,8.7,80,209,Heart Failure,,1,0.74
+P041,2024-04-14 06:15 PM,0.56,1944-02-09,Female,White,8.5,81,192,Heart Failure,,1,0.56
+P041,2024-05-14 06:15 PM,0.14,1944-02-09,Female,White,8.0,83,169,Heart Failure,,1,0.14
+P041,2024-06-13 06:15 PM,0.61,1944-02-09,Female,White,7.7,88,161,Heart Failure,,1,0.61
+P041,2024-07-13 06:15 PM,0.6,1944-02-09,Female,White,7.3,92,132,Heart Failure,,1,0.6
+P042,2024-03-15 06:30 PM,0.96,1987-08-14,Female,Black,6.5,90,30,"Diabetes, Hypertension","Metformin, Jardiance",0,0.96
+P042,2024-04-14 06:30 PM,0.66,1987-08-14,Female,Black,6.5,90,30,"Diabetes, Hypertension",Metformin,0,0.66
+P042,2024-05-14 06:30 PM,0.13,1987-08-14,Female,Black,6.4,91,27,"Diabetes, Hypertension","Metformin, Jardiance",0,0.13
+P042,2024-06-13 06:30 PM,0.81,1987-08-14,Female,Black,6.5,90,27,"Diabetes, Hypertension","Metformin, Jardiance",0,0.81
+P042,2024-07-13 06:30 PM,0.89,1987-08-14,Female,Black,6.5,91,30,"Diabetes, Hypertension",Metformin,0,0.89
+P043,2024-03-15 06:45 PM,0.03,1955-03-07,Male,Other,7.1,40,295,"Hypertension, Heart Failure",,0,0.03
+P043,2024-04-14 06:45 PM,0.67,1955-03-07,Male,Other,6.7,43,274,"Hypertension, Heart Failure",,0,0.67
+P043,2024-05-14 06:45 PM,0.33,1955-03-07,Male,Other,6.3,44,254,"Hypertension, Heart Failure",,0,0.33
+P043,2024-06-13 06:45 PM,0.75,1955-03-07,Male,Other,5.8,48,228,"Hypertension, Heart Failure",,0,0.75
+P043,2024-07-13 06:45 PM,0.52,1955-03-07,Male,Other,5.4,49,219,"Hypertension, Heart Failure",,0,0.52
+P044,2024-03-15 07:00 PM,0.05,1962-07-10,Female,Asian,7.8,79,350,"Diabetes, Hypertension","Metformin, Jardiance",1,0.05
+P044,2024-04-14 07:00 PM,0.97,1962-07-10,Female,Asian,7.4,84,344,"Diabetes, Hypertension","Metformin, Jardiance",1,0.97
+P044,2024-05-14 07:00 PM,0.6,1962-07-10,Female,Asian,7.0,88,321,"Diabetes, Hypertension","Metformin, Jardiance",1,0.6
+P044,2024-06-13 07:00 PM,0.03,1962-07-10,Female,Asian,6.5,91,304,"Diabetes, Hypertension","Metformin, Jardiance",1,0.03
+P044,2024-07-13 07:00 PM,0.44,1962-07-10,Female,Asian,6.1,95,286,"Diabetes, Hypertension","Metformin, Jardiance",1,0.44
+P045,2024-03-15 07:15 PM,0.82,2005-03-16,Female,Hispanic,9.6,85,74,"Diabetes, Heart Failure",Metformin,1,0.82
+P045,2024-04-14 07:15 PM,0.17,2005-03-16,Female,Hispanic,9.8,84,83,"Diabetes, Heart Failure",Metformin,1,0.17
+P045,2024-05-14 07:15 PM,0.54,2005-03-16,Female,Hispanic,10.1,82,105,"Diabetes, Heart Failure",Metformin,1,0.54
+P045,2024-06-13 07:15 PM,0.45,2005-03-16,Female,Hispanic,10.6,78,118,"Diabetes, Heart Failure",Metformin,1,0.45
+P045,2024-07-13 07:15 PM,0.24,2005-03-16,Female,Hispanic,11.0,73,133,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.24
+P046,2024-03-15 07:30 PM,1.0,1995-10-03,Female,Black,6.5,90,30,"Diabetes, Heart Failure","Metformin, Jardiance",0,1.0
+P046,2024-04-14 07:30 PM,0.56,1995-10-03,Female,Black,6.5,90,30,"Diabetes, Heart Failure",Metformin,0,0.56
+P046,2024-05-14 07:30 PM,0.3,1995-10-03,Female,Black,6.5,91,30,"Diabetes, Heart Failure",Metformin,0,0.3
+P046,2024-06-13 07:30 PM,0.23,1995-10-03,Female,Black,6.5,91,27,"Diabetes, Heart Failure",Metformin,0,0.23
+P046,2024-07-13 07:30 PM,0.44,1995-10-03,Female,Black,6.5,91,29,"Diabetes, Heart Failure","Metformin, Jardiance",0,0.44
+P047,2024-03-15 07:45 PM,0.34,1967-10-14,Male,White,6.7,76,357,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.34
+P047,2024-04-14 07:45 PM,0.92,1967-10-14,Male,White,6.9,72,382,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.92
+P047,2024-05-14 07:45 PM,0.24,1967-10-14,Male,White,7.1,67,397,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.24
+P047,2024-06-13 07:45 PM,0.45,1967-10-14,Male,White,7.3,66,410,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.45
+P047,2024-07-13 07:45 PM,0.96,1967-10-14,Male,White,7.7,64,424,"Diabetes, Heart Failure",Metformin,1,0.96
+P048,2024-03-15 08:00 PM,0.41,1942-05-21,Female,Hispanic,6.5,90,30,Diabetes,Metformin,0,0.41
+P048,2024-04-14 08:00 PM,0.74,1942-05-21,Female,Hispanic,6.4,90,30,Diabetes,"Metformin, Jardiance",0,0.74
+P048,2024-05-14 08:00 PM,0.47,1942-05-21,Female,Hispanic,6.4,90,30,Diabetes,Metformin,0,0.47
+P048,2024-06-13 08:00 PM,0.74,1942-05-21,Female,Hispanic,6.5,90,29,Diabetes,"Metformin, Jardiance",0,0.74
+P048,2024-07-13 08:00 PM,0.58,1942-05-21,Female,Hispanic,6.5,91,30,Diabetes,"Metformin, Jardiance",0,0.58
+P049,2024-03-15 08:15 PM,0.72,1969-10-30,Male,Asian,6.5,90,30,Heart Failure,,1,0.72
+P049,2024-04-14 08:15 PM,0.88,1969-10-30,Male,Asian,6.5,90,27,Heart Failure,,1,0.88
+P049,2024-05-14 08:15 PM,0.48,1969-10-30,Male,Asian,6.5,90,25,Heart Failure,,1,0.48
+P049,2024-06-13 08:15 PM,0.68,1969-10-30,Male,Asian,6.4,90,20,Heart Failure,,1,0.68
+P049,2024-07-13 08:15 PM,0.07,1969-10-30,Male,Asian,6.4,91,18,Heart Failure,,1,0.07
+P050,2024-03-15 08:30 PM,0.19,1940-05-19,Male,Asian,6.2,44,307,Hypertension,,1,0.19
+P050,2024-04-14 08:30 PM,0.35,1940-05-19,Male,Asian,6.0,47,291,Hypertension,,1,0.35
+P050,2024-05-14 08:30 PM,0.1,1940-05-19,Male,Asian,5.6,48,284,Hypertension,,1,0.1
+P050,2024-06-13 08:30 PM,0.73,1940-05-19,Male,Asian,5.3,50,261,Hypertension,,1,0.73
+P050,2024-07-13 08:30 PM,0.62,1940-05-19,Male,Asian,4.8,54,247,Hypertension,,1,0.62
+P051,2024-03-15 08:45 PM,0.55,1969-12-08,Female,Asian,7.9,48,482,Hypertension,,0,0.55
+P051,2024-04-14 08:45 PM,0.1,1969-12-08,Female,Asian,8.2,45,504,Hypertension,,0,0.1
+P051,2024-05-14 08:45 PM,0.26,1969-12-08,Female,Asian,8.6,41,531,Hypertension,,0,0.26
+P051,2024-06-13 08:45 PM,0.84,1969-12-08,Female,Asian,8.8,39,549,Hypertension,,0,0.84
+P051,2024-07-13 08:45 PM,0.17,1969-12-08,Female,Asian,9.0,35,555,Hypertension,,0,0.17
+P052,2024-03-15 09:00 PM,0.85,1943-12-09,Female,Other,9.2,70,451,Heart Failure,,0,0.85
+P052,2024-04-14 09:00 PM,0.17,1943-12-09,Female,Other,9.4,66,479,Heart Failure,,0,0.17
+P052,2024-05-14 09:00 PM,0.4,1943-12-09,Female,Other,9.7,61,508,Heart Failure,,0,0.4
+P052,2024-06-13 09:00 PM,0.21,1943-12-09,Female,Other,9.9,57,528,Heart Failure,,0,0.21
+P052,2024-07-13 09:00 PM,0.91,1943-12-09,Female,Other,10.4,53,533,Heart Failure,,0,0.91
+P053,2024-03-15 09:15 PM,0.51,1969-08-18,Female,Hispanic,6.5,90,30,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.51
+P053,2024-04-14 09:15 PM,0.14,1969-08-18,Female,Hispanic,6.4,91,26,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.14
+P053,2024-05-14 09:15 PM,0.39,1969-08-18,Female,Hispanic,6.5,92,27,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.39
+P053,2024-06-13 09:15 PM,0.86,1969-08-18,Female,Hispanic,6.5,91,23,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.86
+P053,2024-07-13 09:15 PM,0.4,1969-08-18,Female,Hispanic,6.5,91,26,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.4
+P054,2024-03-15 09:30 PM,0.16,2000-05-03,Male,White,8.3,42,100,"Diabetes, Heart Failure",Metformin,1,0.16
+P054,2024-04-14 09:30 PM,0.76,2000-05-03,Male,White,7.9,44,85,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.76
+P054,2024-05-14 09:30 PM,0.73,2000-05-03,Male,White,7.6,47,62,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.73
+P054,2024-06-13 09:30 PM,0.03,2000-05-03,Male,White,7.4,52,51,"Diabetes, Heart Failure",Metformin,1,0.03
+P054,2024-07-13 09:30 PM,0.1,2000-05-03,Male,White,7.0,56,39,"Diabetes, Heart Failure",Metformin,1,0.1
+P055,2024-03-15 09:45 PM,0.36,1963-06-16,Male,Black,5.7,90,30,Heart Failure,,1,0.36
+P055,2024-04-14 09:45 PM,0.41,1963-06-16,Male,Black,5.7,91,28,Heart Failure,,1,0.41
+P055,2024-05-14 09:45 PM,0.59,1963-06-16,Male,Black,5.7,92,30,Heart Failure,,1,0.59
+P055,2024-06-13 09:45 PM,0.2,1963-06-16,Male,Black,5.8,91,28,Heart Failure,,1,0.2
+P055,2024-07-13 09:45 PM,0.64,1963-06-16,Male,Black,5.8,90,24,Heart Failure,,1,0.64
+P056,2024-03-15 10:00 PM,0.85,1981-12-24,Female,Other,6.5,90,30,None,,1,0.85
+P056,2024-04-14 10:00 PM,0.16,1981-12-24,Female,Other,6.5,90,28,None,,1,0.16
+P056,2024-05-14 10:00 PM,0.28,1981-12-24,Female,Other,6.5,90,25,None,,1,0.28
+P056,2024-06-13 10:00 PM,0.82,1981-12-24,Female,Other,6.5,91,22,None,,1,0.82
+P056,2024-07-13 10:00 PM,0.3,1981-12-24,Female,Other,6.5,91,23,None,,1,0.3
+P057,2024-03-15 10:15 PM,0.39,1950-07-18,Female,Hispanic,8.3,68,174,"Diabetes, Hypertension","Metformin, Jardiance",1,0.39
+P057,2024-04-14 10:15 PM,0.07,1950-07-18,Female,Hispanic,7.9,70,150,"Diabetes, Hypertension",Metformin,1,0.07
+P057,2024-05-14 10:15 PM,0.79,1950-07-18,Female,Hispanic,7.6,71,141,"Diabetes, Hypertension",Metformin,1,0.79
+P057,2024-06-13 10:15 PM,0.25,1950-07-18,Female,Hispanic,7.3,74,126,"Diabetes, Hypertension",Metformin,1,0.25
+P057,2024-07-13 10:15 PM,0.63,1950-07-18,Female,Hispanic,7.0,77,118,"Diabetes, Hypertension",Metformin,1,0.63
+P058,2024-03-15 10:30 PM,0.56,1982-12-05,Male,White,8.3,39,227,None,,0,0.56
+P058,2024-04-14 10:30 PM,0.47,1982-12-05,Male,White,8.0,43,217,None,,0,0.47
+P058,2024-05-14 10:30 PM,0.54,1982-12-05,Male,White,7.5,46,204,None,,0,0.54
+P058,2024-06-13 10:30 PM,0.7,1982-12-05,Male,White,7.3,48,194,None,,0,0.7
+P058,2024-07-13 10:30 PM,0.31,1982-12-05,Male,White,7.1,51,168,None,,0,0.31
+P059,2024-03-15 10:45 PM,0.09,1933-05-01,Male,Black,6.5,90,30,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.09
+P059,2024-04-14 10:45 PM,0.02,1933-05-01,Male,Black,6.4,90,30,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.02
+P059,2024-05-14 10:45 PM,0.41,1933-05-01,Male,Black,6.4,91,27,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.41
+P059,2024-06-13 10:45 PM,0.55,1933-05-01,Male,Black,6.4,91,23,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.55
+P059,2024-07-13 10:45 PM,0.53,1933-05-01,Male,Black,6.3,92,19,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.53
+P060,2024-03-15 11:00 PM,0.18,1970-08-31,Female,Other,6.5,90,30,"Hypertension, Heart Failure",,0,0.18
+P060,2024-04-14 11:00 PM,0.36,1970-08-31,Female,Other,6.5,91,28,"Hypertension, Heart Failure",,0,0.36
+P060,2024-05-14 11:00 PM,0.78,1970-08-31,Female,Other,6.5,90,23,"Hypertension, Heart Failure",,0,0.78
+P060,2024-06-13 11:00 PM,0.13,1970-08-31,Female,Other,6.5,90,26,"Hypertension, Heart Failure",,0,0.13
+P060,2024-07-13 11:00 PM,0.53,1970-08-31,Female,Other,6.4,90,27,"Hypertension, Heart Failure",,0,0.53
+P061,2024-03-15 11:15 PM,0.99,1997-05-19,Male,Asian,6.5,90,30,None,,1,0.99
+P061,2024-04-14 11:15 PM,0.16,1997-05-19,Male,Asian,6.4,90,26,None,,1,0.16
+P061,2024-05-14 11:15 PM,0.33,1997-05-19,Male,Asian,6.5,90,27,None,,1,0.33
+P061,2024-06-13 11:15 PM,0.6,1997-05-19,Male,Asian,6.4,90,25,None,,1,0.6
+P061,2024-07-13 11:15 PM,0.86,1997-05-19,Male,Asian,6.5,91,22,None,,1,0.86
+P062,2024-03-15 11:30 PM,0.07,1961-01-22,Male,Other,8.2,51,452,"Hypertension, Heart Failure",,1,0.07
+P062,2024-04-14 11:30 PM,0.76,1961-01-22,Male,Other,7.9,52,446,"Hypertension, Heart Failure",,1,0.76
+P062,2024-05-14 11:30 PM,0.68,1961-01-22,Male,Other,7.4,56,431,"Hypertension, Heart Failure",,1,0.68
+P062,2024-06-13 11:30 PM,0.93,1961-01-22,Male,Other,7.2,60,410,"Hypertension, Heart Failure",,1,0.93
+P062,2024-07-13 11:30 PM,0.46,1961-01-22,Male,Other,6.9,62,398,"Hypertension, Heart Failure",,1,0.46
+P063,2024-03-15 11:45 PM,0.53,2000-02-20,Male,Other,7.5,84,106,Hypertension,,0,0.53
+P063,2024-04-14 11:45 PM,0.42,2000-02-20,Male,Other,7.0,88,80,Hypertension,,0,0.42
+P063,2024-05-14 11:45 PM,0.8,2000-02-20,Male,Other,6.7,92,68,Hypertension,,0,0.8
+P063,2024-06-13 11:45 PM,0.4,2000-02-20,Male,Other,6.2,95,45,Hypertension,,0,0.4
+P063,2024-07-13 11:45 PM,0.18,2000-02-20,Male,Other,6.1,97,35,Hypertension,,0,0.18
+P064,2024-03-16 12:00 AM,0.45,1997-02-01,Male,White,6.5,90,30,"Diabetes, Heart Failure",Metformin,1,0.45
+P064,2024-04-15 12:00 AM,0.74,1997-02-01,Male,White,6.5,91,30,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.74
+P064,2024-05-15 12:00 AM,0.14,1997-02-01,Male,White,6.5,91,30,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.14
+P064,2024-06-14 12:00 AM,0.45,1997-02-01,Male,White,6.5,92,26,"Diabetes, Heart Failure",Metformin,1,0.45
+P064,2024-07-14 12:00 AM,0.44,1997-02-01,Male,White,6.5,92,26,"Diabetes, Heart Failure",Metformin,1,0.44
+P065,2024-03-16 12:15 AM,0.14,1982-12-18,Female,Asian,8.3,50,155,"Hypertension, Heart Failure",,1,0.14
+P065,2024-04-15 12:15 AM,0.3,1982-12-18,Female,Asian,8.7,48,164,"Hypertension, Heart Failure",,1,0.3
+P065,2024-05-15 12:15 AM,0.22,1982-12-18,Female,Asian,9.2,46,190,"Hypertension, Heart Failure",,1,0.22
+P065,2024-06-14 12:15 AM,0.48,1982-12-18,Female,Asian,9.5,45,203,"Hypertension, Heart Failure",,1,0.48
+P065,2024-07-14 12:15 AM,0.21,1982-12-18,Female,Asian,9.8,41,219,"Hypertension, Heart Failure",,1,0.21
+P066,2024-03-16 12:30 AM,0.93,1965-08-17,Female,Other,10.0,30,504,"Hypertension, Heart Failure",,0,0.93
+P066,2024-04-15 12:30 AM,0.38,1965-08-17,Female,Other,10.1,27,529,"Hypertension, Heart Failure",,0,0.38
+P066,2024-05-15 12:30 AM,0.28,1965-08-17,Female,Other,10.3,23,536,"Hypertension, Heart Failure",,0,0.28
+P066,2024-06-14 12:30 AM,0.8,1965-08-17,Female,Other,10.5,21,543,"Hypertension, Heart Failure",,0,0.8
+P066,2024-07-14 12:30 AM,0.43,1965-08-17,Female,Other,10.9,17,570,"Hypertension, Heart Failure",,0,0.43
+P067,2024-03-16 12:45 AM,0.03,1980-01-17,Female,Asian,8.8,38,446,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.03
+P067,2024-04-15 12:45 AM,0.95,1980-01-17,Female,Asian,9.0,33,467,"Diabetes, Heart Failure",Metformin,1,0.95
+P067,2024-05-15 12:45 AM,0.68,1980-01-17,Female,Asian,9.2,32,493,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.68
+P067,2024-06-14 12:45 AM,0.38,1980-01-17,Female,Asian,9.7,30,506,"Diabetes, Heart Failure",Metformin,1,0.38
+P067,2024-07-14 12:45 AM,0.11,1980-01-17,Female,Asian,9.8,27,534,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.11
+P068,2024-03-16 01:00 AM,0.79,1955-10-25,Female,Black,6.5,90,30,None,,0,0.79
+P068,2024-04-15 01:00 AM,0.27,1955-10-25,Female,Black,6.4,91,30,None,,0,0.27
+P068,2024-05-15 01:00 AM,0.59,1955-10-25,Female,Black,6.4,90,30,None,,0,0.59
+P068,2024-06-14 01:00 AM,0.02,1955-10-25,Female,Black,6.4,91,27,None,,0,0.02
+P068,2024-07-14 01:00 AM,0.39,1955-10-25,Female,Black,6.3,90,27,None,,0,0.39
+P069,2024-03-16 01:15 AM,0.66,1960-02-26,Female,White,8.0,26,165,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.66
+P069,2024-04-15 01:15 AM,0.42,1960-02-26,Female,White,8.4,24,178,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.42
+P069,2024-05-15 01:15 AM,0.33,1960-02-26,Female,White,8.7,21,184,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.33
+P069,2024-06-14 01:15 AM,0.87,1960-02-26,Female,White,9.0,20,212,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.87
+P069,2024-07-14 01:15 AM,0.71,1960-02-26,Female,White,9.5,18,238,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.71
+P070,2024-03-16 01:30 AM,0.59,2004-10-26,Male,White,9.4,67,223,"Diabetes, Hypertension","Metformin, Jardiance",0,0.59
+P070,2024-04-15 01:30 AM,0.92,2004-10-26,Male,White,9.0,69,201,"Diabetes, Hypertension",Metformin,0,0.92
+P070,2024-05-15 01:30 AM,0.21,2004-10-26,Male,White,8.8,71,186,"Diabetes, Hypertension","Metformin, Jardiance",0,0.21
+P070,2024-06-14 01:30 AM,0.57,2004-10-26,Male,White,8.5,75,174,"Diabetes, Hypertension","Metformin, Jardiance",0,0.57
+P070,2024-07-14 01:30 AM,0.77,2004-10-26,Male,White,8.2,80,165,"Diabetes, Hypertension","Metformin, Jardiance",0,0.77
+P071,2024-03-16 01:45 AM,0.83,1975-07-19,Female,White,7.1,70,24,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.83
+P071,2024-04-15 01:45 AM,0.93,1975-07-19,Female,White,6.8,74,10,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.93
+P071,2024-05-15 01:45 AM,0.68,1975-07-19,Female,White,6.5,76,10,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.68
+P071,2024-06-14 01:45 AM,0.4,1975-07-19,Female,White,6.1,79,10,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.4
+P071,2024-07-14 01:45 AM,0.54,1975-07-19,Female,White,5.6,84,10,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.54
+P072,2024-03-16 02:00 AM,0.22,1979-04-25,Male,White,8.2,45,138,Heart Failure,,0,0.22
+P072,2024-04-15 02:00 AM,0.64,1979-04-25,Male,White,8.4,43,145,Heart Failure,,0,0.64
+P072,2024-05-15 02:00 AM,0.14,1979-04-25,Male,White,8.8,39,159,Heart Failure,,0,0.14
+P072,2024-06-14 02:00 AM,0.03,1979-04-25,Male,White,9.2,35,164,Heart Failure,,0,0.03
+P072,2024-07-14 02:00 AM,0.17,1979-04-25,Male,White,9.4,31,188,Heart Failure,,0,0.17
+P073,2024-03-16 02:15 AM,0.25,1977-05-10,Male,Asian,6.5,90,30,"Diabetes, Heart Failure",Metformin,0,0.25
+P073,2024-04-15 02:15 AM,0.2,1977-05-10,Male,Asian,6.5,90,29,"Diabetes, Heart Failure",Metformin,0,0.2
+P073,2024-05-15 02:15 AM,0.95,1977-05-10,Male,Asian,6.4,91,24,"Diabetes, Heart Failure",Metformin,0,0.95
+P073,2024-06-14 02:15 AM,0.58,1977-05-10,Male,Asian,6.3,90,26,"Diabetes, Heart Failure",Metformin,0,0.58
+P073,2024-07-14 02:15 AM,0.79,1977-05-10,Male,Asian,6.3,90,22,"Diabetes, Heart Failure","Metformin, Jardiance",0,0.79
+P074,2024-03-16 02:30 AM,0.17,1980-04-13,Male,Hispanic,5.8,37,464,"Diabetes, Hypertension","Metformin, Jardiance",0,0.17
+P074,2024-04-15 02:30 AM,0.05,1980-04-13,Male,Hispanic,6.3,33,475,"Diabetes, Hypertension","Metformin, Jardiance",0,0.05
+P074,2024-05-15 02:30 AM,0.34,1980-04-13,Male,Hispanic,6.6,29,488,"Diabetes, Hypertension",Metformin,0,0.34
+P074,2024-06-14 02:30 AM,0.1,1980-04-13,Male,Hispanic,6.7,27,515,"Diabetes, Hypertension","Metformin, Jardiance",0,0.1
+P074,2024-07-14 02:30 AM,0.35,1980-04-13,Male,Hispanic,7.2,26,532,"Diabetes, Hypertension","Metformin, Jardiance",0,0.35
+P075,2024-03-16 02:45 AM,0.74,1934-12-10,Male,White,10.3,28,190,None,,0,0.74
+P075,2024-04-15 02:45 AM,0.53,1934-12-10,Male,White,10.6,25,216,None,,0,0.53
+P075,2024-05-15 02:45 AM,0.09,1934-12-10,Male,White,10.9,21,232,None,,0,0.09
+P075,2024-06-14 02:45 AM,0.16,1934-12-10,Male,White,11.2,19,251,None,,0,0.16
+P075,2024-07-14 02:45 AM,0.93,1934-12-10,Male,White,11.6,15,262,None,,0,0.93
+P076,2024-03-16 03:00 AM,0.2,1953-01-16,Female,Asian,6.5,90,30,Heart Failure,,1,0.2
+P076,2024-04-15 03:00 AM,0.23,1953-01-16,Female,Asian,6.5,90,28,Heart Failure,,1,0.23
+P076,2024-05-15 03:00 AM,0.23,1953-01-16,Female,Asian,6.4,90,30,Heart Failure,,1,0.23
+P076,2024-06-14 03:00 AM,0.26,1953-01-16,Female,Asian,6.4,90,30,Heart Failure,,1,0.26
+P076,2024-07-14 03:00 AM,0.65,1953-01-16,Female,Asian,6.5,91,27,Heart Failure,,1,0.65
+P077,2024-03-16 03:15 AM,0.81,1979-01-01,Female,Black,6.8,36,253,"Diabetes, Heart Failure","Metformin, Jardiance",0,0.81
+P077,2024-04-15 03:15 AM,0.75,1979-01-01,Female,Black,6.4,40,227,"Diabetes, Heart Failure","Metformin, Jardiance",0,0.75
+P077,2024-05-15 03:15 AM,0.84,1979-01-01,Female,Black,6.1,44,211,"Diabetes, Heart Failure","Metformin, Jardiance",0,0.84
+P077,2024-06-14 03:15 AM,0.0,1979-01-01,Female,Black,6.0,48,196,"Diabetes, Heart Failure","Metformin, Jardiance",0,0.0
+P077,2024-07-14 03:15 AM,0.49,1979-01-01,Female,Black,5.8,50,169,"Diabetes, Heart Failure",Metformin,0,0.49
+P078,2024-03-16 03:30 AM,0.71,1998-02-07,Female,Hispanic,6.5,90,30,"Diabetes, Hypertension",Metformin,1,0.71
+P078,2024-04-15 03:30 AM,0.05,1998-02-07,Female,Hispanic,6.5,91,30,"Diabetes, Hypertension","Metformin, Jardiance",1,0.05
+P078,2024-05-15 03:30 AM,0.51,1998-02-07,Female,Hispanic,6.5,90,30,"Diabetes, Hypertension","Metformin, Jardiance",1,0.51
+P078,2024-06-14 03:30 AM,0.17,1998-02-07,Female,Hispanic,6.5,90,28,"Diabetes, Hypertension",Metformin,1,0.17
+P078,2024-07-14 03:30 AM,0.14,1998-02-07,Female,Hispanic,6.4,90,27,"Diabetes, Hypertension",Metformin,1,0.14
+P079,2024-03-16 03:45 AM,0.36,1963-02-23,Male,Asian,6.5,90,30,"Hypertension, Heart Failure",,1,0.36
+P079,2024-04-15 03:45 AM,0.84,1963-02-23,Male,Asian,6.4,91,28,"Hypertension, Heart Failure",,1,0.84
+P079,2024-05-15 03:45 AM,0.39,1963-02-23,Male,Asian,6.5,90,25,"Hypertension, Heart Failure",,1,0.39
+P079,2024-06-14 03:45 AM,0.04,1963-02-23,Male,Asian,6.5,90,28,"Hypertension, Heart Failure",,1,0.04
+P079,2024-07-14 03:45 AM,0.53,1963-02-23,Male,Asian,6.4,90,28,"Hypertension, Heart Failure",,1,0.53
+P080,2024-03-16 04:00 AM,0.65,2002-01-25,Male,Hispanic,10.4,75,156,None,,1,0.65
+P080,2024-04-15 04:00 AM,0.61,2002-01-25,Male,Hispanic,10.8,73,181,None,,1,0.61
+P080,2024-05-15 04:00 AM,0.13,2002-01-25,Male,Hispanic,11.2,70,188,None,,1,0.13
+P080,2024-06-14 04:00 AM,0.06,2002-01-25,Male,Hispanic,11.5,68,200,None,,1,0.06
+P080,2024-07-14 04:00 AM,0.83,2002-01-25,Male,Hispanic,11.7,66,220,None,,1,0.83
+P081,2024-03-16 04:15 AM,0.09,1981-12-02,Male,Hispanic,6.9,48,219,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.09
+P081,2024-04-15 04:15 AM,0.29,1981-12-02,Male,Hispanic,7.1,44,227,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.29
+P081,2024-05-15 04:15 AM,0.59,1981-12-02,Male,Hispanic,7.2,39,234,"Diabetes, Heart Failure",Metformin,1,0.59
+P081,2024-06-14 04:15 AM,0.17,1981-12-02,Male,Hispanic,7.5,36,254,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.17
+P081,2024-07-14 04:15 AM,0.69,1981-12-02,Male,Hispanic,7.7,33,269,"Diabetes, Heart Failure",Metformin,1,0.69
+P082,2024-03-16 04:30 AM,0.7,1993-08-06,Female,White,6.5,90,30,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.7
+P082,2024-04-15 04:30 AM,0.29,1993-08-06,Female,White,6.5,91,30,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.29
+P082,2024-05-15 04:30 AM,0.56,1993-08-06,Female,White,6.4,90,30,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.56
+P082,2024-06-14 04:30 AM,0.78,1993-08-06,Female,White,6.5,90,29,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.78
+P082,2024-07-14 04:30 AM,0.38,1993-08-06,Female,White,6.5,90,26,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.38
+P083,2024-03-16 04:45 AM,0.84,1998-08-18,Female,White,6.2,90,30,"Hypertension, Heart Failure",,1,0.84
+P083,2024-04-15 04:45 AM,0.07,1998-08-18,Female,White,6.2,90,27,"Hypertension, Heart Failure",,1,0.07
+P083,2024-05-15 04:45 AM,0.37,1998-08-18,Female,White,6.3,91,23,"Hypertension, Heart Failure",,1,0.37
+P083,2024-06-14 04:45 AM,0.41,1998-08-18,Female,White,6.2,90,20,"Hypertension, Heart Failure",,1,0.41
+P083,2024-07-14 04:45 AM,0.3,1998-08-18,Female,White,6.2,90,20,"Hypertension, Heart Failure",,1,0.3
+P084,2024-03-16 05:00 AM,0.26,1984-10-20,Male,Hispanic,7.8,33,277,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.26
+P084,2024-04-15 05:00 AM,0.39,1984-10-20,Male,Hispanic,8.2,28,284,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.39
+P084,2024-05-15 05:00 AM,0.69,1984-10-20,Male,Hispanic,8.3,25,302,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.69
+P084,2024-06-14 05:00 AM,0.92,1984-10-20,Male,Hispanic,8.8,21,323,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.92
+P084,2024-07-14 05:00 AM,0.17,1984-10-20,Male,Hispanic,8.9,16,333,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.17
+P085,2024-03-16 05:15 AM,0.8,1996-05-25,Female,Hispanic,10.2,27,62,None,,0,0.8
+P085,2024-04-15 05:15 AM,0.3,1996-05-25,Female,Hispanic,10.6,24,73,None,,0,0.3
+P085,2024-05-15 05:15 AM,0.55,1996-05-25,Female,Hispanic,11.0,21,81,None,,0,0.55
+P085,2024-06-14 05:15 AM,0.27,1996-05-25,Female,Hispanic,11.3,16,101,None,,0,0.27
+P085,2024-07-14 05:15 AM,0.18,1996-05-25,Female,Hispanic,11.6,15,113,None,,0,0.18
+P086,2024-03-16 05:30 AM,0.38,1939-11-20,Male,Hispanic,9.7,41,101,Heart Failure,,0,0.38
+P086,2024-04-15 05:30 AM,0.3,1939-11-20,Male,Hispanic,10.0,37,121,Heart Failure,,0,0.3
+P086,2024-05-15 05:30 AM,0.54,1939-11-20,Male,Hispanic,10.4,34,131,Heart Failure,,0,0.54
+P086,2024-06-14 05:30 AM,0.44,1939-11-20,Male,Hispanic,10.5,33,153,Heart Failure,,0,0.44
+P086,2024-07-14 05:30 AM,0.09,1939-11-20,Male,Hispanic,10.9,31,179,Heart Failure,,0,0.09
+P087,2024-03-16 05:45 AM,0.97,1948-06-12,Female,White,6.5,90,30,Hypertension,,0,0.97
+P087,2024-04-15 05:45 AM,0.22,1948-06-12,Female,White,6.4,90,28,Hypertension,,0,0.22
+P087,2024-05-15 05:45 AM,0.18,1948-06-12,Female,White,6.3,90,24,Hypertension,,0,0.18
+P087,2024-06-14 05:45 AM,0.66,1948-06-12,Female,White,6.3,90,29,Hypertension,,0,0.66
+P087,2024-07-14 05:45 AM,0.8,1948-06-12,Female,White,6.3,90,24,Hypertension,,0,0.8
+P088,2024-03-16 06:00 AM,0.03,1995-05-24,Female,Black,8.8,55,88,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.03
+P088,2024-04-15 06:00 AM,0.41,1995-05-24,Female,Black,8.9,53,111,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.41
+P088,2024-05-15 06:00 AM,0.73,1995-05-24,Female,Black,9.1,51,124,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.73
+P088,2024-06-14 06:00 AM,0.83,1995-05-24,Female,Black,9.3,50,133,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.83
+P088,2024-07-14 06:00 AM,0.62,1995-05-24,Female,Black,9.8,45,161,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.62
+P089,2024-03-16 06:15 AM,0.89,1961-11-26,Male,Other,6.5,90,30,Heart Failure,,1,0.89
+P089,2024-04-15 06:15 AM,0.43,1961-11-26,Male,Other,6.4,90,30,Heart Failure,,1,0.43
+P089,2024-05-15 06:15 AM,0.77,1961-11-26,Male,Other,6.5,90,28,Heart Failure,,1,0.77
+P089,2024-06-14 06:15 AM,0.69,1961-11-26,Male,Other,6.5,90,30,Heart Failure,,1,0.69
+P089,2024-07-14 06:15 AM,0.69,1961-11-26,Male,Other,6.5,91,30,Heart Failure,,1,0.69
+P090,2024-03-16 06:30 AM,0.26,1952-12-23,Male,Other,6.5,90,30,Hypertension,,1,0.26
+P090,2024-04-15 06:30 AM,0.73,1952-12-23,Male,Other,6.5,91,27,Hypertension,,1,0.73
+P090,2024-05-15 06:30 AM,0.11,1952-12-23,Male,Other,6.5,91,22,Hypertension,,1,0.11
+P090,2024-06-14 06:30 AM,1.0,1952-12-23,Male,Other,6.4,92,21,Hypertension,,1,1.0
+P090,2024-07-14 06:30 AM,0.72,1952-12-23,Male,Other,6.5,92,16,Hypertension,,1,0.72
+P091,2024-03-16 06:45 AM,0.28,1972-10-18,Male,Black,6.5,90,30,Heart Failure,,1,0.28
+P091,2024-04-15 06:45 AM,0.92,1972-10-18,Male,Black,6.5,90,30,Heart Failure,,1,0.92
+P091,2024-05-15 06:45 AM,0.78,1972-10-18,Male,Black,6.5,91,30,Heart Failure,,1,0.78
+P091,2024-06-14 06:45 AM,0.79,1972-10-18,Male,Black,6.5,91,30,Heart Failure,,1,0.79
+P091,2024-07-14 06:45 AM,0.91,1972-10-18,Male,Black,6.5,91,28,Heart Failure,,1,0.91
+P092,2024-03-16 07:00 AM,0.43,1984-01-14,Male,Asian,8.5,86,235,None,,0,0.43
+P092,2024-04-15 07:00 AM,0.29,1984-01-14,Male,Asian,8.6,84,253,None,,0,0.29
+P092,2024-05-15 07:00 AM,0.31,1984-01-14,Male,Asian,8.9,80,259,None,,0,0.31
+P092,2024-06-14 07:00 AM,0.73,1984-01-14,Male,Asian,9.4,77,270,None,,0,0.73
+P092,2024-07-14 07:00 AM,0.24,1984-01-14,Male,Asian,9.8,75,288,None,,0,0.24
+P093,2024-03-16 07:15 AM,0.11,1946-07-25,Male,Other,6.5,90,30,Heart Failure,,1,0.11
+P093,2024-04-15 07:15 AM,0.24,1946-07-25,Male,Other,6.5,90,30,Heart Failure,,1,0.24
+P093,2024-05-15 07:15 AM,0.31,1946-07-25,Male,Other,6.5,90,30,Heart Failure,,1,0.31
+P093,2024-06-14 07:15 AM,0.95,1946-07-25,Male,Other,6.5,90,27,Heart Failure,,1,0.95
+P093,2024-07-14 07:15 AM,0.69,1946-07-25,Male,Other,6.4,91,30,Heart Failure,,1,0.69
+P094,2024-03-16 07:30 AM,0.5,1991-12-06,Female,Black,6.9,36,133,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.5
+P094,2024-04-15 07:30 AM,0.9,1991-12-06,Female,Black,7.1,31,152,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.9
+P094,2024-05-15 07:30 AM,0.78,1991-12-06,Female,Black,7.4,28,181,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.78
+P094,2024-06-14 07:30 AM,0.41,1991-12-06,Female,Black,7.6,25,202,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.41
+P094,2024-07-14 07:30 AM,0.32,1991-12-06,Female,Black,7.9,23,220,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.32
+P095,2024-03-16 07:45 AM,0.03,1944-05-29,Female,White,7.6,62,284,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.03
+P095,2024-04-15 07:45 AM,0.2,1944-05-29,Female,White,8.0,59,294,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.2
+P095,2024-05-15 07:45 AM,0.04,1944-05-29,Female,White,8.3,57,306,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.04
+P095,2024-06-14 07:45 AM,0.34,1944-05-29,Female,White,8.5,53,319,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.34
+P095,2024-07-14 07:45 AM,0.67,1944-05-29,Female,White,9.0,48,330,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.67
+P096,2024-03-16 08:00 AM,0.89,1976-12-04,Female,Asian,5.9,46,32,Heart Failure,,0,0.89
+P096,2024-04-15 08:00 AM,0.65,1976-12-04,Female,Asian,5.6,49,21,Heart Failure,,0,0.65
+P096,2024-05-15 08:00 AM,1.0,1976-12-04,Female,Asian,5.5,50,10,Heart Failure,,0,1.0
+P096,2024-06-14 08:00 AM,0.09,1976-12-04,Female,Asian,5.0,54,10,Heart Failure,,0,0.09
+P096,2024-07-14 08:00 AM,0.89,1976-12-04,Female,Asian,4.7,59,10,Heart Failure,,0,0.89
+P097,2024-03-16 08:15 AM,0.6,1945-03-09,Male,White,5.7,90,30,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.6
+P097,2024-04-15 08:15 AM,0.7,1945-03-09,Male,White,5.7,90,28,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.7
+P097,2024-05-15 08:15 AM,0.57,1945-03-09,Male,White,5.7,90,27,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.57
+P097,2024-06-14 08:15 AM,0.54,1945-03-09,Male,White,5.6,90,28,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.54
+P097,2024-07-14 08:15 AM,0.45,1945-03-09,Male,White,5.6,90,23,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.45
+P098,2024-03-16 08:30 AM,0.19,1986-03-22,Male,Black,8.9,44,438,None,,0,0.19
+P098,2024-04-15 08:30 AM,0.22,1986-03-22,Male,Black,8.4,46,431,None,,0,0.22
+P098,2024-05-15 08:30 AM,0.58,1986-03-22,Male,Black,8.0,47,419,None,,0,0.58
+P098,2024-06-14 08:30 AM,0.04,1986-03-22,Male,Black,7.7,49,399,None,,0,0.04
+P098,2024-07-14 08:30 AM,0.93,1986-03-22,Male,Black,7.4,52,373,None,,0,0.93
+P099,2024-03-16 08:45 AM,0.16,1937-04-14,Male,Other,7.2,79,250,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.16
+P099,2024-04-15 08:45 AM,0.09,1937-04-14,Male,Other,7.6,76,271,"Diabetes, Heart Failure",Metformin,1,0.09
+P099,2024-05-15 08:45 AM,0.09,1937-04-14,Male,Other,7.7,74,289,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.09
+P099,2024-06-14 08:45 AM,0.87,1937-04-14,Male,Other,8.1,70,314,"Diabetes, Heart Failure",Metformin,1,0.87
+P099,2024-07-14 08:45 AM,0.59,1937-04-14,Male,Other,8.4,69,329,"Diabetes, Heart Failure",Metformin,1,0.59
+P100,2024-03-16 09:00 AM,0.17,1957-12-31,Female,Hispanic,6.5,85,413,Heart Failure,,1,0.17
+P100,2024-04-15 09:00 AM,0.1,1957-12-31,Female,Hispanic,6.3,88,397,Heart Failure,,1,0.1
+P100,2024-05-15 09:00 AM,0.75,1957-12-31,Female,Hispanic,6.2,91,388,Heart Failure,,1,0.75
+P100,2024-06-14 09:00 AM,0.72,1957-12-31,Female,Hispanic,5.9,93,365,Heart Failure,,1,0.72
+P100,2024-07-14 09:00 AM,0.5,1957-12-31,Female,Hispanic,5.5,97,346,Heart Failure,,1,0.5
+P101,2024-03-16 09:15 AM,0.68,1978-02-26,Female,Hispanic,10.0,27,388,"Diabetes, Heart Failure",Metformin,0,0.68
+P101,2024-04-15 09:15 AM,0.64,1978-02-26,Female,Hispanic,10.4,25,394,"Diabetes, Heart Failure",Metformin,0,0.64
+P101,2024-05-15 09:15 AM,0.59,1978-02-26,Female,Hispanic,10.7,21,409,"Diabetes, Heart Failure",Metformin,0,0.59
+P101,2024-06-14 09:15 AM,0.67,1978-02-26,Female,Hispanic,11.0,18,436,"Diabetes, Heart Failure","Metformin, Jardiance",0,0.67
+P101,2024-07-14 09:15 AM,0.61,1978-02-26,Female,Hispanic,11.3,16,442,"Diabetes, Heart Failure",Metformin,0,0.61
+P102,2024-03-16 09:30 AM,0.73,1945-03-10,Male,Other,6.5,90,30,Hypertension,,0,0.73
+P102,2024-04-15 09:30 AM,0.33,1945-03-10,Male,Other,6.5,90,30,Hypertension,,0,0.33
+P102,2024-05-15 09:30 AM,0.59,1945-03-10,Male,Other,6.5,91,26,Hypertension,,0,0.59
+P102,2024-06-14 09:30 AM,0.39,1945-03-10,Male,Other,6.4,92,26,Hypertension,,0,0.39
+P102,2024-07-14 09:30 AM,0.46,1945-03-10,Male,Other,6.4,91,25,Hypertension,,0,0.46
+P103,2024-03-16 09:45 AM,0.45,1963-05-13,Male,White,9.5,84,443,Heart Failure,,1,0.45
+P103,2024-04-15 09:45 AM,0.96,1963-05-13,Male,White,9.3,85,435,Heart Failure,,1,0.96
+P103,2024-05-15 09:45 AM,0.38,1963-05-13,Male,White,8.9,87,418,Heart Failure,,1,0.38
+P103,2024-06-14 09:45 AM,0.67,1963-05-13,Male,White,8.5,88,406,Heart Failure,,1,0.67
+P103,2024-07-14 09:45 AM,0.61,1963-05-13,Male,White,8.0,93,381,Heart Failure,,1,0.61
+P104,2024-03-16 10:00 AM,0.36,1990-08-31,Male,Other,7.6,69,51,"Diabetes, Hypertension",Metformin,1,0.36
+P104,2024-04-15 10:00 AM,0.81,1990-08-31,Male,Other,7.8,64,57,"Diabetes, Hypertension",Metformin,1,0.81
+P104,2024-05-15 10:00 AM,0.79,1990-08-31,Male,Other,8.0,61,66,"Diabetes, Hypertension",Metformin,1,0.79
+P104,2024-06-14 10:00 AM,0.59,1990-08-31,Male,Other,8.2,60,87,"Diabetes, Hypertension","Metformin, Jardiance",1,0.59
+P104,2024-07-14 10:00 AM,0.98,1990-08-31,Male,Other,8.4,58,117,"Diabetes, Hypertension",Metformin,1,0.98
+P105,2024-03-16 10:15 AM,0.09,1936-03-07,Female,Black,6.1,35,377,"Hypertension, Heart Failure",,0,0.09
+P105,2024-04-15 10:15 AM,0.83,1936-03-07,Female,Black,5.7,38,364,"Hypertension, Heart Failure",,0,0.83
+P105,2024-05-15 10:15 AM,0.05,1936-03-07,Female,Black,5.2,41,357,"Hypertension, Heart Failure",,0,0.05
+P105,2024-06-14 10:15 AM,0.48,1936-03-07,Female,Black,5.0,44,352,"Hypertension, Heart Failure",,0,0.48
+P105,2024-07-14 10:15 AM,0.61,1936-03-07,Female,Black,4.6,48,334,"Hypertension, Heart Failure",,0,0.61
+P106,2024-03-16 10:30 AM,0.88,1948-04-21,Male,White,8.3,42,331,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.88
+P106,2024-04-15 10:30 AM,0.97,1948-04-21,Male,White,8.5,39,349,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.97
+P106,2024-05-15 10:30 AM,0.23,1948-04-21,Male,White,8.9,37,367,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.23
+P106,2024-06-14 10:30 AM,0.73,1948-04-21,Male,White,9.3,34,393,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.73
+P106,2024-07-14 10:30 AM,0.18,1948-04-21,Male,White,9.7,30,401,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.18
+P107,2024-03-16 10:45 AM,0.29,1975-05-01,Male,Black,7.5,41,268,Heart Failure,,1,0.29
+P107,2024-04-15 10:45 AM,0.78,1975-05-01,Male,Black,7.3,43,242,Heart Failure,,1,0.78
+P107,2024-05-15 10:45 AM,0.0,1975-05-01,Male,Black,6.8,45,214,Heart Failure,,1,0.0
+P107,2024-06-14 10:45 AM,0.26,1975-05-01,Male,Black,6.5,48,199,Heart Failure,,1,0.26
+P107,2024-07-14 10:45 AM,0.1,1975-05-01,Male,Black,6.3,50,172,Heart Failure,,1,0.1
+P108,2024-03-16 11:00 AM,1.0,1975-10-03,Male,Black,6.5,90,30,Heart Failure,,0,1.0
+P108,2024-04-15 11:00 AM,0.05,1975-10-03,Male,Black,6.5,90,26,Heart Failure,,0,0.05
+P108,2024-05-15 11:00 AM,0.59,1975-10-03,Male,Black,6.5,91,28,Heart Failure,,0,0.59
+P108,2024-06-14 11:00 AM,0.68,1975-10-03,Male,Black,6.5,91,24,Heart Failure,,0,0.68
+P108,2024-07-14 11:00 AM,0.82,1975-10-03,Male,Black,6.5,90,23,Heart Failure,,0,0.82
+P109,2024-03-16 11:15 AM,0.31,1971-07-08,Male,Asian,6.5,90,30,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.31
+P109,2024-04-15 11:15 AM,0.46,1971-07-08,Male,Asian,6.5,90,30,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.46
+P109,2024-05-15 11:15 AM,0.91,1971-07-08,Male,Asian,6.5,91,27,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.91
+P109,2024-06-14 11:15 AM,0.95,1971-07-08,Male,Asian,6.5,92,22,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.95
+P109,2024-07-14 11:15 AM,0.41,1971-07-08,Male,Asian,6.5,92,25,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.41
+P110,2024-03-16 11:30 AM,0.85,1969-04-10,Female,White,8.3,42,202,Heart Failure,,0,0.85
+P110,2024-04-15 11:30 AM,0.44,1969-04-10,Female,White,8.2,46,192,Heart Failure,,0,0.44
+P110,2024-05-15 11:30 AM,0.11,1969-04-10,Female,White,7.9,49,184,Heart Failure,,0,0.11
+P110,2024-06-14 11:30 AM,0.12,1969-04-10,Female,White,7.5,51,175,Heart Failure,,0,0.12
+P110,2024-07-14 11:30 AM,0.03,1969-04-10,Female,White,7.3,54,147,Heart Failure,,0,0.03
+P111,2024-03-16 11:45 AM,0.98,2000-08-30,Female,Black,6.5,90,30,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.98
+P111,2024-04-15 11:45 AM,0.38,2000-08-30,Female,Black,6.4,90,25,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.38
+P111,2024-05-15 11:45 AM,0.07,2000-08-30,Female,Black,6.4,91,25,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.07
+P111,2024-06-14 11:45 AM,0.11,2000-08-30,Female,Black,6.4,92,20,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.11
+P111,2024-07-14 11:45 AM,0.2,2000-08-30,Female,Black,6.4,92,20,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.2
+P112,2024-03-16 12:00 PM,0.9,1941-06-17,Female,Other,8.9,28,426,"Diabetes, Hypertension","Metformin, Jardiance",0,0.9
+P112,2024-04-15 12:00 PM,0.36,1941-06-17,Female,Other,9.3,24,455,"Diabetes, Hypertension",Metformin,0,0.36
+P112,2024-05-15 12:00 PM,0.56,1941-06-17,Female,Other,9.6,21,465,"Diabetes, Hypertension",Metformin,0,0.56
+P112,2024-06-14 12:00 PM,0.31,1941-06-17,Female,Other,9.9,19,482,"Diabetes, Hypertension",Metformin,0,0.31
+P112,2024-07-14 12:00 PM,0.37,1941-06-17,Female,Other,10.2,18,498,"Diabetes, Hypertension",Metformin,0,0.37
+P113,2024-03-16 12:15 PM,0.79,1954-01-24,Male,White,6.5,90,30,Hypertension,,1,0.79
+P113,2024-04-15 12:15 PM,0.04,1954-01-24,Male,White,6.4,91,29,Hypertension,,1,0.04
+P113,2024-05-15 12:15 PM,0.87,1954-01-24,Male,White,6.4,90,30,Hypertension,,1,0.87
+P113,2024-06-14 12:15 PM,0.2,1954-01-24,Male,White,6.3,90,28,Hypertension,,1,0.2
+P113,2024-07-14 12:15 PM,0.89,1954-01-24,Male,White,6.4,90,24,Hypertension,,1,0.89
+P114,2024-03-16 12:30 PM,0.46,1981-01-11,Male,Other,8.3,72,119,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.46
+P114,2024-04-15 12:30 PM,0.45,1981-01-11,Male,Other,8.2,74,105,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.45
+P114,2024-05-15 12:30 PM,0.7,1981-01-11,Male,Other,8.0,78,82,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.7
+P114,2024-06-14 12:30 PM,0.97,1981-01-11,Male,Other,7.5,80,62,"Diabetes, Heart Failure",Metformin,1,0.97
+P114,2024-07-14 12:30 PM,0.17,1981-01-11,Male,Other,7.4,82,50,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.17
+P115,2024-03-16 12:45 PM,0.06,1973-09-28,Female,Other,5.9,88,261,None,,1,0.06
+P115,2024-04-15 12:45 PM,0.11,1973-09-28,Female,Other,5.7,89,246,None,,1,0.11
+P115,2024-05-15 12:45 PM,0.51,1973-09-28,Female,Other,5.3,94,218,None,,1,0.51
+P115,2024-06-14 12:45 PM,0.84,1973-09-28,Female,Other,4.8,96,193,None,,1,0.84
+P115,2024-07-14 12:45 PM,0.7,1973-09-28,Female,Other,4.6,98,178,None,,1,0.7
+P116,2024-03-16 01:00 PM,0.23,1966-11-18,Female,White,7.3,34,272,"Diabetes, Hypertension","Metformin, Jardiance",1,0.23
+P116,2024-04-15 01:00 PM,0.05,1966-11-18,Female,White,7.1,37,242,"Diabetes, Hypertension","Metformin, Jardiance",1,0.05
+P116,2024-05-15 01:00 PM,0.65,1966-11-18,Female,White,6.6,42,237,"Diabetes, Hypertension","Metformin, Jardiance",1,0.65
+P116,2024-06-14 01:00 PM,0.8,1966-11-18,Female,White,6.3,45,215,"Diabetes, Hypertension",Metformin,1,0.8
+P116,2024-07-14 01:00 PM,0.4,1966-11-18,Female,White,6.0,48,195,"Diabetes, Hypertension","Metformin, Jardiance",1,0.4
+P117,2024-03-16 01:15 PM,0.32,1968-10-31,Female,Black,9.4,50,164,Diabetes,"Metformin, Jardiance",1,0.32
+P117,2024-04-15 01:15 PM,0.45,1968-10-31,Female,Black,9.3,55,142,Diabetes,Metformin,1,0.45
+P117,2024-05-15 01:15 PM,0.86,1968-10-31,Female,Black,9.1,58,127,Diabetes,Metformin,1,0.86
+P117,2024-06-14 01:15 PM,0.98,1968-10-31,Female,Black,8.8,61,115,Diabetes,Metformin,1,0.98
+P117,2024-07-14 01:15 PM,0.14,1968-10-31,Female,Black,8.6,62,96,Diabetes,Metformin,1,0.14
+P118,2024-03-16 01:30 PM,0.91,1992-12-24,Female,Asian,8.3,33,466,Hypertension,,0,0.91
+P118,2024-04-15 01:30 PM,0.26,1992-12-24,Female,Asian,8.5,30,476,Hypertension,,0,0.26
+P118,2024-05-15 01:30 PM,0.78,1992-12-24,Female,Asian,8.6,27,497,Hypertension,,0,0.78
+P118,2024-06-14 01:30 PM,0.42,1992-12-24,Female,Asian,9.0,25,522,Hypertension,,0,0.42
+P118,2024-07-14 01:30 PM,0.85,1992-12-24,Female,Asian,9.3,22,551,Hypertension,,0,0.85
+P119,2024-03-16 01:45 PM,0.43,1974-11-06,Male,Black,6.5,90,30,Hypertension,,1,0.43
+P119,2024-04-15 01:45 PM,0.93,1974-11-06,Male,Black,6.4,90,30,Hypertension,,1,0.93
+P119,2024-05-15 01:45 PM,0.3,1974-11-06,Male,Black,6.5,90,27,Hypertension,,1,0.3
+P119,2024-06-14 01:45 PM,0.79,1974-11-06,Male,Black,6.5,91,24,Hypertension,,1,0.79
+P119,2024-07-14 01:45 PM,0.57,1974-11-06,Male,Black,6.5,90,23,Hypertension,,1,0.57
+P120,2024-03-16 02:00 PM,0.69,1954-03-05,Male,Black,6.5,90,30,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.69
+P120,2024-04-15 02:00 PM,0.25,1954-03-05,Male,Black,6.5,90,30,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.25
+P120,2024-05-15 02:00 PM,0.71,1954-03-05,Male,Black,6.5,90,30,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.71
+P120,2024-06-14 02:00 PM,0.13,1954-03-05,Male,Black,6.4,91,25,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.13
+P120,2024-07-14 02:00 PM,0.15,1954-03-05,Male,Black,6.4,92,29,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.15
+P121,2024-03-16 02:15 PM,0.68,1975-08-14,Female,Hispanic,7.5,76,85,"Diabetes, Hypertension",Metformin,0,0.68
+P121,2024-04-15 02:15 PM,0.12,1975-08-14,Female,Hispanic,7.3,80,66,"Diabetes, Hypertension","Metformin, Jardiance",0,0.12
+P121,2024-05-15 02:15 PM,0.98,1975-08-14,Female,Hispanic,7.1,85,54,"Diabetes, Hypertension",Metformin,0,0.98
+P121,2024-06-14 02:15 PM,0.19,1975-08-14,Female,Hispanic,6.8,88,45,"Diabetes, Hypertension",Metformin,0,0.19
+P121,2024-07-14 02:15 PM,0.03,1975-08-14,Female,Hispanic,6.7,92,23,"Diabetes, Hypertension","Metformin, Jardiance",0,0.03
+P122,2024-03-16 02:30 PM,0.68,1990-02-01,Male,Hispanic,6.5,90,30,Hypertension,,0,0.68
+P122,2024-04-15 02:30 PM,0.73,1990-02-01,Male,Hispanic,6.5,90,30,Hypertension,,0,0.73
+P122,2024-05-15 02:30 PM,0.92,1990-02-01,Male,Hispanic,6.5,90,30,Hypertension,,0,0.92
+P122,2024-06-14 02:30 PM,0.15,1990-02-01,Male,Hispanic,6.5,91,30,Hypertension,,0,0.15
+P122,2024-07-14 02:30 PM,0.33,1990-02-01,Male,Hispanic,6.5,91,30,Hypertension,,0,0.33
+P123,2024-03-16 02:45 PM,0.47,1937-03-08,Female,Black,6.5,90,30,None,,1,0.47
+P123,2024-04-15 02:45 PM,0.58,1937-03-08,Female,Black,6.5,90,30,None,,1,0.58
+P123,2024-05-15 02:45 PM,0.01,1937-03-08,Female,Black,6.5,90,26,None,,1,0.01
+P123,2024-06-14 02:45 PM,0.69,1937-03-08,Female,Black,6.5,90,29,None,,1,0.69
+P123,2024-07-14 02:45 PM,0.98,1937-03-08,Female,Black,6.4,91,30,None,,1,0.98
+P124,2024-03-16 03:00 PM,0.9,1955-02-23,Female,Other,8.3,58,19,"Diabetes, Hypertension","Metformin, Jardiance",0,0.9
+P124,2024-04-15 03:00 PM,0.28,1955-02-23,Female,Other,7.9,62,10,"Diabetes, Hypertension","Metformin, Jardiance",0,0.28
+P124,2024-05-15 03:00 PM,0.98,1955-02-23,Female,Other,7.8,64,10,"Diabetes, Hypertension","Metformin, Jardiance",0,0.98
+P124,2024-06-14 03:00 PM,0.0,1955-02-23,Female,Other,7.6,68,10,"Diabetes, Hypertension","Metformin, Jardiance",0,0.0
+P124,2024-07-14 03:00 PM,0.15,1955-02-23,Female,Other,7.2,69,10,"Diabetes, Hypertension","Metformin, Jardiance",0,0.15
+P125,2024-03-16 03:15 PM,0.24,1977-07-28,Female,Black,8.2,53,467,Hypertension,,0,0.24
+P125,2024-04-15 03:15 PM,0.47,1977-07-28,Female,Black,8.4,52,481,Hypertension,,0,0.47
+P125,2024-05-15 03:15 PM,0.42,1977-07-28,Female,Black,8.6,50,492,Hypertension,,0,0.42
+P125,2024-06-14 03:15 PM,0.02,1977-07-28,Female,Black,8.9,47,503,Hypertension,,0,0.02
+P125,2024-07-14 03:15 PM,0.45,1977-07-28,Female,Black,9.2,43,511,Hypertension,,0,0.45
+P126,2024-03-16 03:30 PM,0.5,1990-03-08,Male,White,7.2,62,372,Heart Failure,,0,0.5
+P126,2024-04-15 03:30 PM,0.98,1990-03-08,Male,White,7.4,58,396,Heart Failure,,0,0.98
+P126,2024-05-15 03:30 PM,0.34,1990-03-08,Male,White,7.7,57,419,Heart Failure,,0,0.34
+P126,2024-06-14 03:30 PM,0.92,1990-03-08,Male,White,8.0,52,446,Heart Failure,,0,0.92
+P126,2024-07-14 03:30 PM,0.39,1990-03-08,Male,White,8.5,51,461,Heart Failure,,0,0.39
+P127,2024-03-16 03:45 PM,0.3,1972-08-25,Male,Hispanic,6.5,90,30,"Diabetes, Hypertension",Metformin,0,0.3
+P127,2024-04-15 03:45 PM,0.91,1972-08-25,Male,Hispanic,6.5,90,30,"Diabetes, Hypertension","Metformin, Jardiance",0,0.91
+P127,2024-05-15 03:45 PM,0.3,1972-08-25,Male,Hispanic,6.5,91,25,"Diabetes, Hypertension","Metformin, Jardiance",0,0.3
+P127,2024-06-14 03:45 PM,0.48,1972-08-25,Male,Hispanic,6.5,90,29,"Diabetes, Hypertension","Metformin, Jardiance",0,0.48
+P127,2024-07-14 03:45 PM,0.15,1972-08-25,Male,Hispanic,6.5,91,28,"Diabetes, Hypertension","Metformin, Jardiance",0,0.15
+P128,2024-03-16 04:00 PM,0.42,1996-12-30,Female,White,8.4,65,117,Hypertension,,0,0.42
+P128,2024-04-15 04:00 PM,0.86,1996-12-30,Female,White,8.2,66,106,Hypertension,,0,0.86
+P128,2024-05-15 04:00 PM,0.18,1996-12-30,Female,White,7.8,70,76,Hypertension,,0,0.18
+P128,2024-06-14 04:00 PM,0.52,1996-12-30,Female,White,7.5,73,65,Hypertension,,0,0.52
+P128,2024-07-14 04:00 PM,0.66,1996-12-30,Female,White,7.2,76,45,Hypertension,,0,0.66
+P129,2024-03-16 04:15 PM,0.79,1998-11-02,Male,Other,9.5,57,171,None,,0,0.79
+P129,2024-04-15 04:15 PM,0.01,1998-11-02,Male,Other,9.1,60,148,None,,0,0.01
+P129,2024-05-15 04:15 PM,0.3,1998-11-02,Male,Other,8.7,64,141,None,,0,0.3
+P129,2024-06-14 04:15 PM,0.71,1998-11-02,Male,Other,8.3,68,126,None,,0,0.71
+P129,2024-07-14 04:15 PM,0.03,1998-11-02,Male,Other,8.1,70,112,None,,0,0.03
+P130,2024-03-16 04:30 PM,0.3,1956-09-02,Male,White,7.1,64,260,Heart Failure,,1,0.3
+P130,2024-04-15 04:30 PM,0.63,1956-09-02,Male,White,7.4,60,281,Heart Failure,,1,0.63
+P130,2024-05-15 04:30 PM,0.65,1956-09-02,Male,White,7.7,58,310,Heart Failure,,1,0.65
+P130,2024-06-14 04:30 PM,0.68,1956-09-02,Male,White,8.2,56,315,Heart Failure,,1,0.68
+P130,2024-07-14 04:30 PM,0.17,1956-09-02,Male,White,8.4,55,336,Heart Failure,,1,0.17
+P131,2024-03-16 04:45 PM,0.03,1984-06-17,Male,Hispanic,6.5,90,30,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.03
+P131,2024-04-15 04:45 PM,0.49,1984-06-17,Male,Hispanic,6.4,91,30,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.49
+P131,2024-05-15 04:45 PM,0.65,1984-06-17,Male,Hispanic,6.5,91,26,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.65
+P131,2024-06-14 04:45 PM,0.61,1984-06-17,Male,Hispanic,6.5,92,30,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.61
+P131,2024-07-14 04:45 PM,0.82,1984-06-17,Male,Hispanic,6.4,93,30,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.82
+P132,2024-03-16 05:00 PM,0.69,1985-12-10,Male,Other,6.5,90,30,Heart Failure,,1,0.69
+P132,2024-04-15 05:00 PM,0.28,1985-12-10,Male,Other,6.5,90,26,Heart Failure,,1,0.28
+P132,2024-05-15 05:00 PM,0.9,1985-12-10,Male,Other,6.5,90,23,Heart Failure,,1,0.9
+P132,2024-06-14 05:00 PM,0.31,1985-12-10,Male,Other,6.5,91,18,Heart Failure,,1,0.31
+P132,2024-07-14 05:00 PM,0.66,1985-12-10,Male,Other,6.5,91,20,Heart Failure,,1,0.66
+P133,2024-03-16 05:15 PM,0.25,1973-12-05,Female,White,6.4,47,468,Diabetes,Metformin,1,0.25
+P133,2024-04-15 05:15 PM,0.55,1973-12-05,Female,White,6.9,45,482,Diabetes,"Metformin, Jardiance",1,0.55
+P133,2024-05-15 05:15 PM,0.06,1973-12-05,Female,White,7.2,41,504,Diabetes,"Metformin, Jardiance",1,0.06
+P133,2024-06-14 05:15 PM,0.93,1973-12-05,Female,White,7.7,39,525,Diabetes,"Metformin, Jardiance",1,0.93
+P133,2024-07-14 05:15 PM,0.95,1973-12-05,Female,White,7.9,38,536,Diabetes,Metformin,1,0.95
+P134,2024-03-16 05:30 PM,0.36,1980-04-09,Female,Other,8.1,81,147,"Diabetes, Heart Failure",Metformin,0,0.36
+P134,2024-04-15 05:30 PM,0.95,1980-04-09,Female,Other,7.7,85,121,"Diabetes, Heart Failure","Metformin, Jardiance",0,0.95
+P134,2024-05-15 05:30 PM,0.34,1980-04-09,Female,Other,7.4,87,94,"Diabetes, Heart Failure","Metformin, Jardiance",0,0.34
+P134,2024-06-14 05:30 PM,0.59,1980-04-09,Female,Other,6.9,92,79,"Diabetes, Heart Failure","Metformin, Jardiance",0,0.59
+P134,2024-07-14 05:30 PM,0.67,1980-04-09,Female,Other,6.5,94,66,"Diabetes, Heart Failure",Metformin,0,0.67
+P135,2024-03-16 05:45 PM,0.9,1945-04-08,Female,White,6.9,86,158,None,,1,0.9
+P135,2024-04-15 05:45 PM,0.23,1945-04-08,Female,White,6.4,91,138,None,,1,0.23
+P135,2024-05-15 05:45 PM,0.51,1945-04-08,Female,White,6.3,95,130,None,,1,0.51
+P135,2024-06-14 05:45 PM,0.36,1945-04-08,Female,White,5.9,98,113,None,,1,0.36
+P135,2024-07-14 05:45 PM,0.27,1945-04-08,Female,White,5.5,102,107,None,,1,0.27
+P136,2024-03-16 06:00 PM,0.7,1991-06-13,Female,Asian,6.7,50,154,"Hypertension, Heart Failure",,1,0.7
+P136,2024-04-15 06:00 PM,0.51,1991-06-13,Female,Asian,6.6,54,146,"Hypertension, Heart Failure",,1,0.51
+P136,2024-05-15 06:00 PM,0.8,1991-06-13,Female,Asian,6.5,57,137,"Hypertension, Heart Failure",,1,0.8
+P136,2024-06-14 06:00 PM,0.24,1991-06-13,Female,Asian,6.1,58,124,"Hypertension, Heart Failure",,1,0.24
+P136,2024-07-14 06:00 PM,0.48,1991-06-13,Female,Asian,5.6,62,103,"Hypertension, Heart Failure",,1,0.48
+P137,2024-03-16 06:15 PM,0.65,1958-06-25,Male,White,8.4,49,411,Heart Failure,,0,0.65
+P137,2024-04-15 06:15 PM,0.4,1958-06-25,Male,White,8.6,44,428,Heart Failure,,0,0.4
+P137,2024-05-15 06:15 PM,0.24,1958-06-25,Male,White,9.0,42,456,Heart Failure,,0,0.24
+P137,2024-06-14 06:15 PM,0.49,1958-06-25,Male,White,9.3,41,477,Heart Failure,,0,0.49
+P137,2024-07-14 06:15 PM,0.79,1958-06-25,Male,White,9.5,38,495,Heart Failure,,0,0.79
+P138,2024-03-16 06:30 PM,0.16,1934-03-05,Female,Hispanic,6.6,70,467,None,,1,0.16
+P138,2024-04-15 06:30 PM,0.07,1934-03-05,Female,Hispanic,7.0,68,486,None,,1,0.07
+P138,2024-05-15 06:30 PM,0.71,1934-03-05,Female,Hispanic,7.1,65,498,None,,1,0.71
+P138,2024-06-14 06:30 PM,0.58,1934-03-05,Female,Hispanic,7.4,64,508,None,,1,0.58
+P138,2024-07-14 06:30 PM,0.33,1934-03-05,Female,Hispanic,7.5,61,515,None,,1,0.33
+P139,2024-03-16 06:45 PM,0.22,1998-07-17,Male,White,5.8,65,71,"Diabetes, Hypertension","Metformin, Jardiance",1,0.22
+P139,2024-04-15 06:45 PM,0.05,1998-07-17,Male,White,6.0,62,90,"Diabetes, Hypertension","Metformin, Jardiance",1,0.05
+P139,2024-05-15 06:45 PM,0.49,1998-07-17,Male,White,6.4,59,107,"Diabetes, Hypertension",Metformin,1,0.49
+P139,2024-06-14 06:45 PM,0.17,1998-07-17,Male,White,6.6,56,113,"Diabetes, Hypertension","Metformin, Jardiance",1,0.17
+P139,2024-07-14 06:45 PM,0.3,1998-07-17,Male,White,7.0,54,138,"Diabetes, Hypertension",Metformin,1,0.3
+P140,2024-03-16 07:00 PM,0.7,1959-02-03,Female,Other,5.9,49,452,Diabetes,Metformin,0,0.7
+P140,2024-04-15 07:00 PM,0.94,1959-02-03,Female,Other,6.3,47,474,Diabetes,Metformin,0,0.94
+P140,2024-05-15 07:00 PM,0.5,1959-02-03,Female,Other,6.7,46,497,Diabetes,Metformin,0,0.5
+P140,2024-06-14 07:00 PM,0.87,1959-02-03,Female,Other,7.1,41,518,Diabetes,"Metformin, Jardiance",0,0.87
+P140,2024-07-14 07:00 PM,0.77,1959-02-03,Female,Other,7.4,39,546,Diabetes,"Metformin, Jardiance",0,0.77
+P141,2024-03-16 07:15 PM,0.55,1969-07-11,Female,Asian,6.5,90,30,None,,0,0.55
+P141,2024-04-15 07:15 PM,0.21,1969-07-11,Female,Asian,6.4,90,28,None,,0,0.21
+P141,2024-05-15 07:15 PM,0.02,1969-07-11,Female,Asian,6.5,90,25,None,,0,0.02
+P141,2024-06-14 07:15 PM,0.59,1969-07-11,Female,Asian,6.5,90,22,None,,0,0.59
+P141,2024-07-14 07:15 PM,0.97,1969-07-11,Female,Asian,6.4,91,27,None,,0,0.97
+P142,2024-03-16 07:30 PM,0.98,1935-12-28,Male,Black,6.7,84,17,Hypertension,,0,0.98
+P142,2024-04-15 07:30 PM,0.44,1935-12-28,Male,Black,6.3,88,10,Hypertension,,0,0.44
+P142,2024-05-15 07:30 PM,0.74,1935-12-28,Male,Black,5.9,90,10,Hypertension,,0,0.74
+P142,2024-06-14 07:30 PM,0.18,1935-12-28,Male,Black,5.4,92,10,Hypertension,,0,0.18
+P142,2024-07-14 07:30 PM,0.06,1935-12-28,Male,Black,5.1,95,10,Hypertension,,0,0.06
+P143,2024-03-16 07:45 PM,0.95,1952-11-10,Female,Asian,7.6,43,241,Heart Failure,,1,0.95
+P143,2024-04-15 07:45 PM,0.87,1952-11-10,Female,Asian,7.4,45,232,Heart Failure,,1,0.87
+P143,2024-05-15 07:45 PM,0.72,1952-11-10,Female,Asian,7.2,48,213,Heart Failure,,1,0.72
+P143,2024-06-14 07:45 PM,0.45,1952-11-10,Female,Asian,7.0,51,191,Heart Failure,,1,0.45
+P143,2024-07-14 07:45 PM,0.1,1952-11-10,Female,Asian,6.8,54,181,Heart Failure,,1,0.1
+P144,2024-03-16 08:00 PM,0.76,1966-07-30,Male,Hispanic,5.6,51,146,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.76
+P144,2024-04-15 08:00 PM,0.8,1966-07-30,Male,Hispanic,5.3,53,126,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.8
+P144,2024-05-15 08:00 PM,0.79,1966-07-30,Male,Hispanic,4.9,56,99,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.79
+P144,2024-06-14 08:00 PM,0.76,1966-07-30,Male,Hispanic,4.6,60,93,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.76
+P144,2024-07-14 08:00 PM,0.56,1966-07-30,Male,Hispanic,4.5,61,68,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.56
+P145,2024-03-16 08:15 PM,0.79,1985-03-28,Male,Black,6.5,90,30,Diabetes,"Metformin, Jardiance",0,0.79
+P145,2024-04-15 08:15 PM,0.8,1985-03-28,Male,Black,6.5,90,29,Diabetes,Metformin,0,0.8
+P145,2024-05-15 08:15 PM,0.97,1985-03-28,Male,Black,6.5,90,30,Diabetes,Metformin,0,0.97
+P145,2024-06-14 08:15 PM,0.43,1985-03-28,Male,Black,6.4,90,30,Diabetes,"Metformin, Jardiance",0,0.43
+P145,2024-07-14 08:15 PM,0.66,1985-03-28,Male,Black,6.5,90,30,Diabetes,"Metformin, Jardiance",0,0.66
+P146,2024-03-16 08:30 PM,0.51,1953-10-07,Female,Other,8.8,37,216,None,,1,0.51
+P146,2024-04-15 08:30 PM,0.55,1953-10-07,Female,Other,9.0,34,240,None,,1,0.55
+P146,2024-05-15 08:30 PM,0.21,1953-10-07,Female,Other,9.3,31,266,None,,1,0.21
+P146,2024-06-14 08:30 PM,0.5,1953-10-07,Female,Other,9.7,27,290,None,,1,0.5
+P146,2024-07-14 08:30 PM,0.15,1953-10-07,Female,Other,10.2,25,313,None,,1,0.15
+P147,2024-03-16 08:45 PM,0.3,1977-01-05,Male,Black,8.3,63,301,None,,0,0.3
+P147,2024-04-15 08:45 PM,0.87,1977-01-05,Male,Black,7.9,66,271,None,,0,0.87
+P147,2024-05-15 08:45 PM,0.42,1977-01-05,Male,Black,7.5,69,252,None,,0,0.42
+P147,2024-06-14 08:45 PM,0.99,1977-01-05,Male,Black,7.3,71,232,None,,0,0.99
+P147,2024-07-14 08:45 PM,0.07,1977-01-05,Male,Black,6.8,75,223,None,,0,0.07
+P148,2024-03-16 09:00 PM,0.79,1937-10-05,Female,Other,7.8,53,157,Hypertension,,1,0.79
+P148,2024-04-15 09:00 PM,0.07,1937-10-05,Female,Other,7.5,58,144,Hypertension,,1,0.07
+P148,2024-05-15 09:00 PM,0.21,1937-10-05,Female,Other,7.1,61,115,Hypertension,,1,0.21
+P148,2024-06-14 09:00 PM,0.25,1937-10-05,Female,Other,6.7,63,85,Hypertension,,1,0.25
+P148,2024-07-14 09:00 PM,0.81,1937-10-05,Female,Other,6.4,65,68,Hypertension,,1,0.81
+P149,2024-03-16 09:15 PM,0.23,1937-11-03,Male,Black,9.6,67,177,"Diabetes, Heart Failure","Metformin, Jardiance",0,0.23
+P149,2024-04-15 09:15 PM,0.36,1937-11-03,Male,Black,9.9,64,200,"Diabetes, Heart Failure",Metformin,0,0.36
+P149,2024-05-15 09:15 PM,0.91,1937-11-03,Male,Black,10.1,62,220,"Diabetes, Heart Failure","Metformin, Jardiance",0,0.91
+P149,2024-06-14 09:15 PM,0.48,1937-11-03,Male,Black,10.4,59,239,"Diabetes, Heart Failure",Metformin,0,0.48
+P149,2024-07-14 09:15 PM,0.65,1937-11-03,Male,Black,10.8,57,267,"Diabetes, Heart Failure","Metformin, Jardiance",0,0.65
+P150,2024-03-16 09:30 PM,0.43,1958-12-25,Male,White,6.5,90,30,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.43
+P150,2024-04-15 09:30 PM,0.03,1958-12-25,Male,White,6.5,90,30,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.03
+P150,2024-05-15 09:30 PM,0.24,1958-12-25,Male,White,6.5,91,26,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.24
+P150,2024-06-14 09:30 PM,0.9,1958-12-25,Male,White,6.5,91,25,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.9
+P150,2024-07-14 09:30 PM,0.52,1958-12-25,Male,White,6.5,92,24,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.52
+P151,2024-03-16 09:45 PM,0.86,1962-04-04,Male,Asian,6.5,90,30,Diabetes,Metformin,0,0.86
+P151,2024-04-15 09:45 PM,0.58,1962-04-04,Male,Asian,6.5,91,27,Diabetes,Metformin,0,0.58
+P151,2024-05-15 09:45 PM,0.72,1962-04-04,Male,Asian,6.5,90,30,Diabetes,"Metformin, Jardiance",0,0.72
+P151,2024-06-14 09:45 PM,0.33,1962-04-04,Male,Asian,6.5,90,26,Diabetes,"Metformin, Jardiance",0,0.33
+P151,2024-07-14 09:45 PM,0.96,1962-04-04,Male,Asian,6.5,90,25,Diabetes,"Metformin, Jardiance",0,0.96
+P152,2024-03-16 10:00 PM,0.84,1969-09-14,Male,Hispanic,10.2,86,80,"Diabetes, Hypertension","Metformin, Jardiance",1,0.84
+P152,2024-04-15 10:00 PM,0.9,1969-09-14,Male,Hispanic,10.7,85,107,"Diabetes, Hypertension","Metformin, Jardiance",1,0.9
+P152,2024-05-15 10:00 PM,0.2,1969-09-14,Male,Hispanic,10.8,83,121,"Diabetes, Hypertension","Metformin, Jardiance",1,0.2
+P152,2024-06-14 10:00 PM,0.4,1969-09-14,Male,Hispanic,11.2,81,127,"Diabetes, Hypertension",Metformin,1,0.4
+P152,2024-07-14 10:00 PM,0.5,1969-09-14,Male,Hispanic,11.6,76,150,"Diabetes, Hypertension","Metformin, Jardiance",1,0.5
+P153,2024-03-16 10:15 PM,0.31,1978-09-05,Male,Black,7.2,49,406,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.31
+P153,2024-04-15 10:15 PM,0.07,1978-09-05,Male,Black,7.0,53,395,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.07
+P153,2024-05-15 10:15 PM,0.43,1978-09-05,Male,Black,6.8,55,375,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.43
+P153,2024-06-14 10:15 PM,0.73,1978-09-05,Male,Black,6.6,58,348,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.73
+P153,2024-07-14 10:15 PM,0.5,1978-09-05,Male,Black,6.1,60,337,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.5
+P154,2024-03-16 10:30 PM,0.39,1984-06-11,Male,Other,8.7,60,349,None,,1,0.39
+P154,2024-04-15 10:30 PM,0.15,1984-06-11,Male,Other,8.9,58,355,None,,1,0.15
+P154,2024-05-15 10:30 PM,0.46,1984-06-11,Male,Other,9.2,55,365,None,,1,0.46
+P154,2024-06-14 10:30 PM,0.3,1984-06-11,Male,Other,9.4,53,381,None,,1,0.3
+P154,2024-07-14 10:30 PM,0.15,1984-06-11,Male,Other,9.6,49,393,None,,1,0.15
+P155,2024-03-16 10:45 PM,0.62,1963-02-13,Male,Other,8.7,30,345,Diabetes,Metformin,1,0.62
+P155,2024-04-15 10:45 PM,0.33,1963-02-13,Male,Other,9.2,28,361,Diabetes,"Metformin, Jardiance",1,0.33
+P155,2024-05-15 10:45 PM,0.03,1963-02-13,Male,Other,9.7,23,390,Diabetes,"Metformin, Jardiance",1,0.03
+P155,2024-06-14 10:45 PM,0.64,1963-02-13,Male,Other,9.8,19,411,Diabetes,"Metformin, Jardiance",1,0.64
+P155,2024-07-14 10:45 PM,0.07,1963-02-13,Male,Other,10.1,18,439,Diabetes,Metformin,1,0.07
+P156,2024-03-16 11:00 PM,0.91,1983-01-02,Male,Black,6.4,60,218,"Diabetes, Hypertension","Metformin, Jardiance",0,0.91
+P156,2024-04-15 11:00 PM,0.71,1983-01-02,Male,Black,6.8,55,239,"Diabetes, Hypertension",Metformin,0,0.71
+P156,2024-05-15 11:00 PM,0.11,1983-01-02,Male,Black,7.2,52,253,"Diabetes, Hypertension","Metformin, Jardiance",0,0.11
+P156,2024-06-14 11:00 PM,0.42,1983-01-02,Male,Black,7.3,49,271,"Diabetes, Hypertension",Metformin,0,0.42
+P156,2024-07-14 11:00 PM,0.06,1983-01-02,Male,Black,7.7,47,286,"Diabetes, Hypertension",Metformin,0,0.06
+P157,2024-03-16 11:15 PM,0.4,1953-06-22,Female,Hispanic,6.6,51,334,Diabetes,"Metformin, Jardiance",1,0.4
+P157,2024-04-15 11:15 PM,0.22,1953-06-22,Female,Hispanic,6.1,55,305,Diabetes,"Metformin, Jardiance",1,0.22
+P157,2024-05-15 11:15 PM,0.41,1953-06-22,Female,Hispanic,6.0,57,295,Diabetes,Metformin,1,0.41
+P157,2024-06-14 11:15 PM,0.82,1953-06-22,Female,Hispanic,5.6,59,267,Diabetes,"Metformin, Jardiance",1,0.82
+P157,2024-07-14 11:15 PM,0.5,1953-06-22,Female,Hispanic,5.1,61,246,Diabetes,"Metformin, Jardiance",1,0.5
+P158,2024-03-16 11:30 PM,0.22,1980-03-03,Male,Hispanic,6.5,90,30,"Hypertension, Heart Failure",,0,0.22
+P158,2024-04-15 11:30 PM,0.52,1980-03-03,Male,Hispanic,6.5,90,27,"Hypertension, Heart Failure",,0,0.52
+P158,2024-05-15 11:30 PM,0.79,1980-03-03,Male,Hispanic,6.4,90,29,"Hypertension, Heart Failure",,0,0.79
+P158,2024-06-14 11:30 PM,0.94,1980-03-03,Male,Hispanic,6.4,90,28,"Hypertension, Heart Failure",,0,0.94
+P158,2024-07-14 11:30 PM,0.6,1980-03-03,Male,Hispanic,6.5,90,30,"Hypertension, Heart Failure",,0,0.6
+P159,2024-03-16 11:45 PM,0.47,1980-11-20,Female,White,8.0,64,471,None,,0,0.47
+P159,2024-04-15 11:45 PM,0.46,1980-11-20,Female,White,7.8,67,460,None,,0,0.46
+P159,2024-05-15 11:45 PM,0.65,1980-11-20,Female,White,7.5,68,450,None,,0,0.65
+P159,2024-06-14 11:45 PM,0.43,1980-11-20,Female,White,7.2,72,442,None,,0,0.43
+P159,2024-07-14 11:45 PM,0.47,1980-11-20,Female,White,6.8,73,430,None,,0,0.47
+P160,2024-03-17 12:00 AM,0.09,1970-10-06,Male,Black,8.5,50,53,None,,0,0.09
+P160,2024-04-16 12:00 AM,0.34,1970-10-06,Male,Black,8.9,45,63,None,,0,0.34
+P160,2024-05-16 12:00 AM,0.25,1970-10-06,Male,Black,9.1,43,73,None,,0,0.25
+P160,2024-06-15 12:00 AM,0.49,1970-10-06,Male,Black,9.2,42,103,None,,0,0.49
+P160,2024-07-15 12:00 AM,0.95,1970-10-06,Male,Black,9.5,39,129,None,,0,0.95
+P161,2024-03-17 12:15 AM,0.67,1979-09-27,Male,Hispanic,5.9,46,149,Diabetes,Metformin,0,0.67
+P161,2024-04-16 12:15 AM,0.04,1979-09-27,Male,Hispanic,5.6,50,120,Diabetes,Metformin,0,0.04
+P161,2024-05-16 12:15 AM,0.79,1979-09-27,Male,Hispanic,5.4,53,93,Diabetes,"Metformin, Jardiance",0,0.79
+P161,2024-06-15 12:15 AM,0.31,1979-09-27,Male,Hispanic,5.3,56,64,Diabetes,Metformin,0,0.31
+P161,2024-07-15 12:15 AM,0.97,1979-09-27,Male,Hispanic,5.0,59,45,Diabetes,Metformin,0,0.97
+P162,2024-03-17 12:30 AM,0.37,1956-03-02,Female,White,5.7,90,466,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.37
+P162,2024-04-16 12:30 AM,0.48,1956-03-02,Female,White,5.5,93,445,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.48
+P162,2024-05-16 12:30 AM,0.96,1956-03-02,Female,White,5.4,97,439,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.96
+P162,2024-06-15 12:30 AM,0.72,1956-03-02,Female,White,5.1,98,412,"Diabetes, Heart Failure",Metformin,1,0.72
+P162,2024-07-15 12:30 AM,0.37,1956-03-02,Female,White,4.9,99,394,"Diabetes, Heart Failure",Metformin,1,0.37
+P163,2024-03-17 12:45 AM,0.42,1947-05-26,Male,Hispanic,5.7,40,163,None,,0,0.42
+P163,2024-04-16 12:45 AM,0.5,1947-05-26,Male,Hispanic,5.5,44,141,None,,0,0.5
+P163,2024-05-16 12:45 AM,0.92,1947-05-26,Male,Hispanic,5.3,48,131,None,,0,0.92
+P163,2024-06-15 12:45 AM,0.67,1947-05-26,Male,Hispanic,4.9,52,117,None,,0,0.67
+P163,2024-07-15 12:45 AM,0.11,1947-05-26,Male,Hispanic,4.6,55,100,None,,0,0.11
+P164,2024-03-17 01:00 AM,0.47,2001-06-09,Male,Other,5.6,47,197,Hypertension,,0,0.47
+P164,2024-04-16 01:00 AM,0.29,2001-06-09,Male,Other,5.4,51,186,Hypertension,,0,0.29
+P164,2024-05-16 01:00 AM,0.94,2001-06-09,Male,Other,4.9,56,171,Hypertension,,0,0.94
+P164,2024-06-15 01:00 AM,0.42,2001-06-09,Male,Other,4.5,60,163,Hypertension,,0,0.42
+P164,2024-07-15 01:00 AM,0.67,2001-06-09,Male,Other,4.5,61,148,Hypertension,,0,0.67
+P165,2024-03-17 01:15 AM,0.46,1954-01-12,Male,Asian,6.5,90,30,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.46
+P165,2024-04-16 01:15 AM,0.96,1954-01-12,Male,Asian,6.5,91,27,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.96
+P165,2024-05-16 01:15 AM,0.92,1954-01-12,Male,Asian,6.5,91,30,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.92
+P165,2024-06-15 01:15 AM,0.66,1954-01-12,Male,Asian,6.5,91,29,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.66
+P165,2024-07-15 01:15 AM,0.85,1954-01-12,Male,Asian,6.4,92,30,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.85
+P166,2024-03-17 01:30 AM,0.98,1982-03-08,Male,Asian,6.5,90,30,"Hypertension, Heart Failure",,0,0.98
+P166,2024-04-16 01:30 AM,0.91,1982-03-08,Male,Asian,6.5,91,25,"Hypertension, Heart Failure",,0,0.91
+P166,2024-05-16 01:30 AM,0.68,1982-03-08,Male,Asian,6.5,91,21,"Hypertension, Heart Failure",,0,0.68
+P166,2024-06-15 01:30 AM,0.66,1982-03-08,Male,Asian,6.5,91,24,"Hypertension, Heart Failure",,0,0.66
+P166,2024-07-15 01:30 AM,0.37,1982-03-08,Male,Asian,6.5,90,21,"Hypertension, Heart Failure",,0,0.37
+P167,2024-03-17 01:45 AM,0.82,1965-10-26,Female,Other,6.5,90,30,Diabetes,"Metformin, Jardiance",1,0.82
+P167,2024-04-16 01:45 AM,0.37,1965-10-26,Female,Other,6.5,90,30,Diabetes,Metformin,1,0.37
+P167,2024-05-16 01:45 AM,0.3,1965-10-26,Female,Other,6.5,90,30,Diabetes,Metformin,1,0.3
+P167,2024-06-15 01:45 AM,0.25,1965-10-26,Female,Other,6.5,91,30,Diabetes,"Metformin, Jardiance",1,0.25
+P167,2024-07-15 01:45 AM,0.92,1965-10-26,Female,Other,6.5,91,30,Diabetes,"Metformin, Jardiance",1,0.92
+P168,2024-03-17 02:00 AM,0.64,1976-02-26,Male,Black,9.1,40,441,Heart Failure,,0,0.64
+P168,2024-04-16 02:00 AM,0.37,1976-02-26,Male,Black,9.3,36,467,Heart Failure,,0,0.37
+P168,2024-05-16 02:00 AM,0.53,1976-02-26,Male,Black,9.6,33,474,Heart Failure,,0,0.53
+P168,2024-06-15 02:00 AM,0.95,1976-02-26,Male,Black,9.8,30,487,Heart Failure,,0,0.95
+P168,2024-07-15 02:00 AM,0.82,1976-02-26,Male,Black,10.3,29,498,Heart Failure,,0,0.82
+P169,2024-03-17 02:15 AM,0.73,2000-08-10,Male,Black,8.4,49,260,Hypertension,,1,0.73
+P169,2024-04-16 02:15 AM,0.21,2000-08-10,Male,Black,8.1,51,231,Hypertension,,1,0.21
+P169,2024-05-16 02:15 AM,0.47,2000-08-10,Male,Black,7.8,53,204,Hypertension,,1,0.47
+P169,2024-06-15 02:15 AM,0.5,2000-08-10,Male,Black,7.4,58,188,Hypertension,,1,0.5
+P169,2024-07-15 02:15 AM,0.31,2000-08-10,Male,Black,7.0,60,183,Hypertension,,1,0.31
+P170,2024-03-17 02:30 AM,0.87,1984-11-14,Male,Hispanic,6.1,51,72,"Hypertension, Heart Failure",,0,0.87
+P170,2024-04-16 02:30 AM,0.67,1984-11-14,Male,Hispanic,5.7,53,49,"Hypertension, Heart Failure",,0,0.67
+P170,2024-05-16 02:30 AM,0.7,1984-11-14,Male,Hispanic,5.5,56,40,"Hypertension, Heart Failure",,0,0.7
+P170,2024-06-15 02:30 AM,0.5,1984-11-14,Male,Hispanic,5.2,61,27,"Hypertension, Heart Failure",,0,0.5
+P170,2024-07-15 02:30 AM,0.46,1984-11-14,Male,Hispanic,4.9,64,13,"Hypertension, Heart Failure",,0,0.46
+P171,2024-03-17 02:45 AM,0.32,1943-04-25,Male,Asian,7.9,59,382,None,,0,0.32
+P171,2024-04-16 02:45 AM,0.95,1943-04-25,Male,Asian,7.5,62,372,None,,0,0.95
+P171,2024-05-16 02:45 AM,0.65,1943-04-25,Male,Asian,7.2,67,344,None,,0,0.65
+P171,2024-06-15 02:45 AM,0.11,1943-04-25,Male,Asian,7.0,70,326,None,,0,0.11
+P171,2024-07-15 02:45 AM,0.59,1943-04-25,Male,Asian,6.5,71,311,None,,0,0.59
+P172,2024-03-17 03:00 AM,0.33,1980-03-28,Male,White,6.8,93,124,Diabetes,Metformin,0,0.33
+P172,2024-04-16 03:00 AM,0.98,1980-03-28,Male,White,6.5,95,111,Diabetes,"Metformin, Jardiance",0,0.98
+P172,2024-05-16 03:00 AM,0.2,1980-03-28,Male,White,6.4,99,90,Diabetes,"Metformin, Jardiance",0,0.2
+P172,2024-06-15 03:00 AM,0.58,1980-03-28,Male,White,5.9,101,75,Diabetes,Metformin,0,0.58
+P172,2024-07-15 03:00 AM,0.57,1980-03-28,Male,White,5.8,105,57,Diabetes,Metformin,0,0.57
+P173,2024-03-17 03:15 AM,0.98,1965-07-02,Male,White,5.6,40,324,"Diabetes, Hypertension",Metformin,1,0.98
+P173,2024-04-16 03:15 AM,0.44,1965-07-02,Male,White,5.3,42,309,"Diabetes, Hypertension","Metformin, Jardiance",1,0.44
+P173,2024-05-16 03:15 AM,0.99,1965-07-02,Male,White,4.9,47,297,"Diabetes, Hypertension","Metformin, Jardiance",1,0.99
+P173,2024-06-15 03:15 AM,0.85,1965-07-02,Male,White,4.8,51,269,"Diabetes, Hypertension","Metformin, Jardiance",1,0.85
+P173,2024-07-15 03:15 AM,0.57,1965-07-02,Male,White,4.5,53,243,"Diabetes, Hypertension",Metformin,1,0.57
+P174,2024-03-17 03:30 AM,1.0,1953-09-08,Male,Black,7.2,78,431,"Diabetes, Hypertension",Metformin,1,1.0
+P174,2024-04-16 03:30 AM,0.55,1953-09-08,Male,Black,7.6,77,452,"Diabetes, Hypertension",Metformin,1,0.55
+P174,2024-05-16 03:30 AM,0.82,1953-09-08,Male,Black,8.1,75,464,"Diabetes, Hypertension","Metformin, Jardiance",1,0.82
+P174,2024-06-15 03:30 AM,0.73,1953-09-08,Male,Black,8.6,72,480,"Diabetes, Hypertension",Metformin,1,0.73
+P174,2024-07-15 03:30 AM,0.24,1953-09-08,Male,Black,8.8,68,487,"Diabetes, Hypertension",Metformin,1,0.24
+P175,2024-03-17 03:45 AM,0.2,1976-06-26,Male,Black,6.5,90,30,Diabetes,"Metformin, Jardiance",0,0.2
+P175,2024-04-16 03:45 AM,0.67,1976-06-26,Male,Black,6.4,91,27,Diabetes,Metformin,0,0.67
+P175,2024-05-16 03:45 AM,0.82,1976-06-26,Male,Black,6.3,91,27,Diabetes,Metformin,0,0.82
+P175,2024-06-15 03:45 AM,0.1,1976-06-26,Male,Black,6.2,91,24,Diabetes,"Metformin, Jardiance",0,0.1
+P175,2024-07-15 03:45 AM,0.52,1976-06-26,Male,Black,6.3,92,26,Diabetes,Metformin,0,0.52
+P176,2024-03-17 04:00 AM,0.24,1942-01-10,Female,Black,6.5,90,30,"Diabetes, Heart Failure",Metformin,1,0.24
+P176,2024-04-16 04:00 AM,0.91,1942-01-10,Female,Black,6.5,90,30,"Diabetes, Heart Failure","Metformin, Jardiance",1,0.91
+P176,2024-05-16 04:00 AM,0.3,1942-01-10,Female,Black,6.5,91,30,"Diabetes, Heart Failure",Metformin,1,0.3
+P176,2024-06-15 04:00 AM,0.24,1942-01-10,Female,Black,6.5,90,30,"Diabetes, Heart Failure",Metformin,1,0.24
+P176,2024-07-15 04:00 AM,0.49,1942-01-10,Female,Black,6.5,90,25,"Diabetes, Heart Failure",Metformin,1,0.49
+P177,2024-03-17 04:15 AM,0.25,1981-10-15,Female,Asian,7.7,65,233,Heart Failure,,1,0.25
+P177,2024-04-16 04:15 AM,0.87,1981-10-15,Female,Asian,7.2,67,205,Heart Failure,,1,0.87
+P177,2024-05-16 04:15 AM,0.65,1981-10-15,Female,Asian,7.0,69,187,Heart Failure,,1,0.65
+P177,2024-06-15 04:15 AM,0.78,1981-10-15,Female,Asian,6.9,71,172,Heart Failure,,1,0.78
+P177,2024-07-15 04:15 AM,0.65,1981-10-15,Female,Asian,6.7,73,150,Heart Failure,,1,0.65
+P178,2024-03-17 04:30 AM,0.66,1995-12-27,Female,Hispanic,8.6,38,301,Heart Failure,,0,0.66
+P178,2024-04-16 04:30 AM,0.77,1995-12-27,Female,Hispanic,8.1,41,282,Heart Failure,,0,0.77
+P178,2024-05-16 04:30 AM,0.24,1995-12-27,Female,Hispanic,7.7,46,264,Heart Failure,,0,0.24
+P178,2024-06-15 04:30 AM,0.88,1995-12-27,Female,Hispanic,7.4,48,249,Heart Failure,,0,0.88
+P178,2024-07-15 04:30 AM,0.78,1995-12-27,Female,Hispanic,7.1,52,225,Heart Failure,,0,0.78
+P179,2024-03-17 04:45 AM,0.68,1992-08-18,Female,White,7.9,40,140,None,,1,0.68
+P179,2024-04-16 04:45 AM,0.89,1992-08-18,Female,White,7.4,43,114,None,,1,0.89
+P179,2024-05-16 04:45 AM,0.68,1992-08-18,Female,White,7.1,45,87,None,,1,0.68
+P179,2024-06-15 04:45 AM,0.46,1992-08-18,Female,White,6.8,49,69,None,,1,0.46
+P179,2024-07-15 04:45 AM,0.73,1992-08-18,Female,White,6.4,52,51,None,,1,0.73
+P180,2024-03-17 05:00 AM,0.48,1954-09-07,Male,Hispanic,5.9,61,195,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.48
+P180,2024-04-16 05:00 AM,0.73,1954-09-07,Male,Hispanic,5.7,64,181,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.73
+P180,2024-05-16 05:00 AM,0.3,1954-09-07,Male,Hispanic,5.5,67,173,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.3
+P180,2024-06-15 05:00 AM,0.2,1954-09-07,Male,Hispanic,5.2,71,158,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.2
+P180,2024-07-15 05:00 AM,0.84,1954-09-07,Male,Hispanic,5.1,74,141,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.84
+P181,2024-03-17 05:15 AM,0.18,1950-01-14,Female,Hispanic,6.4,78,445,Diabetes,"Metformin, Jardiance",1,0.18
+P181,2024-04-16 05:15 AM,0.86,1950-01-14,Female,Hispanic,6.1,83,435,Diabetes,Metformin,1,0.86
+P181,2024-05-16 05:15 AM,0.19,1950-01-14,Female,Hispanic,5.9,87,406,Diabetes,Metformin,1,0.19
+P181,2024-06-15 05:15 AM,0.95,1950-01-14,Female,Hispanic,5.7,91,380,Diabetes,Metformin,1,0.95
+P181,2024-07-15 05:15 AM,0.8,1950-01-14,Female,Hispanic,5.3,96,367,Diabetes,Metformin,1,0.8
+P182,2024-03-17 05:30 AM,0.86,1975-01-13,Female,White,6.5,60,113,"Hypertension, Heart Failure",,0,0.86
+P182,2024-04-16 05:30 AM,0.52,1975-01-13,Female,White,6.2,64,94,"Hypertension, Heart Failure",,0,0.52
+P182,2024-05-16 05:30 AM,0.98,1975-01-13,Female,White,5.9,68,87,"Hypertension, Heart Failure",,0,0.98
+P182,2024-06-15 05:30 AM,0.09,1975-01-13,Female,White,5.5,72,82,"Hypertension, Heart Failure",,0,0.09
+P182,2024-07-15 05:30 AM,0.27,1975-01-13,Female,White,5.1,76,56,"Hypertension, Heart Failure",,0,0.27
+P183,2024-03-17 05:45 AM,0.02,1936-11-05,Female,White,9.9,51,254,None,,0,0.02
+P183,2024-04-16 05:45 AM,0.64,1936-11-05,Female,White,10.1,49,281,None,,0,0.64
+P183,2024-05-16 05:45 AM,0.49,1936-11-05,Female,White,10.4,45,310,None,,0,0.49
+P183,2024-06-15 05:45 AM,0.62,1936-11-05,Female,White,10.9,42,339,None,,0,0.62
+P183,2024-07-15 05:45 AM,0.87,1936-11-05,Female,White,11.2,39,362,None,,0,0.87
+P184,2024-03-17 06:00 AM,0.77,2001-01-17,Female,Other,6.3,38,48,"Hypertension, Heart Failure",,0,0.77
+P184,2024-04-16 06:00 AM,0.23,2001-01-17,Female,Other,6.0,41,19,"Hypertension, Heart Failure",,0,0.23
+P184,2024-05-16 06:00 AM,0.52,2001-01-17,Female,Other,5.6,46,11,"Hypertension, Heart Failure",,0,0.52
+P184,2024-06-15 06:00 AM,0.91,2001-01-17,Female,Other,5.2,48,10,"Hypertension, Heart Failure",,0,0.91
+P184,2024-07-15 06:00 AM,0.57,2001-01-17,Female,Other,5.0,49,10,"Hypertension, Heart Failure",,0,0.57
+P185,2024-03-17 06:15 AM,0.84,2001-03-11,Female,Hispanic,6.5,90,30,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.84
+P185,2024-04-16 06:15 AM,0.53,2001-03-11,Female,Hispanic,6.5,90,30,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.53
+P185,2024-05-16 06:15 AM,0.71,2001-03-11,Female,Hispanic,6.5,91,29,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.71
+P185,2024-06-15 06:15 AM,0.78,2001-03-11,Female,Hispanic,6.5,90,27,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.78
+P185,2024-07-15 06:15 AM,0.61,2001-03-11,Female,Hispanic,6.4,91,27,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.61
+P186,2024-03-17 06:30 AM,0.29,1991-07-14,Male,Black,7.7,43,305,"Diabetes, Hypertension",Metformin,1,0.29
+P186,2024-04-16 06:30 AM,0.05,1991-07-14,Male,Black,7.4,47,296,"Diabetes, Hypertension","Metformin, Jardiance",1,0.05
+P186,2024-05-16 06:30 AM,0.49,1991-07-14,Male,Black,7.1,51,266,"Diabetes, Hypertension","Metformin, Jardiance",1,0.49
+P186,2024-06-15 06:30 AM,0.68,1991-07-14,Male,Black,6.7,55,244,"Diabetes, Hypertension","Metformin, Jardiance",1,0.68
+P186,2024-07-15 06:30 AM,0.37,1991-07-14,Male,Black,6.2,60,239,"Diabetes, Hypertension",Metformin,1,0.37
+P187,2024-03-17 06:45 AM,0.25,2004-11-12,Male,White,6.5,90,30,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.25
+P187,2024-04-16 06:45 AM,0.52,2004-11-12,Male,White,6.4,90,28,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.52
+P187,2024-05-16 06:45 AM,0.21,2004-11-12,Male,White,6.4,91,23,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.21
+P187,2024-06-15 06:45 AM,0.91,2004-11-12,Male,White,6.4,91,20,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.91
+P187,2024-07-15 06:45 AM,0.46,2004-11-12,Male,White,6.3,91,17,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.46
+P188,2024-03-17 07:00 AM,0.21,1951-04-07,Female,Other,6.5,90,30,"Diabetes, Heart Failure",Metformin,1,0.21
+P188,2024-04-16 07:00 AM,0.02,1951-04-07,Female,Other,6.4,91,27,"Diabetes, Heart Failure",Metformin,1,0.02
+P188,2024-05-16 07:00 AM,0.4,1951-04-07,Female,Other,6.4,91,30,"Diabetes, Heart Failure",Metformin,1,0.4
+P188,2024-06-15 07:00 AM,0.58,1951-04-07,Female,Other,6.4,90,27,"Diabetes, Heart Failure",Metformin,1,0.58
+P188,2024-07-15 07:00 AM,0.27,1951-04-07,Female,Other,6.3,91,22,"Diabetes, Heart Failure",Metformin,1,0.27
+P189,2024-03-17 07:15 AM,0.36,1970-08-31,Female,Hispanic,6.5,90,30,Hypertension,,1,0.36
+P189,2024-04-16 07:15 AM,0.67,1970-08-31,Female,Hispanic,6.4,90,27,Hypertension,,1,0.67
+P189,2024-05-16 07:15 AM,0.12,1970-08-31,Female,Hispanic,6.4,90,29,Hypertension,,1,0.12
+P189,2024-06-15 07:15 AM,0.14,1970-08-31,Female,Hispanic,6.5,90,27,Hypertension,,1,0.14
+P189,2024-07-15 07:15 AM,0.79,1970-08-31,Female,Hispanic,6.4,90,26,Hypertension,,1,0.79
+P190,2024-03-17 07:30 AM,0.83,1960-12-24,Female,White,6.9,94,169,Heart Failure,,1,0.83
+P190,2024-04-16 07:30 AM,0.27,1960-12-24,Female,White,6.5,97,140,Heart Failure,,1,0.27
+P190,2024-05-16 07:30 AM,0.8,1960-12-24,Female,White,6.3,102,119,Heart Failure,,1,0.8
+P190,2024-06-15 07:30 AM,0.48,1960-12-24,Female,White,6.0,106,114,Heart Failure,,1,0.48
+P190,2024-07-15 07:30 AM,0.64,1960-12-24,Female,White,5.7,109,109,Heart Failure,,1,0.64
+P191,2024-03-17 07:45 AM,0.38,1934-07-18,Female,Asian,8.1,90,147,"Hypertension, Heart Failure",,0,0.38
+P191,2024-04-16 07:45 AM,0.76,1934-07-18,Female,Asian,7.8,94,140,"Hypertension, Heart Failure",,0,0.76
+P191,2024-05-16 07:45 AM,0.25,1934-07-18,Female,Asian,7.5,98,132,"Hypertension, Heart Failure",,0,0.25
+P191,2024-06-15 07:45 AM,0.85,1934-07-18,Female,Asian,7.3,103,110,"Hypertension, Heart Failure",,0,0.85
+P191,2024-07-15 07:45 AM,0.42,1934-07-18,Female,Asian,7.2,108,84,"Hypertension, Heart Failure",,0,0.42
+P192,2024-03-17 08:00 AM,0.12,1988-11-17,Female,Other,6.4,90,30,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.12
+P192,2024-04-16 08:00 AM,0.36,1988-11-17,Female,Other,6.3,90,28,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.36
+P192,2024-05-16 08:00 AM,0.47,1988-11-17,Female,Other,6.4,90,27,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.47
+P192,2024-06-15 08:00 AM,0.59,1988-11-17,Female,Other,6.4,90,26,"Diabetes, Hypertension, Heart Failure",Metformin,1,0.59
+P192,2024-07-15 08:00 AM,0.15,1988-11-17,Female,Other,6.4,90,27,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",1,0.15
+P193,2024-03-17 08:15 AM,0.33,1982-05-25,Female,Black,6.2,90,30,Heart Failure,,0,0.33
+P193,2024-04-16 08:15 AM,0.16,1982-05-25,Female,Black,6.1,90,30,Heart Failure,,0,0.16
+P193,2024-05-16 08:15 AM,0.13,1982-05-25,Female,Black,6.0,90,30,Heart Failure,,0,0.13
+P193,2024-06-15 08:15 AM,0.03,1982-05-25,Female,Black,6.0,90,27,Heart Failure,,0,0.03
+P193,2024-07-15 08:15 AM,0.35,1982-05-25,Female,Black,6.0,91,29,Heart Failure,,0,0.35
+P194,2024-03-17 08:30 AM,0.09,1936-07-06,Female,Black,9.8,55,481,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.09
+P194,2024-04-16 08:30 AM,0.64,1936-07-06,Female,Black,10.1,52,489,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.64
+P194,2024-05-16 08:30 AM,0.4,1936-07-06,Female,Black,10.6,48,499,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.4
+P194,2024-06-15 08:30 AM,0.58,1936-07-06,Female,Black,10.9,45,516,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.58
+P194,2024-07-15 08:30 AM,0.86,1936-07-06,Female,Black,11.3,41,542,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.86
+P195,2024-03-17 08:45 AM,0.1,1973-12-28,Female,Other,7.2,75,155,"Diabetes, Heart Failure","Metformin, Jardiance",0,0.1
+P195,2024-04-16 08:45 AM,0.22,1973-12-28,Female,Other,6.7,79,128,"Diabetes, Heart Failure",Metformin,0,0.22
+P195,2024-05-16 08:45 AM,0.78,1973-12-28,Female,Other,6.5,82,120,"Diabetes, Heart Failure","Metformin, Jardiance",0,0.78
+P195,2024-06-15 08:45 AM,0.75,1973-12-28,Female,Other,6.0,87,92,"Diabetes, Heart Failure","Metformin, Jardiance",0,0.75
+P195,2024-07-15 08:45 AM,0.52,1973-12-28,Female,Other,5.7,91,79,"Diabetes, Heart Failure",Metformin,0,0.52
+P196,2024-03-17 09:00 AM,0.19,1947-08-29,Male,Hispanic,5.8,36,359,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.19
+P196,2024-04-16 09:00 AM,0.95,1947-08-29,Male,Hispanic,5.6,38,348,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.95
+P196,2024-05-16 09:00 AM,0.72,1947-08-29,Male,Hispanic,5.1,41,323,"Diabetes, Hypertension, Heart Failure",Metformin,0,0.72
+P196,2024-06-15 09:00 AM,0.7,1947-08-29,Male,Hispanic,4.8,45,306,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.7
+P196,2024-07-15 09:00 AM,0.82,1947-08-29,Male,Hispanic,4.6,48,295,"Diabetes, Hypertension, Heart Failure","Metformin, Jardiance",0,0.82
+P197,2024-03-17 09:15 AM,0.64,1936-01-19,Female,Asian,6.5,90,30,Heart Failure,,0,0.64
+P197,2024-04-16 09:15 AM,0.04,1936-01-19,Female,Asian,6.5,90,25,Heart Failure,,0,0.04
+P197,2024-05-16 09:15 AM,0.17,1936-01-19,Female,Asian,6.5,90,25,Heart Failure,,0,0.17
+P197,2024-06-15 09:15 AM,0.84,1936-01-19,Female,Asian,6.4,90,22,Heart Failure,,0,0.84
+P197,2024-07-15 09:15 AM,0.6,1936-01-19,Female,Asian,6.3,90,20,Heart Failure,,0,0.6
+P198,2024-03-17 09:30 AM,0.71,1970-11-18,Female,Asian,8.4,75,116,None,,1,0.71
+P198,2024-04-16 09:30 AM,0.3,1970-11-18,Female,Asian,8.7,74,138,None,,1,0.3
+P198,2024-05-16 09:30 AM,0.48,1970-11-18,Female,Asian,9.0,70,159,None,,1,0.48
+P198,2024-06-15 09:30 AM,0.33,1970-11-18,Female,Asian,9.2,67,180,None,,1,0.33
+P198,2024-07-15 09:30 AM,0.59,1970-11-18,Female,Asian,9.6,66,186,None,,1,0.59
+P199,2024-03-17 09:45 AM,0.59,1947-02-11,Male,Other,9.5,70,427,"Hypertension, Heart Failure",,0,0.59
+P199,2024-04-16 09:45 AM,0.23,1947-02-11,Male,Other,9.1,73,418,"Hypertension, Heart Failure",,0,0.23
+P199,2024-05-16 09:45 AM,0.7,1947-02-11,Male,Other,8.6,77,393,"Hypertension, Heart Failure",,0,0.7
+P199,2024-06-15 09:45 AM,0.14,1947-02-11,Male,Other,8.2,80,375,"Hypertension, Heart Failure",,0,0.14
+P199,2024-07-15 09:45 AM,0.38,1947-02-11,Male,Other,7.7,82,360,"Hypertension, Heart Failure",,0,0.38
+P200,2024-03-17 10:00 AM,0.13,1975-08-16,Female,Other,7.5,43,77,Diabetes,"Metformin, Jardiance",0,0.13
+P200,2024-04-16 10:00 AM,0.22,1975-08-16,Female,Other,7.8,41,102,Diabetes,"Metformin, Jardiance",0,0.22
+P200,2024-05-16 10:00 AM,0.5,1975-08-16,Female,Other,8.2,37,121,Diabetes,Metformin,0,0.5
+P200,2024-06-15 10:00 AM,0.89,1975-08-16,Female,Other,8.5,33,149,Diabetes,"Metformin, Jardiance",0,0.89
+P200,2024-07-15 10:00 AM,0.07,1975-08-16,Female,Other,8.7,28,161,Diabetes,Metformin,0,0.07

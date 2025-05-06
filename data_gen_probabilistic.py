@@ -32,7 +32,6 @@ for i in range(1, patients + 1):
     uacr = np.random.randint(30, 500)
 
     actual_outcome = np.random.choice([0, 1])
-    predicted_outcome = np.random.choice([0, 1])
 
     for j in range(rows_per_patient):
         timestamp = base_time + timedelta(days=j*30, minutes=15*i)  # roughly monthly intervals
@@ -52,10 +51,8 @@ for i in range(1, patients + 1):
             uacr = np.clip(uacr + np.random.uniform(-5, 5), 10, 30)
 
         # Match predicted_probability with predicted_outcome
-        if predicted_outcome == 0:
-            predicted_probability = np.round(np.random.uniform(0.0, 0.49), 2)
-        else:
-            predicted_probability = np.round(np.random.uniform(0.5, 1.0), 2)
+        predicted_probability = np.round(np.random.uniform(0.0, 1.0), 2)
+        predicted_outcome = predicted_probability
 
         # Determine medications based on comorbidity
         if "Diabetes" in comorbidity:
@@ -83,6 +80,6 @@ for i in range(1, patients + 1):
 df = pd.DataFrame(data)
 
 # Save to CSV
-df.to_csv("diabetes_prediction_trajectory_data.csv", index=False)
+df.to_csv("diabetes_prediction_probabilistic_data.csv", index=False)
 
 print("CSV file 'diabetes_prediction_trajectory_data.csv' created successfully!")
