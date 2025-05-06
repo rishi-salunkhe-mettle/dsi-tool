@@ -198,7 +198,11 @@ def post_metrics_endpoint():
         return jsonify({'error': 'No file uploaded'}), 400
     file = request.files['file']
     data = pd.read_csv(file)
+    
+    data = data.sort_values('Prediction_Timestamp').drop_duplicates('Patient_ID', keep='last')
+    
     data = data.drop(columns=['Patient_ID', 'Prediction_Timestamp'])
+
     y_true = data.iloc[:, -2].values
     y_pred = data.iloc[:, -1].values
     metrics = calculate_metrics(y_true, y_pred)
