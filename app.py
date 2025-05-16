@@ -27,7 +27,7 @@ def insert_into_postgres(data):
         conn = psycopg2.connect(**DB_CONFIG)
         cursor = conn.cursor()
         insert_query = """
-            INSERT INTO predictions (patient_id, prediction_timestamp, predicted_prob, predicted_outcome)
+            INSERT INTO predictions (patient_id, prediction_timestamp, predicted_prob, predicted_outcome,tenyear_score)
             VALUES %s
         """
         execute_values(cursor, insert_query, data)
@@ -252,9 +252,13 @@ def upload_prediction_data():
         return jsonify({'error': 'File must be a CSV'}), 400
 
     df = pd.read_csv(file)
-    required_cols = ['Patient_ID', 'Prediction_Timestamp', 'Predicted_Probability', 'Predicted_Outcome']
-    if not all(col in df.columns for col in required_cols):
-        return jsonify({'error': 'CSV missing required columns'}), 400
+    required_cols = ['Patient_ID', 'Prediction_Timestamp', 'Predicted_Probability', 'Predicted_Outcome','TenYearScore']
+    # if not all(col in df.columns for col in required_cols):
+    #     return jsonify({'error': 'CSV missing required columns'}), 400
+
+    for col in required_cols:
+        if col not in df.columns:
+            df[col] = None
 
     rows = df[required_cols].values.tolist()
 
@@ -276,7 +280,7 @@ def get_prediction_by_patient():
         conn = psycopg2.connect(**DB_CONFIG)
         cursor = conn.cursor()
         query = """
-            SELECT patient_id, prediction_timestamp, predicted_prob, predicted_outcome
+            SELECT patient_id, prediction_timestamp, predicted_prob, predicted_outcome,tenyear_score
             FROM predictions
             WHERE patient_id = %s
         """
@@ -292,7 +296,8 @@ def get_prediction_by_patient():
             'patient_id': row[0],
             'prediction_timestamp': row[1].isoformat() if hasattr(row[1], 'isoformat') else str(row[1]),
             'predicted_prob': float(row[2]),
-            'predicted_outcome': int(row[3])
+            'predicted_outcome': int(row[3]),
+            'tenyear_score': float(row[4]) if row[4] not in [None, ''] else None
         } for row in rows]
 
         return jsonify(result), 200
