@@ -240,7 +240,7 @@ def post_resource(resource):
         print(response.text)
 
 if __name__ == "__main__":
-    bundle = convert_csv_to_fhir_bundle("diabetes_prediction_trajectory_data 3.csv")
+    bundle = convert_csv_to_fhir_bundle("ASCVD_prediction_categorical_data.csv")
     
     bundle_json = bundle.json(indent =2)
 

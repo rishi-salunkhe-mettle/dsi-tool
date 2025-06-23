@@ -1,0 +1,1001 @@
+Patient_ID,Prediction_Timestamp,Predicted_Probability,Birthdate,Age,Gender,Race,Total_Cholesterol,HDL_Cholesterol,Systolic_Blood_Pressure,Diabetes_Status,Current_Smoking_Status,Hypertension_Treatment_Status,TenYearScore,LifetimeRisk,LowestTenYear,LowestLifetime,PotentialRisk,ASCVD_Actual_Outcome,Predicted_Outcome
+P201,2024-03-15 08:15 AM,0.0,1976-04-25,47,Male,African American,212.7,40.5,122,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,46,0.0,5,0.0,1,0.0
+P201,2024-04-14 08:15 AM,0.0,1976-04-25,47,Male,African American,214.9,40.6,122,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,46,0.0,5,0.0,1,0.0
+P201,2024-05-14 08:15 AM,0.0,1976-04-25,47,Male,African American,216.2,40.2,121,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,46,0.0,5,0.0,1,0.0
+P201,2024-06-13 08:15 AM,0.0,1976-04-25,47,Male,African American,222.0,40.2,120,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,46,0.0,5,0.0,1,0.0
+P201,2024-07-13 08:15 AM,0.0,1976-04-25,47,Male,African American,226.8,40.0,122,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,46,0.0,5,0.0,1,0.0
+P202,2024-03-15 08:30 AM,1.0,1980-02-03,44,Female,White,201.2,40.0,119,Diabetic,Non-Smoker,Not on Treatment,100.0,39,0.0,8,100.0,1,1.0
+P202,2024-04-14 08:30 AM,1.0,1980-02-03,44,Female,White,203.5,40.0,120,Diabetic,Non-Smoker,Not on Treatment,100.0,39,0.0,8,100.0,1,1.0
+P202,2024-05-14 08:30 AM,1.0,1980-02-03,44,Female,White,208.1,40.7,121,Diabetic,Non-Smoker,Not on Treatment,100.0,39,0.0,8,100.0,1,1.0
+P202,2024-06-13 08:30 AM,1.0,1980-02-03,44,Female,White,210.9,40.0,122,Diabetic,Non-Smoker,Not on Treatment,100.0,39,0.0,8,100.0,1,1.0
+P202,2024-07-13 08:30 AM,1.0,1980-02-03,44,Female,White,215.3,40.0,122,Diabetic,Non-Smoker,Not on Treatment,100.0,39,0.0,8,100.0,1,1.0
+P203,2024-03-15 08:45 AM,1.0,1975-02-20,49,Male,White,231.4,61.7,174,Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P203,2024-04-14 08:45 AM,1.0,1975-02-20,49,Male,White,227.5,62.5,173,Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P203,2024-05-14 08:45 AM,1.0,1975-02-20,49,Male,White,224.9,63.5,174,Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P203,2024-06-13 08:45 AM,1.0,1975-02-20,49,Male,White,223.9,63.9,173,Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P203,2024-07-13 08:45 AM,1.0,1975-02-20,49,Male,White,220.8,66.4,170,Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P204,2024-03-15 09:00 AM,1.0,1978-03-10,46,Male,White,244.8,49.4,98,Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P204,2024-04-14 09:00 AM,1.0,1978-03-10,46,Male,White,240.5,50.2,95,Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P204,2024-05-14 09:00 AM,1.0,1978-03-10,46,Male,White,236.8,52.0,96,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P204,2024-06-13 09:00 AM,1.0,1978-03-10,46,Male,White,232.6,54.1,97,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P204,2024-07-13 09:00 AM,1.0,1978-03-10,46,Male,White,227.1,54.6,94,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P205,2024-03-15 09:15 AM,0.0,1976-10-27,47,Female,African American,204.8,67.7,144,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P205,2024-04-14 09:15 AM,0.0,1976-10-27,47,Female,African American,209.4,65.6,144,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P205,2024-05-14 09:15 AM,0.0,1976-10-27,47,Female,African American,210.0,64.6,144,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P205,2024-06-13 09:15 AM,0.0,1976-10-27,47,Female,African American,214.0,63.0,145,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P205,2024-07-13 09:15 AM,0.0,1976-10-27,47,Female,African American,216.9,62.3,146,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P206,2024-03-15 09:30 AM,0.0,1966-02-04,58,Female,African American,203.3,79.1,171,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P206,2024-04-14 09:30 AM,0.0,1966-02-04,58,Female,African American,202.9,79.7,171,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P206,2024-05-14 09:30 AM,0.0,1966-02-04,58,Female,African American,201.7,79.1,170,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P206,2024-06-13 09:30 AM,0.0,1966-02-04,58,Female,African American,202.6,79.4,171,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P206,2024-07-13 09:30 AM,0.0,1966-02-04,58,Female,African American,203.7,79.6,171,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P207,2024-03-15 09:45 AM,1.0,1970-10-09,53,Female,White,236.0,40.9,94,Diabetic,Non-Smoker,On Treatment,100.0,50,0.0,8,100.0,0,1.0
+P207,2024-04-14 09:45 AM,1.0,1970-10-09,53,Female,White,238.1,40.0,95,Diabetic,Non-Smoker,On Treatment,100.0,50,0.0,8,100.0,0,1.0
+P207,2024-05-14 09:45 AM,1.0,1970-10-09,53,Female,White,242.3,40.2,95,Diabetic,Non-Smoker,On Treatment,100.0,50,0.0,8,100.0,0,1.0
+P207,2024-06-13 09:45 AM,1.0,1970-10-09,53,Female,White,246.4,40.6,97,Diabetic,Non-Smoker,On Treatment,100.0,50,0.0,8,100.0,0,1.0
+P207,2024-07-13 09:45 AM,1.0,1970-10-09,53,Female,White,251.3,40.5,97,Diabetic,Non-Smoker,On Treatment,100.0,50,0.0,8,100.0,0,1.0
+P208,2024-03-15 10:00 AM,1.0,1977-06-03,46,Male,White,262.9,42.6,101,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P208,2024-04-14 10:00 AM,1.0,1977-06-03,46,Male,White,262.9,43.0,100,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P208,2024-05-14 10:00 AM,1.0,1977-06-03,46,Male,White,264.5,43.4,101,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P208,2024-06-13 10:00 AM,1.0,1977-06-03,46,Male,White,264.0,42.7,101,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P208,2024-07-13 10:00 AM,1.0,1977-06-03,46,Male,White,265.5,43.6,101,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P209,2024-03-15 10:15 AM,0.0,1975-05-25,48,Male,African American,270.9,78.8,106,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P209,2024-04-14 10:15 AM,0.0,1975-05-25,48,Male,African American,276.4,76.7,108,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P209,2024-05-14 10:15 AM,0.0,1975-05-25,48,Male,African American,278.9,75.0,108,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P209,2024-06-13 10:15 AM,0.0,1975-05-25,48,Male,African American,279.3,73.1,107,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P209,2024-07-13 10:15 AM,0.0,1975-05-25,48,Male,African American,279.0,71.7,109,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P210,2024-03-15 10:30 AM,0.0,1982-08-21,41,Male,African American,194.6,68.1,166,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,0,0.0
+P210,2024-04-14 10:30 AM,0.0,1982-08-21,41,Male,African American,193.2,68.8,165,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,0,0.0
+P210,2024-05-14 10:30 AM,0.0,1982-08-21,41,Male,African American,193.5,68.6,166,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,0,0.0
+P210,2024-06-13 10:30 AM,0.0,1982-08-21,41,Male,African American,191.7,67.8,167,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,0,0.0
+P210,2024-07-13 10:30 AM,0.0,1982-08-21,41,Male,African American,192.0,66.9,168,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,0,0.0
+P211,2024-03-15 10:45 AM,0.556,1970-09-26,53,Female,White,228.6,72.9,136,Diabetic,Non-Smoker,Not on Treatment,55.6,39,0.0,8,55.6,0,0.556
+P211,2024-04-14 10:45 AM,0.56,1970-09-26,53,Female,White,228.5,72.8,136,Diabetic,Non-Smoker,Not on Treatment,56.0,39,0.0,8,56.0,0,0.56
+P211,2024-05-14 10:45 AM,0.551,1970-09-26,53,Female,White,229.0,73.1,137,Diabetic,Non-Smoker,Not on Treatment,55.1,39,0.0,8,55.1,0,0.551
+P211,2024-06-13 10:45 AM,0.5429999999999999,1970-09-26,53,Female,White,230.5,73.7,136,Diabetic,Non-Smoker,Not on Treatment,54.3,39,0.0,8,54.3,0,0.5429999999999999
+P211,2024-07-13 10:45 AM,0.5429999999999999,1970-09-26,53,Female,White,229.6,73.4,137,Diabetic,Non-Smoker,Not on Treatment,54.3,39,0.0,8,54.3,0,0.5429999999999999
+P212,2024-03-15 11:00 AM,0.0,1980-03-12,44,Male,African American,187.6,44.3,120,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P212,2024-04-14 11:00 AM,0.0,1980-03-12,44,Male,African American,184.0,45.6,119,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P212,2024-05-14 11:00 AM,0.0,1980-03-12,44,Male,African American,182.4,46.0,117,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P212,2024-06-13 11:00 AM,0.0,1980-03-12,44,Male,African American,178.0,47.9,116,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P212,2024-07-13 11:00 AM,0.0,1980-03-12,44,Male,African American,176.3,49.3,114,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P213,2024-03-15 11:15 AM,0.006999999999999999,1977-03-09,47,Female,White,228.5,95.5,143,Non-Diabetic,Non-Smoker,On Treatment,0.7,39,0.0,8,0.7,0,0.006999999999999999
+P213,2024-04-14 11:15 AM,0.006,1977-03-09,47,Female,White,226.8,96.3,143,Non-Diabetic,Non-Smoker,On Treatment,0.6,39,0.0,8,0.6,0,0.006
+P213,2024-05-14 11:15 AM,0.006,1977-03-09,47,Female,White,225.7,95.8,142,Non-Diabetic,Non-Smoker,On Treatment,0.6,39,0.0,8,0.6,0,0.006
+P213,2024-06-13 11:15 AM,0.006999999999999999,1977-03-09,47,Female,White,226.9,95.8,143,Non-Diabetic,Non-Smoker,On Treatment,0.7,39,0.0,8,0.7,0,0.006999999999999999
+P213,2024-07-13 11:15 AM,0.006999999999999999,1977-03-09,47,Female,White,228.3,95.9,142,Non-Diabetic,Non-Smoker,On Treatment,0.7,39,0.0,8,0.7,0,0.006999999999999999
+P214,2024-03-15 11:30 AM,1.0,1971-07-01,52,Male,White,235.0,99.5,167,Non-Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,1,1.0
+P214,2024-04-14 11:30 AM,1.0,1971-07-01,52,Male,White,236.3,99.5,167,Non-Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,1,1.0
+P214,2024-05-14 11:30 AM,1.0,1971-07-01,52,Male,White,237.4,98.9,166,Non-Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,1,1.0
+P214,2024-06-13 11:30 AM,1.0,1971-07-01,52,Male,White,238.3,99.2,165,Non-Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,1,1.0
+P214,2024-07-13 11:30 AM,1.0,1971-07-01,52,Male,White,239.7,99.6,165,Non-Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,1,1.0
+P215,2024-03-15 11:45 AM,1.0,1982-10-22,41,Male,White,187.1,58.2,101,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P215,2024-04-14 11:45 AM,1.0,1982-10-22,41,Male,White,186.4,58.2,102,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P215,2024-05-14 11:45 AM,1.0,1982-10-22,41,Male,White,187.6,59.2,101,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P215,2024-06-13 11:45 AM,1.0,1982-10-22,41,Male,White,189.1,59.1,101,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P215,2024-07-13 11:45 AM,1.0,1982-10-22,41,Male,White,188.8,59.1,101,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P216,2024-03-15 12:00 PM,1.0,1973-04-16,50,Male,White,272.8,41.7,164,Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P216,2024-04-14 12:00 PM,1.0,1973-04-16,50,Male,White,275.9,40.6,164,Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P216,2024-05-14 12:00 PM,1.0,1973-04-16,50,Male,White,280.0,40.0,165,Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P216,2024-06-13 12:00 PM,1.0,1973-04-16,50,Male,White,280.0,40.0,168,Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P216,2024-07-13 12:00 PM,1.0,1973-04-16,50,Male,White,279.2,40.0,168,Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P217,2024-03-15 12:15 PM,0.41700000000000004,1973-11-12,50,Female,White,268.6,85.0,123,Non-Diabetic,Non-Smoker,Not on Treatment,41.7,39,0.0,8,41.7,0,0.41700000000000004
+P217,2024-04-14 12:15 PM,0.625,1973-11-12,50,Female,White,275.1,83.3,124,Non-Diabetic,Non-Smoker,Not on Treatment,62.5,39,0.0,8,62.5,0,0.625
+P217,2024-05-14 12:15 PM,0.73,1973-11-12,50,Female,White,278.0,82.4,125,Non-Diabetic,Non-Smoker,Not on Treatment,73.0,39,0.0,8,73.0,0,0.73
+P217,2024-06-13 12:15 PM,0.797,1973-11-12,50,Female,White,278.3,81.3,125,Non-Diabetic,Non-Smoker,Not on Treatment,79.7,39,0.0,8,79.7,0,0.797
+P217,2024-07-13 12:15 PM,0.813,1973-11-12,50,Female,White,277.6,80.8,126,Non-Diabetic,Non-Smoker,Not on Treatment,81.3,39,0.0,8,81.3,0,0.813
+P218,2024-03-15 12:30 PM,1.0,1974-05-11,49,Male,White,173.3,74.0,135,Non-Diabetic,Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P218,2024-04-14 12:30 PM,1.0,1974-05-11,49,Male,White,174.0,74.5,134,Non-Diabetic,Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P218,2024-05-14 12:30 PM,1.0,1974-05-11,49,Male,White,174.6,74.8,135,Non-Diabetic,Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P218,2024-06-13 12:30 PM,1.0,1974-05-11,49,Male,White,174.8,75.0,136,Non-Diabetic,Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P218,2024-07-13 12:30 PM,1.0,1974-05-11,49,Male,White,173.8,74.9,137,Non-Diabetic,Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P219,2024-03-15 12:45 PM,0.0,1969-01-11,55,Female,African American,177.9,81.3,176,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P219,2024-04-14 12:45 PM,0.0,1969-01-11,55,Female,African American,179.6,82.1,177,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P219,2024-05-14 12:45 PM,0.0,1969-01-11,55,Female,African American,180.3,81.3,176,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P219,2024-06-13 12:45 PM,0.0,1969-01-11,55,Female,African American,181.5,80.6,176,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P219,2024-07-13 12:45 PM,0.0,1969-01-11,55,Female,African American,182.0,81.3,176,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P220,2024-03-15 01:00 PM,0.0,1971-08-28,52,Male,African American,273.4,81.0,138,Non-Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,1,0.0
+P220,2024-04-14 01:00 PM,0.0,1971-08-28,52,Male,African American,267.1,82.0,138,Non-Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,1,0.0
+P220,2024-05-14 01:00 PM,0.0,1971-08-28,52,Male,African American,263.6,83.1,135,Non-Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,1,0.0
+P220,2024-06-13 01:00 PM,0.0,1971-08-28,52,Male,African American,257.5,83.6,134,Non-Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,1,0.0
+P220,2024-07-13 01:00 PM,0.0,1971-08-28,52,Male,African American,254.9,85.8,134,Non-Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,1,0.0
+P221,2024-03-15 01:15 PM,0.0,1975-06-02,48,Female,African American,224.4,52.5,116,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P221,2024-04-14 01:15 PM,0.0,1975-06-02,48,Female,African American,224.0,51.8,116,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P221,2024-05-14 01:15 PM,0.0,1975-06-02,48,Female,African American,224.7,51.8,116,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P221,2024-06-13 01:15 PM,0.0,1975-06-02,48,Female,African American,225.5,51.8,115,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P221,2024-07-13 01:15 PM,0.0,1975-06-02,48,Female,African American,224.6,52.5,115,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P222,2024-03-15 01:30 PM,0.0,1970-09-26,53,Female,African American,211.7,92.8,100,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P222,2024-04-14 01:30 PM,0.0,1970-09-26,53,Female,African American,211.2,93.5,100,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P222,2024-05-14 01:30 PM,0.0,1970-09-26,53,Female,African American,211.2,93.9,99,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P222,2024-06-13 01:30 PM,0.0,1970-09-26,53,Female,African American,210.8,93.3,100,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P222,2024-07-13 01:30 PM,0.0,1970-09-26,53,Female,African American,209.1,93.2,99,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P223,2024-03-15 01:45 PM,0.0,1969-10-01,54,Female,African American,199.0,86.7,103,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P223,2024-04-14 01:45 PM,0.0,1969-10-01,54,Female,African American,202.9,85.4,103,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P223,2024-05-14 01:45 PM,0.0,1969-10-01,54,Female,African American,204.6,84.5,104,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P223,2024-06-13 01:45 PM,0.0,1969-10-01,54,Female,African American,207.1,84.1,106,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P223,2024-07-13 01:45 PM,0.0,1969-10-01,54,Female,African American,210.2,82.8,108,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P224,2024-03-15 02:00 PM,1.0,1969-02-05,55,Female,White,185.6,46.5,125,Diabetic,Smoker,Not on Treatment,100.0,50,0.0,8,100.0,1,1.0
+P224,2024-04-14 02:00 PM,1.0,1969-02-05,55,Female,White,184.5,45.8,124,Diabetic,Smoker,Not on Treatment,100.0,50,0.0,8,100.0,1,1.0
+P224,2024-05-14 02:00 PM,1.0,1969-02-05,55,Female,White,185.0,45.7,125,Diabetic,Smoker,Not on Treatment,100.0,50,0.0,8,100.0,1,1.0
+P224,2024-06-13 02:00 PM,1.0,1969-02-05,55,Female,White,183.5,45.3,126,Diabetic,Smoker,Not on Treatment,100.0,50,0.0,8,100.0,1,1.0
+P224,2024-07-13 02:00 PM,1.0,1969-02-05,55,Female,White,184.6,45.7,127,Diabetic,Smoker,Not on Treatment,100.0,50,0.0,8,100.0,1,1.0
+P225,2024-03-15 02:15 PM,0.39299999999999996,1970-10-24,53,Female,White,266.4,88.0,111,Non-Diabetic,Non-Smoker,On Treatment,39.3,50,0.0,8,39.3,0,0.39299999999999996
+P225,2024-04-14 02:15 PM,0.261,1970-10-24,53,Female,White,260.5,89.3,110,Non-Diabetic,Non-Smoker,On Treatment,26.1,50,0.0,8,26.1,0,0.261
+P225,2024-05-14 02:15 PM,0.18600000000000003,1970-10-24,53,Female,White,258.6,91.2,109,Non-Diabetic,Non-Smoker,On Treatment,18.6,50,0.0,8,18.6,0,0.18600000000000003
+P225,2024-06-13 02:15 PM,0.16899999999999998,1970-10-24,53,Female,White,256.0,91.0,109,Non-Diabetic,Non-Smoker,On Treatment,16.9,50,0.0,8,16.9,0,0.16899999999999998
+P225,2024-07-13 02:15 PM,0.10300000000000001,1970-10-24,53,Female,White,251.5,93.0,107,Non-Diabetic,Non-Smoker,On Treatment,10.3,50,0.0,8,10.3,0,0.10300000000000001
+P226,2024-03-15 02:30 PM,0.0,1975-11-16,48,Female,African American,261.7,64.6,155,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P226,2024-04-14 02:30 PM,0.0,1975-11-16,48,Female,African American,260.6,65.1,156,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P226,2024-05-14 02:30 PM,0.0,1975-11-16,48,Female,African American,260.3,65.8,157,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P226,2024-06-13 02:30 PM,0.0,1975-11-16,48,Female,African American,259.1,65.4,156,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P226,2024-07-13 02:30 PM,0.0,1975-11-16,48,Female,African American,258.9,65.1,157,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P227,2024-03-15 02:45 PM,0.0,1970-08-05,53,Male,African American,228.9,65.8,127,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,0,0.0
+P227,2024-04-14 02:45 PM,0.0,1970-08-05,53,Male,African American,223.8,68.1,126,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,0,0.0
+P227,2024-05-14 02:45 PM,0.0,1970-08-05,53,Male,African American,224.2,70.8,126,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,0,0.0
+P227,2024-06-13 02:45 PM,0.0,1970-08-05,53,Male,African American,222.7,70.9,125,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,0,0.0
+P227,2024-07-13 02:45 PM,0.0,1970-08-05,53,Male,African American,220.0,71.7,125,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,0,0.0
+P228,2024-03-15 03:00 PM,0.001,1979-04-09,44,Female,White,186.0,90.1,177,Non-Diabetic,Smoker,On Treatment,0.1,50,0.0,8,0.1,1,0.001
+P228,2024-04-14 03:00 PM,0.0,1979-04-09,44,Female,White,183.8,91.6,175,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P228,2024-05-14 03:00 PM,0.0,1979-04-09,44,Female,White,183.3,92.3,174,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P228,2024-06-13 03:00 PM,0.0,1979-04-09,44,Female,White,178.5,93.4,174,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P228,2024-07-13 03:00 PM,0.0,1979-04-09,44,Female,White,172.9,94.4,172,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P229,2024-03-15 03:15 PM,0.027000000000000003,1973-08-23,50,Female,White,222.7,87.9,157,Diabetic,Non-Smoker,Not on Treatment,2.7,39,0.0,8,2.7,0,0.027000000000000003
+P229,2024-04-14 03:15 PM,0.024,1973-08-23,50,Female,White,221.8,88.2,157,Diabetic,Non-Smoker,Not on Treatment,2.4,39,0.0,8,2.4,0,0.024
+P229,2024-05-14 03:15 PM,0.021,1973-08-23,50,Female,White,221.7,89.0,156,Diabetic,Non-Smoker,Not on Treatment,2.1,39,0.0,8,2.1,0,0.021
+P229,2024-06-13 03:15 PM,0.022000000000000002,1973-08-23,50,Female,White,221.1,88.5,156,Diabetic,Non-Smoker,Not on Treatment,2.2,39,0.0,8,2.2,0,0.022000000000000002
+P229,2024-07-13 03:15 PM,0.026000000000000002,1973-08-23,50,Female,White,221.5,87.6,155,Diabetic,Non-Smoker,Not on Treatment,2.6,39,0.0,8,2.6,0,0.026000000000000002
+P230,2024-03-15 03:30 PM,1.0,1973-06-04,50,Male,White,220.1,87.9,138,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,46,100.0,5,0.0,0,1.0
+P230,2024-04-14 03:30 PM,1.0,1973-06-04,50,Male,White,217.0,90.3,136,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,46,100.0,5,0.0,0,1.0
+P230,2024-05-14 03:30 PM,1.0,1973-06-04,50,Male,White,214.7,90.8,134,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,46,100.0,5,0.0,0,1.0
+P230,2024-06-13 03:30 PM,1.0,1973-06-04,50,Male,White,211.6,92.0,133,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,46,100.0,5,0.0,0,1.0
+P230,2024-07-13 03:30 PM,1.0,1973-06-04,50,Male,White,206.7,94.5,130,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,46,100.0,5,0.0,0,1.0
+P231,2024-03-15 03:45 PM,0.0,1978-12-14,45,Female,African American,184.3,96.4,100,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P231,2024-04-14 03:45 PM,0.0,1978-12-14,45,Female,African American,190.2,94.2,102,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P231,2024-05-14 03:45 PM,0.0,1978-12-14,45,Female,African American,195.2,93.3,102,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P231,2024-06-13 03:45 PM,0.0,1978-12-14,45,Female,African American,199.9,91.8,105,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P231,2024-07-13 03:45 PM,0.0,1978-12-14,45,Female,African American,204.1,89.5,105,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P232,2024-03-15 04:00 PM,1.0,1972-06-08,51,Male,White,159.0,90.3,171,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P232,2024-04-14 04:00 PM,1.0,1972-06-08,51,Male,White,161.8,88.6,172,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P232,2024-05-14 04:00 PM,1.0,1972-06-08,51,Male,White,162.6,86.7,175,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P232,2024-06-13 04:00 PM,1.0,1972-06-08,51,Male,White,165.3,86.4,176,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P232,2024-07-13 04:00 PM,1.0,1972-06-08,51,Male,White,168.0,85.8,178,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P233,2024-03-15 04:15 PM,1.0,1980-05-17,43,Male,White,161.7,97.6,153,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,46,100.0,5,0.0,0,1.0
+P233,2024-04-14 04:15 PM,1.0,1980-05-17,43,Male,White,162.0,96.8,153,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,46,100.0,5,0.0,0,1.0
+P233,2024-05-14 04:15 PM,1.0,1980-05-17,43,Male,White,163.0,96.8,152,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,46,100.0,5,0.0,0,1.0
+P233,2024-06-13 04:15 PM,1.0,1980-05-17,43,Male,White,162.9,96.9,153,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,46,100.0,5,0.0,0,1.0
+P233,2024-07-13 04:15 PM,1.0,1980-05-17,43,Male,White,161.1,96.2,154,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,46,100.0,5,0.0,0,1.0
+P234,2024-03-15 04:30 PM,0.0,1971-11-09,52,Female,African American,209.7,69.3,163,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P234,2024-04-14 04:30 PM,0.0,1971-11-09,52,Female,African American,209.6,69.2,164,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P234,2024-05-14 04:30 PM,0.0,1971-11-09,52,Female,African American,210.5,68.7,163,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P234,2024-06-13 04:30 PM,0.0,1971-11-09,52,Female,African American,211.5,68.0,162,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P234,2024-07-13 04:30 PM,0.0,1971-11-09,52,Female,African American,210.8,68.3,162,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P235,2024-03-15 04:45 PM,0.0,1969-02-16,55,Female,African American,248.6,89.6,176,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P235,2024-04-14 04:45 PM,0.0,1969-02-16,55,Female,African American,247.9,90.1,175,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P235,2024-05-14 04:45 PM,0.0,1969-02-16,55,Female,African American,245.6,90.7,174,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P235,2024-06-13 04:45 PM,0.0,1969-02-16,55,Female,African American,242.7,91.9,174,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P235,2024-07-13 04:45 PM,0.0,1969-02-16,55,Female,African American,237.3,92.9,174,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,0,0.0
+P236,2024-03-15 05:00 PM,0.0,1973-05-29,50,Male,African American,277.4,58.9,125,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P236,2024-04-14 05:00 PM,0.0,1973-05-29,50,Male,African American,279.2,57.0,125,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P236,2024-05-14 05:00 PM,0.0,1973-05-29,50,Male,African American,280.0,56.4,125,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P236,2024-06-13 05:00 PM,0.0,1973-05-29,50,Male,African American,280.0,54.6,127,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P236,2024-07-13 05:00 PM,0.0,1973-05-29,50,Male,African American,279.7,54.1,130,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P237,2024-03-15 05:15 PM,0.009000000000000001,1973-05-05,50,Female,White,188.6,80.7,116,Diabetic,Non-Smoker,Not on Treatment,0.9,39,0.0,8,0.9,1,0.009000000000000001
+P237,2024-04-14 05:15 PM,0.008,1973-05-05,50,Female,White,188.3,81.2,116,Diabetic,Non-Smoker,Not on Treatment,0.8,39,0.0,8,0.8,1,0.008
+P237,2024-05-14 05:15 PM,0.006,1973-05-05,50,Female,White,187.6,82.3,115,Diabetic,Non-Smoker,Not on Treatment,0.6,39,0.0,8,0.6,1,0.006
+P237,2024-06-13 05:15 PM,0.003,1973-05-05,50,Female,White,182.1,83.9,113,Diabetic,Non-Smoker,Not on Treatment,0.3,39,0.0,8,0.3,1,0.003
+P237,2024-07-13 05:15 PM,0.002,1973-05-05,50,Female,White,179.0,84.8,112,Diabetic,Non-Smoker,Not on Treatment,0.2,39,0.0,8,0.2,1,0.002
+P238,2024-03-15 05:30 PM,0.0,1970-07-07,53,Male,African American,223.6,61.1,102,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P238,2024-04-14 05:30 PM,0.0,1970-07-07,53,Male,African American,224.2,60.3,101,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P238,2024-05-14 05:30 PM,0.0,1970-07-07,53,Male,African American,223.6,60.4,101,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P238,2024-06-13 05:30 PM,0.0,1970-07-07,53,Male,African American,223.6,61.0,101,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P238,2024-07-13 05:30 PM,0.0,1970-07-07,53,Male,African American,225.6,60.1,100,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P239,2024-03-15 05:45 PM,0.0,1972-07-17,51,Female,African American,258.7,59.6,147,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P239,2024-04-14 05:45 PM,0.0,1972-07-17,51,Female,African American,254.1,61.2,146,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P239,2024-05-14 05:45 PM,0.0,1972-07-17,51,Female,African American,250.3,62.6,147,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P239,2024-06-13 05:45 PM,0.0,1972-07-17,51,Female,African American,248.1,62.5,146,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P239,2024-07-13 05:45 PM,0.0,1972-07-17,51,Female,African American,243.7,63.7,144,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P240,2024-03-15 06:00 PM,0.011000000000000001,1972-09-09,51,Female,White,169.9,72.6,145,Non-Diabetic,Smoker,On Treatment,1.1,50,0.0,8,1.1,0,0.011000000000000001
+P240,2024-04-14 06:00 PM,0.023,1972-09-09,51,Female,White,175.9,71.2,146,Non-Diabetic,Smoker,On Treatment,2.3,50,0.0,8,2.3,0,0.023
+P240,2024-05-14 06:00 PM,0.054000000000000006,1972-09-09,51,Female,White,181.1,68.7,149,Non-Diabetic,Smoker,On Treatment,5.4,50,0.0,8,5.4,0,0.054000000000000006
+P240,2024-06-13 06:00 PM,0.075,1972-09-09,51,Female,White,184.7,68.3,148,Non-Diabetic,Smoker,On Treatment,7.5,50,0.0,8,7.5,0,0.075
+P240,2024-07-13 06:00 PM,0.09,1972-09-09,51,Female,White,188.1,68.6,148,Non-Diabetic,Smoker,On Treatment,9.0,50,0.0,8,9.0,0,0.09
+P241,2024-03-15 06:15 PM,1.0,1967-12-15,56,Male,White,254.1,56.1,163,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P241,2024-04-14 06:15 PM,1.0,1967-12-15,56,Male,White,257.5,56.1,166,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P241,2024-05-14 06:15 PM,1.0,1967-12-15,56,Male,White,259.7,54.3,168,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P241,2024-06-13 06:15 PM,1.0,1967-12-15,56,Male,White,262.0,54.4,170,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P241,2024-07-13 06:15 PM,1.0,1967-12-15,56,Male,White,265.3,52.9,171,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P242,2024-03-15 06:30 PM,0.036000000000000004,1972-07-29,51,Female,White,243.3,95.1,116,Diabetic,Smoker,Not on Treatment,3.6,50,0.0,8,3.6,0,0.036000000000000004
+P242,2024-04-14 06:30 PM,0.025,1972-07-29,51,Female,White,241.5,97.0,115,Diabetic,Smoker,Not on Treatment,2.5,50,0.0,8,2.5,0,0.025
+P242,2024-05-14 06:30 PM,0.017,1972-07-29,51,Female,White,238.4,98.7,114,Diabetic,Smoker,Not on Treatment,1.7,50,0.0,8,1.7,0,0.017
+P242,2024-06-13 06:30 PM,0.011000000000000001,1972-07-29,51,Female,White,233.7,100.0,115,Diabetic,Smoker,Not on Treatment,1.1,50,0.0,8,1.1,0,0.011000000000000001
+P242,2024-07-13 06:30 PM,0.009000000000000001,1972-07-29,51,Female,White,230.0,100.0,112,Diabetic,Smoker,Not on Treatment,0.9,50,0.0,8,0.9,0,0.009000000000000001
+P243,2024-03-15 06:45 PM,0.0,1980-11-19,43,Female,African American,245.0,84.5,91,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P243,2024-04-14 06:45 PM,0.0,1980-11-19,43,Female,African American,244.1,84.4,92,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P243,2024-05-14 06:45 PM,0.0,1980-11-19,43,Female,African American,243.6,84.6,92,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P243,2024-06-13 06:45 PM,0.0,1980-11-19,43,Female,African American,241.9,85.3,92,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P243,2024-07-13 06:45 PM,0.0,1980-11-19,43,Female,African American,242.4,85.5,92,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P244,2024-03-15 07:00 PM,0.006,1982-08-28,41,Female,White,196.7,77.7,161,Non-Diabetic,Non-Smoker,On Treatment,0.6,39,0.0,8,0.6,0,0.006
+P244,2024-04-14 07:00 PM,0.006,1982-08-28,41,Female,White,196.1,77.8,161,Non-Diabetic,Non-Smoker,On Treatment,0.6,39,0.0,8,0.6,0,0.006
+P244,2024-05-14 07:00 PM,0.006,1982-08-28,41,Female,White,197.0,77.6,160,Non-Diabetic,Non-Smoker,On Treatment,0.6,39,0.0,8,0.6,0,0.006
+P244,2024-06-13 07:00 PM,0.006999999999999999,1982-08-28,41,Female,White,195.8,76.8,160,Non-Diabetic,Non-Smoker,On Treatment,0.7,39,0.0,8,0.7,0,0.006999999999999999
+P244,2024-07-13 07:00 PM,0.008,1982-08-28,41,Female,White,196.7,76.5,161,Non-Diabetic,Non-Smoker,On Treatment,0.8,39,0.0,8,0.8,0,0.008
+P245,2024-03-15 07:15 PM,1.0,1972-10-08,51,Male,White,166.2,46.3,164,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P245,2024-04-14 07:15 PM,1.0,1972-10-08,51,Male,White,165.1,45.6,163,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P245,2024-05-14 07:15 PM,1.0,1972-10-08,51,Male,White,166.9,45.6,164,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P245,2024-06-13 07:15 PM,1.0,1972-10-08,51,Male,White,166.9,45.1,164,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P245,2024-07-13 07:15 PM,1.0,1972-10-08,51,Male,White,168.9,46.0,165,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P246,2024-03-15 07:30 PM,0.19,1976-08-09,47,Female,White,210.1,68.7,163,Non-Diabetic,Smoker,On Treatment,19.0,50,0.0,8,19.0,1,0.19
+P246,2024-04-14 07:30 PM,0.15,1976-08-09,47,Female,White,210.3,70.1,164,Non-Diabetic,Smoker,On Treatment,15.0,50,0.0,8,15.0,1,0.15
+P246,2024-05-14 07:30 PM,0.079,1976-08-09,47,Female,White,207.7,72.8,164,Non-Diabetic,Smoker,On Treatment,7.9,50,0.0,8,7.9,1,0.079
+P246,2024-06-13 07:30 PM,0.054000000000000006,1976-08-09,47,Female,White,204.7,73.9,162,Non-Diabetic,Smoker,On Treatment,5.4,50,0.0,8,5.4,1,0.054000000000000006
+P246,2024-07-13 07:30 PM,0.032,1976-08-09,47,Female,White,198.6,74.5,161,Non-Diabetic,Smoker,On Treatment,3.2,50,0.0,8,3.2,1,0.032
+P247,2024-03-15 07:45 PM,0.887,1966-09-26,57,Female,White,199.8,62.3,116,Non-Diabetic,Smoker,Not on Treatment,88.7,39,0.0,8,88.7,0,0.887
+P247,2024-04-14 07:45 PM,0.8340000000000001,1966-09-26,57,Female,White,196.3,62.1,117,Non-Diabetic,Smoker,Not on Treatment,83.4,39,0.0,8,83.4,0,0.8340000000000001
+P247,2024-05-14 07:45 PM,0.623,1966-09-26,57,Female,White,193.1,63.9,116,Non-Diabetic,Smoker,Not on Treatment,62.3,39,0.0,8,62.3,0,0.623
+P247,2024-06-13 07:45 PM,0.409,1966-09-26,57,Female,White,187.7,65.0,117,Non-Diabetic,Smoker,Not on Treatment,40.9,39,0.0,8,40.9,0,0.409
+P247,2024-07-13 07:45 PM,0.22699999999999998,1966-09-26,57,Female,White,184.1,67.2,117,Non-Diabetic,Smoker,Not on Treatment,22.7,39,0.0,8,22.7,0,0.22699999999999998
+P248,2024-03-15 08:00 PM,0.0,1968-09-09,55,Female,African American,231.9,60.5,128,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P248,2024-04-14 08:00 PM,0.0,1968-09-09,55,Female,African American,229.7,62.2,129,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P248,2024-05-14 08:00 PM,0.0,1968-09-09,55,Female,African American,225.9,64.3,129,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P248,2024-06-13 08:00 PM,0.0,1968-09-09,55,Female,African American,225.6,64.7,128,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P248,2024-07-13 08:00 PM,0.0,1968-09-09,55,Female,African American,224.0,65.5,126,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P249,2024-03-15 08:15 PM,0.0,1965-04-22,58,Female,African American,228.9,42.6,98,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P249,2024-04-14 08:15 PM,0.0,1965-04-22,58,Female,African American,225.0,43.5,97,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P249,2024-05-14 08:15 PM,0.0,1965-04-22,58,Female,African American,223.0,44.6,95,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P249,2024-06-13 08:15 PM,0.0,1965-04-22,58,Female,African American,217.5,46.2,95,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P249,2024-07-13 08:15 PM,0.0,1965-04-22,58,Female,African American,215.1,47.7,95,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P250,2024-03-15 08:30 PM,0.0,1968-05-29,55,Female,African American,180.3,46.8,102,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P250,2024-04-14 08:30 PM,0.0,1968-05-29,55,Female,African American,176.9,48.0,100,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P250,2024-05-14 08:30 PM,0.0,1968-05-29,55,Female,African American,171.9,49.9,100,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P250,2024-06-13 08:30 PM,0.0,1968-05-29,55,Female,African American,168.1,51.6,97,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P250,2024-07-13 08:30 PM,0.0,1968-05-29,55,Female,African American,165.3,52.9,96,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P251,2024-03-15 08:45 PM,0.0,1969-09-23,54,Male,African American,224.7,91.8,138,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,0,0.0
+P251,2024-04-14 08:45 PM,0.0,1969-09-23,54,Male,African American,222.5,93.3,139,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,0,0.0
+P251,2024-05-14 08:45 PM,0.0,1969-09-23,54,Male,African American,222.0,95.1,137,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,0,0.0
+P251,2024-06-13 08:45 PM,0.0,1969-09-23,54,Male,African American,218.2,97.0,135,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,0,0.0
+P251,2024-07-13 08:45 PM,0.0,1969-09-23,54,Male,African American,215.5,98.3,133,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,0,0.0
+P252,2024-03-15 09:00 PM,1.0,1983-07-17,40,Male,White,153.0,45.7,168,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P252,2024-04-14 09:00 PM,1.0,1983-07-17,40,Male,White,151.2,48.4,167,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P252,2024-05-14 09:00 PM,1.0,1983-07-17,40,Male,White,150.0,48.6,167,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P252,2024-06-13 09:00 PM,1.0,1983-07-17,40,Male,White,150.0,49.5,166,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P252,2024-07-13 09:00 PM,1.0,1983-07-17,40,Male,White,150.0,50.8,166,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P253,2024-03-15 09:15 PM,0.0,1982-09-13,41,Male,African American,195.5,89.7,150,Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P253,2024-04-14 09:15 PM,0.0,1982-09-13,41,Male,African American,196.3,89.8,150,Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P253,2024-05-14 09:15 PM,0.0,1982-09-13,41,Male,African American,196.0,89.8,151,Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P253,2024-06-13 09:15 PM,0.0,1982-09-13,41,Male,African American,194.8,90.3,151,Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P253,2024-07-13 09:15 PM,0.0,1982-09-13,41,Male,African American,196.7,89.8,152,Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P254,2024-03-15 09:30 PM,0.0,1975-12-18,48,Male,African American,168.3,41.2,110,Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P254,2024-04-14 09:30 PM,0.0,1975-12-18,48,Male,African American,171.0,40.0,111,Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P254,2024-05-14 09:30 PM,0.0,1975-12-18,48,Male,African American,174.4,40.7,112,Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P254,2024-06-13 09:30 PM,0.0,1975-12-18,48,Male,African American,177.1,40.0,112,Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P254,2024-07-13 09:30 PM,0.0,1975-12-18,48,Male,African American,178.1,40.5,113,Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P255,2024-03-15 09:45 PM,0.025,1983-09-18,40,Female,White,209.6,73.7,162,Diabetic,Smoker,Not on Treatment,2.5,50,0.0,8,2.5,1,0.025
+P255,2024-04-14 09:45 PM,0.016,1983-09-18,40,Female,White,206.9,75.2,161,Diabetic,Smoker,Not on Treatment,1.6,50,0.0,8,1.6,1,0.016
+P255,2024-05-14 09:45 PM,0.009000000000000001,1983-09-18,40,Female,White,202.4,76.9,160,Diabetic,Smoker,Not on Treatment,0.9,50,0.0,8,0.9,1,0.009000000000000001
+P255,2024-06-13 09:45 PM,0.006,1983-09-18,40,Female,White,200.1,78.5,161,Diabetic,Smoker,Not on Treatment,0.6,50,0.0,8,0.6,1,0.006
+P255,2024-07-13 09:45 PM,0.003,1983-09-18,40,Female,White,193.4,79.4,160,Diabetic,Smoker,Not on Treatment,0.3,50,0.0,8,0.3,1,0.003
+P256,2024-03-15 10:00 PM,1.0,1965-12-11,58,Male,White,194.2,85.8,108,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,36,100.0,5,0.0,1,1.0
+P256,2024-04-14 10:00 PM,1.0,1965-12-11,58,Male,White,193.8,86.4,109,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,36,100.0,5,0.0,1,1.0
+P256,2024-05-14 10:00 PM,1.0,1965-12-11,58,Male,White,194.7,85.9,109,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,36,100.0,5,0.0,1,1.0
+P256,2024-06-13 10:00 PM,1.0,1965-12-11,58,Male,White,196.4,86.5,108,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,36,100.0,5,0.0,1,1.0
+P256,2024-07-13 10:00 PM,1.0,1965-12-11,58,Male,White,196.2,86.6,108,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,36,100.0,5,0.0,1,1.0
+P257,2024-03-15 10:15 PM,0.0,1977-04-16,46,Male,African American,250.4,41.0,123,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P257,2024-04-14 10:15 PM,0.0,1977-04-16,46,Male,African American,250.7,40.2,125,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P257,2024-05-14 10:15 PM,0.0,1977-04-16,46,Male,African American,254.0,40.0,127,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P257,2024-06-13 10:15 PM,0.0,1977-04-16,46,Male,African American,255.8,40.7,127,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P257,2024-07-13 10:15 PM,0.0,1977-04-16,46,Male,African American,256.1,40.2,128,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P258,2024-03-15 10:30 PM,0.008,1974-02-26,50,Female,White,160.0,69.3,105,Diabetic,Non-Smoker,Not on Treatment,0.8,39,0.0,8,0.8,0,0.008
+P258,2024-04-14 10:30 PM,0.01,1974-02-26,50,Female,White,161.8,68.7,105,Diabetic,Non-Smoker,Not on Treatment,1.0,39,0.0,8,1.0,0,0.01
+P258,2024-05-14 10:30 PM,0.009000000000000001,1974-02-26,50,Female,White,161.9,69.4,104,Diabetic,Non-Smoker,Not on Treatment,0.9,39,0.0,8,0.9,0,0.009000000000000001
+P258,2024-06-13 10:30 PM,0.009000000000000001,1974-02-26,50,Female,White,160.0,68.4,104,Diabetic,Non-Smoker,Not on Treatment,0.9,39,0.0,8,0.9,0,0.009000000000000001
+P258,2024-07-13 10:30 PM,0.008,1974-02-26,50,Female,White,159.4,69.1,104,Diabetic,Non-Smoker,Not on Treatment,0.8,39,0.0,8,0.8,0,0.008
+P259,2024-03-15 10:45 PM,0.0,1967-01-12,57,Female,African American,261.6,41.1,130,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P259,2024-04-14 10:45 PM,0.0,1967-01-12,57,Female,African American,260.4,41.5,131,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P259,2024-05-14 10:45 PM,0.0,1967-01-12,57,Female,African American,261.4,41.2,131,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P259,2024-06-13 10:45 PM,0.0,1967-01-12,57,Female,African American,259.9,41.4,131,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P259,2024-07-13 10:45 PM,0.0,1967-01-12,57,Female,African American,261.3,40.6,131,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P260,2024-03-15 11:00 PM,0.0,1974-02-06,50,Female,African American,254.0,83.3,119,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P260,2024-04-14 11:00 PM,0.0,1974-02-06,50,Female,African American,255.9,82.9,120,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P260,2024-05-14 11:00 PM,0.0,1974-02-06,50,Female,African American,255.8,82.9,121,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P260,2024-06-13 11:00 PM,0.0,1974-02-06,50,Female,African American,256.3,82.6,120,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P260,2024-07-13 11:00 PM,0.0,1974-02-06,50,Female,African American,254.5,81.8,120,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P261,2024-03-15 11:15 PM,1.0,1966-03-19,58,Male,White,211.9,87.2,153,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,1,1.0
+P261,2024-04-14 11:15 PM,1.0,1966-03-19,58,Male,White,216.9,85.5,153,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,1,1.0
+P261,2024-05-14 11:15 PM,1.0,1966-03-19,58,Male,White,220.9,84.2,155,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,1,1.0
+P261,2024-06-13 11:15 PM,1.0,1966-03-19,58,Male,White,223.0,81.5,156,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,1,1.0
+P261,2024-07-13 11:15 PM,1.0,1966-03-19,58,Male,White,223.6,79.0,157,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,1,1.0
+P262,2024-03-15 11:30 PM,0.0,1980-02-25,44,Female,African American,181.2,53.7,173,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P262,2024-04-14 11:30 PM,0.0,1980-02-25,44,Female,African American,178.3,53.9,170,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P262,2024-05-14 11:30 PM,0.0,1980-02-25,44,Female,African American,173.1,55.9,169,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P262,2024-06-13 11:30 PM,0.0,1980-02-25,44,Female,African American,170.3,56.2,167,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P262,2024-07-13 11:30 PM,0.0,1980-02-25,44,Female,African American,164.9,57.7,166,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P263,2024-03-15 11:45 PM,0.997,1973-05-18,50,Female,White,203.6,54.0,159,Non-Diabetic,Smoker,Not on Treatment,99.7,39,0.0,8,99.7,0,0.997
+P263,2024-04-14 11:45 PM,0.9590000000000001,1973-05-18,50,Female,White,199.0,55.3,157,Non-Diabetic,Smoker,Not on Treatment,95.9,39,0.0,8,95.9,0,0.9590000000000001
+P263,2024-05-14 11:45 PM,0.9009999999999999,1973-05-18,50,Female,White,196.1,55.8,157,Non-Diabetic,Smoker,Not on Treatment,90.1,39,0.0,8,90.1,0,0.9009999999999999
+P263,2024-06-13 11:45 PM,0.802,1973-05-18,50,Female,White,194.8,56.9,157,Non-Diabetic,Smoker,Not on Treatment,80.2,39,0.0,8,80.2,0,0.802
+P263,2024-07-13 11:45 PM,0.642,1973-05-18,50,Female,White,191.7,57.9,158,Non-Diabetic,Smoker,Not on Treatment,64.2,39,0.0,8,64.2,0,0.642
+P264,2024-03-16 12:00 AM,1.0,1980-01-20,44,Male,White,263.5,77.0,130,Non-Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P264,2024-04-15 12:00 AM,1.0,1980-01-20,44,Male,White,258.9,79.1,130,Non-Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P264,2024-05-15 12:00 AM,1.0,1980-01-20,44,Male,White,258.9,81.7,129,Non-Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P264,2024-06-14 12:00 AM,1.0,1980-01-20,44,Male,White,253.1,82.7,128,Non-Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P264,2024-07-14 12:00 AM,1.0,1980-01-20,44,Male,White,249.7,84.4,129,Non-Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P265,2024-03-16 12:15 AM,1.0,1966-10-26,57,Male,White,215.7,84.4,146,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,1,1.0
+P265,2024-04-15 12:15 AM,1.0,1966-10-26,57,Male,White,215.6,84.8,144,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,1,1.0
+P265,2024-05-15 12:15 AM,1.0,1966-10-26,57,Male,White,212.4,85.3,142,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,1,1.0
+P265,2024-06-14 12:15 AM,1.0,1966-10-26,57,Male,White,207.5,87.1,142,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,1,1.0
+P265,2024-07-14 12:15 AM,1.0,1966-10-26,57,Male,White,204.2,87.8,139,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,1,1.0
+P266,2024-03-16 12:30 AM,0.0,1972-11-27,51,Male,African American,220.7,99.0,157,Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P266,2024-04-15 12:30 AM,0.0,1972-11-27,51,Male,African American,221.0,99.1,158,Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P266,2024-05-15 12:30 AM,0.0,1972-11-27,51,Male,African American,219.2,99.2,158,Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P266,2024-06-14 12:30 AM,0.0,1972-11-27,51,Male,African American,218.0,99.1,159,Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P266,2024-07-14 12:30 AM,0.0,1972-11-27,51,Male,African American,219.2,99.4,159,Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P267,2024-03-16 12:45 AM,0.005,1978-10-26,45,Female,White,204.4,86.3,154,Diabetic,Non-Smoker,On Treatment,0.5,50,0.0,8,0.5,1,0.005
+P267,2024-04-15 12:45 AM,0.004,1978-10-26,45,Female,White,201.7,86.1,154,Diabetic,Non-Smoker,On Treatment,0.4,50,0.0,8,0.4,1,0.004
+P267,2024-05-15 12:45 AM,0.002,1978-10-26,45,Female,White,199.6,88.6,152,Diabetic,Non-Smoker,On Treatment,0.2,50,0.0,8,0.2,1,0.002
+P267,2024-06-14 12:45 AM,0.002,1978-10-26,45,Female,White,196.0,88.8,153,Diabetic,Non-Smoker,On Treatment,0.2,50,0.0,8,0.2,1,0.002
+P267,2024-07-14 12:45 AM,0.001,1978-10-26,45,Female,White,194.9,90.1,154,Diabetic,Non-Smoker,On Treatment,0.1,50,0.0,8,0.1,1,0.001
+P268,2024-03-16 01:00 AM,0.0,1977-03-11,47,Female,African American,167.0,90.8,164,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,0,0.0
+P268,2024-04-15 01:00 AM,0.0,1977-03-11,47,Female,African American,166.9,90.3,164,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,0,0.0
+P268,2024-05-15 01:00 AM,0.0,1977-03-11,47,Female,African American,167.2,89.8,163,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,0,0.0
+P268,2024-06-14 01:00 AM,0.0,1977-03-11,47,Female,African American,167.0,90.5,163,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,0,0.0
+P268,2024-07-14 01:00 AM,0.0,1977-03-11,47,Female,African American,167.8,89.8,163,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,0,0.0
+P269,2024-03-16 01:15 AM,0.0,1977-06-08,46,Female,African American,266.0,82.5,174,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P269,2024-04-15 01:15 AM,0.0,1977-06-08,46,Female,African American,266.1,82.2,171,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P269,2024-05-15 01:15 AM,0.0,1977-06-08,46,Female,African American,260.6,82.7,171,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P269,2024-06-14 01:15 AM,0.0,1977-06-08,46,Female,African American,255.9,84.5,169,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P269,2024-07-14 01:15 AM,0.0,1977-06-08,46,Female,African American,255.5,85.9,167,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P270,2024-03-16 01:30 AM,1.0,1983-04-19,40,Male,White,273.9,79.6,90,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P270,2024-04-15 01:30 AM,1.0,1983-04-19,40,Male,White,270.9,82.4,90,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P270,2024-05-15 01:30 AM,1.0,1983-04-19,40,Male,White,269.3,83.1,90,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P270,2024-06-14 01:30 AM,1.0,1983-04-19,40,Male,White,265.6,85.0,90,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P270,2024-07-14 01:30 AM,1.0,1983-04-19,40,Male,White,264.6,85.7,91,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P271,2024-03-16 01:45 AM,0.0,1968-06-16,55,Female,African American,191.4,72.0,117,Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P271,2024-04-15 01:45 AM,0.0,1968-06-16,55,Female,African American,187.6,73.1,116,Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P271,2024-05-15 01:45 AM,0.0,1968-06-16,55,Female,African American,183.8,73.8,117,Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P271,2024-06-14 01:45 AM,0.0,1968-06-16,55,Female,African American,182.1,75.6,118,Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P271,2024-07-14 01:45 AM,0.0,1968-06-16,55,Female,African American,178.8,75.4,117,Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P272,2024-03-16 02:00 AM,0.0,1968-02-20,56,Male,African American,261.9,96.3,147,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P272,2024-04-15 02:00 AM,0.0,1968-02-20,56,Male,African American,263.4,96.9,147,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P272,2024-05-15 02:00 AM,0.0,1968-02-20,56,Male,African American,265.0,96.2,146,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P272,2024-06-14 02:00 AM,0.0,1968-02-20,56,Male,African American,265.8,95.6,146,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P272,2024-07-14 02:00 AM,0.0,1968-02-20,56,Male,African American,264.5,96.6,147,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P273,2024-03-16 02:15 AM,0.0,1978-01-11,46,Female,African American,206.0,72.2,128,Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,0,0.0
+P273,2024-04-15 02:15 AM,0.0,1978-01-11,46,Female,African American,206.6,72.8,129,Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,0,0.0
+P273,2024-05-15 02:15 AM,0.0,1978-01-11,46,Female,African American,208.1,72.5,129,Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,0,0.0
+P273,2024-06-14 02:15 AM,0.0,1978-01-11,46,Female,African American,209.1,72.4,128,Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,0,0.0
+P273,2024-07-14 02:15 AM,0.0,1978-01-11,46,Female,African American,209.7,71.8,129,Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,0,0.0
+P274,2024-03-16 02:30 AM,0.29600000000000004,1970-11-02,53,Female,White,240.3,81.5,128,Non-Diabetic,Non-Smoker,On Treatment,29.6,50,0.0,8,29.6,1,0.29600000000000004
+P274,2024-04-15 02:30 AM,0.27399999999999997,1970-11-02,53,Female,White,241.3,82.4,129,Non-Diabetic,Non-Smoker,On Treatment,27.4,50,0.0,8,27.4,1,0.27399999999999997
+P274,2024-05-15 02:30 AM,0.28,1970-11-02,53,Female,White,240.6,82.0,130,Non-Diabetic,Non-Smoker,On Treatment,28.0,50,0.0,8,28.0,1,0.28
+P274,2024-06-14 02:30 AM,0.281,1970-11-02,53,Female,White,241.0,82.1,129,Non-Diabetic,Non-Smoker,On Treatment,28.1,50,0.0,8,28.1,1,0.281
+P274,2024-07-14 02:30 AM,0.33,1970-11-02,53,Female,White,242.1,81.3,130,Non-Diabetic,Non-Smoker,On Treatment,33.0,50,0.0,8,33.0,1,0.33
+P275,2024-03-16 02:45 AM,0.5529999999999999,1966-01-16,58,Female,White,257.7,87.5,158,Non-Diabetic,Non-Smoker,Not on Treatment,55.3,39,0.0,8,55.3,1,0.5529999999999999
+P275,2024-04-15 02:45 AM,0.664,1966-01-16,58,Female,White,258.7,85.9,157,Non-Diabetic,Non-Smoker,Not on Treatment,66.4,39,0.0,8,66.4,1,0.664
+P275,2024-05-15 02:45 AM,0.7240000000000001,1966-01-16,58,Female,White,258.2,84.7,158,Non-Diabetic,Non-Smoker,Not on Treatment,72.4,39,0.0,8,72.4,1,0.7240000000000001
+P275,2024-06-14 02:45 AM,0.9209999999999999,1966-01-16,58,Female,White,262.8,82.0,159,Non-Diabetic,Non-Smoker,Not on Treatment,92.1,39,0.0,8,92.1,1,0.9209999999999999
+P275,2024-07-14 02:45 AM,0.968,1966-01-16,58,Female,White,266.8,81.4,158,Non-Diabetic,Non-Smoker,Not on Treatment,96.8,39,0.0,8,96.8,1,0.968
+P276,2024-03-16 03:00 AM,0.0,1966-08-10,57,Female,African American,245.7,57.1,141,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P276,2024-04-15 03:00 AM,0.0,1966-08-10,57,Female,African American,247.3,57.6,141,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P276,2024-05-15 03:00 AM,0.0,1966-08-10,57,Female,African American,245.9,57.0,142,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P276,2024-06-14 03:00 AM,0.0,1966-08-10,57,Female,African American,245.1,57.0,142,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P276,2024-07-14 03:00 AM,0.0,1966-08-10,57,Female,African American,243.9,57.5,142,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P277,2024-03-16 03:15 AM,0.0,1980-06-05,43,Female,African American,194.3,83.1,139,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P277,2024-04-15 03:15 AM,0.0,1980-06-05,43,Female,African American,193.2,84.7,136,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P277,2024-05-15 03:15 AM,0.0,1980-06-05,43,Female,African American,191.5,86.7,136,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P277,2024-06-14 03:15 AM,0.0,1980-06-05,43,Female,African American,187.0,87.5,134,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P277,2024-07-14 03:15 AM,0.0,1980-06-05,43,Female,African American,183.7,89.0,134,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P278,2024-03-16 03:30 AM,0.0,1966-11-19,57,Female,African American,182.6,54.2,146,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P278,2024-04-15 03:30 AM,0.0,1966-11-19,57,Female,African American,187.4,52.6,147,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P278,2024-05-15 03:30 AM,0.0,1966-11-19,57,Female,African American,190.2,50.3,149,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P278,2024-06-14 03:30 AM,0.0,1966-11-19,57,Female,African American,192.9,49.2,151,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P278,2024-07-14 03:30 AM,0.0,1966-11-19,57,Female,African American,196.0,47.4,153,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P279,2024-03-16 03:45 AM,0.0,1968-08-11,55,Male,African American,235.2,95.7,177,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P279,2024-04-15 03:45 AM,0.0,1968-08-11,55,Male,African American,240.2,93.3,178,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P279,2024-05-15 03:45 AM,0.0,1968-08-11,55,Male,African American,243.4,91.2,178,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P279,2024-06-14 03:45 AM,0.0,1968-08-11,55,Male,African American,246.8,89.8,179,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P279,2024-07-14 03:45 AM,0.0,1968-08-11,55,Male,African American,250.9,87.9,179,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P280,2024-03-16 04:00 AM,0.0,1980-07-03,43,Male,African American,255.6,49.4,118,Diabetic,Non-Smoker,Not on Treatment,0.0,69,0.0,5,0.0,1,0.0
+P280,2024-04-15 04:00 AM,0.0,1980-07-03,43,Male,African American,256.3,48.7,118,Diabetic,Non-Smoker,Not on Treatment,0.0,69,0.0,5,0.0,1,0.0
+P280,2024-05-15 04:00 AM,0.0,1980-07-03,43,Male,African American,254.5,47.7,119,Diabetic,Non-Smoker,Not on Treatment,0.0,69,0.0,5,0.0,1,0.0
+P280,2024-06-14 04:00 AM,0.0,1980-07-03,43,Male,African American,253.9,47.7,119,Diabetic,Non-Smoker,Not on Treatment,0.0,69,0.0,5,0.0,1,0.0
+P280,2024-07-14 04:00 AM,0.0,1980-07-03,43,Male,African American,253.1,48.5,118,Diabetic,Non-Smoker,Not on Treatment,0.0,69,0.0,5,0.0,1,0.0
+P281,2024-03-16 04:15 AM,1.0,1983-10-13,40,Male,White,173.2,68.3,109,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P281,2024-04-15 04:15 AM,1.0,1983-10-13,40,Male,White,175.2,68.1,110,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P281,2024-05-15 04:15 AM,1.0,1983-10-13,40,Male,White,176.5,68.9,111,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P281,2024-06-14 04:15 AM,1.0,1983-10-13,40,Male,White,177.4,69.4,110,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P281,2024-07-14 04:15 AM,1.0,1983-10-13,40,Male,White,177.9,69.0,111,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P282,2024-03-16 04:30 AM,1.0,1965-04-18,58,Female,White,270.5,47.8,155,Diabetic,Smoker,Not on Treatment,100.0,50,0.0,8,100.0,0,1.0
+P282,2024-04-15 04:30 AM,1.0,1965-04-18,58,Female,White,270.8,46.9,155,Diabetic,Smoker,Not on Treatment,100.0,50,0.0,8,100.0,0,1.0
+P282,2024-05-15 04:30 AM,1.0,1965-04-18,58,Female,White,272.9,44.7,158,Diabetic,Smoker,Not on Treatment,100.0,50,0.0,8,100.0,0,1.0
+P282,2024-06-14 04:30 AM,1.0,1965-04-18,58,Female,White,275.2,42.7,160,Diabetic,Smoker,Not on Treatment,100.0,50,0.0,8,100.0,0,1.0
+P282,2024-07-14 04:30 AM,1.0,1965-04-18,58,Female,White,277.9,41.1,161,Diabetic,Smoker,Not on Treatment,100.0,50,0.0,8,100.0,0,1.0
+P283,2024-03-16 04:45 AM,1.0,1983-11-18,40,Male,White,222.5,56.8,164,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P283,2024-04-15 04:45 AM,1.0,1983-11-18,40,Male,White,219.6,59.2,165,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P283,2024-05-15 04:45 AM,1.0,1983-11-18,40,Male,White,217.3,61.1,163,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P283,2024-06-14 04:45 AM,1.0,1983-11-18,40,Male,White,212.7,62.9,160,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P283,2024-07-14 04:45 AM,1.0,1983-11-18,40,Male,White,211.5,64.1,159,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P284,2024-03-16 05:00 AM,0.298,1965-11-28,58,Female,White,243.1,87.7,125,Non-Diabetic,Non-Smoker,Not on Treatment,29.8,39,0.0,8,29.8,0,0.298
+P284,2024-04-15 05:00 AM,0.42700000000000005,1965-11-28,58,Female,White,245.6,85.7,126,Non-Diabetic,Non-Smoker,Not on Treatment,42.7,39,0.0,8,42.7,0,0.42700000000000005
+P284,2024-05-15 05:00 AM,0.511,1965-11-28,58,Female,White,245.8,84.2,129,Non-Diabetic,Non-Smoker,Not on Treatment,51.1,39,0.0,8,51.1,0,0.511
+P284,2024-06-14 05:00 AM,0.6709999999999999,1965-11-28,58,Female,White,250.6,83.1,130,Non-Diabetic,Non-Smoker,Not on Treatment,67.1,39,0.0,8,67.1,0,0.6709999999999999
+P284,2024-07-14 05:00 AM,0.804,1965-11-28,58,Female,White,252.8,81.5,131,Non-Diabetic,Non-Smoker,Not on Treatment,80.4,39,0.0,8,80.4,0,0.804
+P285,2024-03-16 05:15 AM,1.0,1972-01-28,52,Female,White,276.5,60.6,90,Non-Diabetic,Smoker,On Treatment,100.0,50,0.0,8,100.0,0,1.0
+P285,2024-04-15 05:15 AM,1.0,1972-01-28,52,Female,White,276.3,61.8,90,Non-Diabetic,Smoker,On Treatment,100.0,50,0.0,8,100.0,0,1.0
+P285,2024-05-15 05:15 AM,1.0,1972-01-28,52,Female,White,269.9,62.1,90,Non-Diabetic,Smoker,On Treatment,100.0,50,0.0,8,100.0,0,1.0
+P285,2024-06-14 05:15 AM,1.0,1972-01-28,52,Female,White,266.5,62.0,91,Non-Diabetic,Smoker,On Treatment,100.0,50,0.0,8,100.0,0,1.0
+P285,2024-07-14 05:15 AM,1.0,1972-01-28,52,Female,White,261.5,63.2,90,Non-Diabetic,Smoker,On Treatment,100.0,50,0.0,8,100.0,0,1.0
+P286,2024-03-16 05:30 AM,0.0,1967-06-26,56,Male,African American,156.7,86.5,152,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,5,0.0,1,0.0
+P286,2024-04-15 05:30 AM,0.0,1967-06-26,56,Male,African American,151.9,87.1,151,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,5,0.0,1,0.0
+P286,2024-05-15 05:30 AM,0.0,1967-06-26,56,Male,African American,150.9,87.8,149,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,5,0.0,1,0.0
+P286,2024-06-14 05:30 AM,0.0,1967-06-26,56,Male,African American,151.3,90.0,146,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,5,0.0,1,0.0
+P286,2024-07-14 05:30 AM,0.0,1967-06-26,56,Male,African American,150.3,90.9,145,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,5,0.0,1,0.0
+P287,2024-03-16 05:45 AM,1.0,1967-04-01,56,Female,White,217.4,51.8,107,Non-Diabetic,Smoker,On Treatment,100.0,50,0.0,8,100.0,1,1.0
+P287,2024-04-15 05:45 AM,1.0,1967-04-01,56,Female,White,218.1,52.9,106,Non-Diabetic,Smoker,On Treatment,100.0,50,0.0,8,100.0,1,1.0
+P287,2024-05-15 05:45 AM,1.0,1967-04-01,56,Female,White,218.1,54.1,107,Non-Diabetic,Smoker,On Treatment,100.0,50,0.0,8,100.0,1,1.0
+P287,2024-06-14 05:45 AM,1.0,1967-04-01,56,Female,White,211.5,56.3,106,Non-Diabetic,Smoker,On Treatment,100.0,50,0.0,8,100.0,1,1.0
+P287,2024-07-14 05:45 AM,0.998,1967-04-01,56,Female,White,206.6,58.7,106,Non-Diabetic,Smoker,On Treatment,99.8,50,0.0,8,99.8,1,0.998
+P288,2024-03-16 06:00 AM,0.0,1981-03-07,43,Female,African American,239.6,44.6,123,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P288,2024-04-15 06:00 AM,0.0,1981-03-07,43,Female,African American,241.6,43.6,125,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P288,2024-05-15 06:00 AM,0.0,1981-03-07,43,Female,African American,244.3,42.5,124,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P288,2024-06-14 06:00 AM,0.0,1981-03-07,43,Female,African American,248.1,41.2,124,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P288,2024-07-14 06:00 AM,0.0,1981-03-07,43,Female,African American,251.9,40.0,127,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P289,2024-03-16 06:15 AM,1.0,1977-05-19,46,Female,White,241.2,55.1,119,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,39,0.0,8,100.0,1,1.0
+P289,2024-04-15 06:15 AM,1.0,1977-05-19,46,Female,White,245.3,55.1,118,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,39,0.0,8,100.0,1,1.0
+P289,2024-05-15 06:15 AM,1.0,1977-05-19,46,Female,White,245.6,53.3,118,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,39,0.0,8,100.0,1,1.0
+P289,2024-06-14 06:15 AM,1.0,1977-05-19,46,Female,White,246.5,50.6,118,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,39,0.0,8,100.0,1,1.0
+P289,2024-07-14 06:15 AM,1.0,1977-05-19,46,Female,White,251.2,48.8,118,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,39,0.0,8,100.0,1,1.0
+P290,2024-03-16 06:30 AM,0.0,1979-09-29,44,Female,African American,202.9,81.7,171,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P290,2024-04-15 06:30 AM,0.0,1979-09-29,44,Female,African American,204.3,81.5,172,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P290,2024-05-15 06:30 AM,0.0,1979-09-29,44,Female,African American,204.4,82.3,172,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P290,2024-06-14 06:30 AM,0.0,1979-09-29,44,Female,African American,203.9,82.3,171,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P290,2024-07-14 06:30 AM,0.0,1979-09-29,44,Female,African American,203.3,82.9,171,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P291,2024-03-16 06:45 AM,1.0,1970-05-31,53,Male,White,271.6,80.7,104,Non-Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P291,2024-04-15 06:45 AM,1.0,1970-05-31,53,Male,White,272.6,80.8,105,Non-Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P291,2024-05-15 06:45 AM,1.0,1970-05-31,53,Male,White,273.8,81.7,105,Non-Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P291,2024-06-14 06:45 AM,1.0,1970-05-31,53,Male,White,272.6,82.3,104,Non-Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P291,2024-07-14 06:45 AM,1.0,1970-05-31,53,Male,White,270.7,81.6,105,Non-Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P292,2024-03-16 07:00 AM,1.0,1984-02-12,40,Male,White,157.9,86.4,144,Non-Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P292,2024-04-15 07:00 AM,1.0,1984-02-12,40,Male,White,159.4,86.4,144,Non-Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P292,2024-05-15 07:00 AM,1.0,1984-02-12,40,Male,White,161.3,86.7,143,Non-Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P292,2024-06-14 07:00 AM,1.0,1984-02-12,40,Male,White,162.7,85.8,143,Non-Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P292,2024-07-14 07:00 AM,1.0,1984-02-12,40,Male,White,164.4,86.2,144,Non-Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P293,2024-03-16 07:15 AM,0.006,1977-05-03,46,Female,White,161.6,67.7,169,Non-Diabetic,Non-Smoker,On Treatment,0.6,39,0.0,8,0.6,0,0.006
+P293,2024-04-15 07:15 AM,0.005,1977-05-03,46,Female,White,160.7,68.1,170,Non-Diabetic,Non-Smoker,On Treatment,0.5,39,0.0,8,0.5,0,0.005
+P293,2024-05-15 07:15 AM,0.006999999999999999,1977-05-03,46,Female,White,161.7,67.5,170,Non-Diabetic,Non-Smoker,On Treatment,0.7,39,0.0,8,0.7,0,0.006999999999999999
+P293,2024-06-14 07:15 AM,0.006999999999999999,1977-05-03,46,Female,White,162.9,68.0,171,Non-Diabetic,Non-Smoker,On Treatment,0.7,39,0.0,8,0.7,0,0.006999999999999999
+P293,2024-07-14 07:15 AM,0.006999999999999999,1977-05-03,46,Female,White,162.8,67.4,171,Non-Diabetic,Non-Smoker,On Treatment,0.7,39,0.0,8,0.7,0,0.006999999999999999
+P294,2024-03-16 07:30 AM,0.0,1979-12-24,44,Male,African American,207.3,41.3,170,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P294,2024-04-15 07:30 AM,0.0,1979-12-24,44,Male,African American,212.9,40.5,172,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P294,2024-05-15 07:30 AM,0.0,1979-12-24,44,Male,African American,216.0,40.0,172,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P294,2024-06-14 07:30 AM,0.0,1979-12-24,44,Male,African American,219.9,40.0,175,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P294,2024-07-14 07:30 AM,0.0,1979-12-24,44,Male,African American,221.3,40.7,177,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P295,2024-03-16 07:45 AM,0.0,1967-08-30,56,Female,African American,165.8,97.3,170,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P295,2024-04-15 07:45 AM,0.0,1967-08-30,56,Female,African American,164.5,99.1,167,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P295,2024-05-15 07:45 AM,0.0,1967-08-30,56,Female,African American,161.7,100.0,165,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P295,2024-06-14 07:45 AM,0.0,1967-08-30,56,Female,African American,158.5,100.0,163,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P295,2024-07-14 07:45 AM,0.0,1967-08-30,56,Female,African American,156.1,99.6,160,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P296,2024-03-16 08:00 AM,0.0,1967-08-26,56,Female,African American,229.8,88.3,105,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P296,2024-04-15 08:00 AM,0.0,1967-08-26,56,Female,African American,232.6,87.2,105,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P296,2024-05-15 08:00 AM,0.0,1967-08-26,56,Female,African American,235.8,87.3,107,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P296,2024-06-14 08:00 AM,0.0,1967-08-26,56,Female,African American,237.3,87.6,109,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P296,2024-07-14 08:00 AM,0.0,1967-08-26,56,Female,African American,239.9,86.1,110,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P297,2024-03-16 08:15 AM,1.0,1967-03-19,57,Male,White,154.9,53.6,146,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P297,2024-04-15 08:15 AM,1.0,1967-03-19,57,Male,White,156.9,52.2,149,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P297,2024-05-15 08:15 AM,1.0,1967-03-19,57,Male,White,158.4,52.3,152,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P297,2024-06-14 08:15 AM,1.0,1967-03-19,57,Male,White,161.4,52.1,155,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P297,2024-07-14 08:15 AM,1.0,1967-03-19,57,Male,White,161.6,50.1,158,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P298,2024-03-16 08:30 AM,1.0,1980-03-11,44,Male,White,278.4,70.0,126,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P298,2024-04-15 08:30 AM,1.0,1980-03-11,44,Male,White,278.6,69.4,126,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P298,2024-05-15 08:30 AM,1.0,1980-03-11,44,Male,White,279.0,69.4,126,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P298,2024-06-14 08:30 AM,1.0,1980-03-11,44,Male,White,277.4,70.0,126,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P298,2024-07-14 08:30 AM,1.0,1980-03-11,44,Male,White,275.5,69.5,126,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P299,2024-03-16 08:45 AM,0.0,1973-12-23,50,Male,African American,246.1,51.7,111,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,0,0.0
+P299,2024-04-15 08:45 AM,0.0,1973-12-23,50,Male,African American,247.9,52.1,110,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,0,0.0
+P299,2024-05-15 08:45 AM,0.0,1973-12-23,50,Male,African American,246.7,51.3,111,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,0,0.0
+P299,2024-06-14 08:45 AM,0.0,1973-12-23,50,Male,African American,245.6,51.2,111,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,0,0.0
+P299,2024-07-14 08:45 AM,0.0,1973-12-23,50,Male,African American,246.8,50.7,112,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,0,0.0
+P300,2024-03-16 09:00 AM,0.0,1970-07-29,53,Female,African American,258.8,73.1,91,Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P300,2024-04-15 09:00 AM,0.0,1970-07-29,53,Female,African American,256.4,75.3,91,Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P300,2024-05-15 09:00 AM,0.0,1970-07-29,53,Female,African American,253.1,76.1,91,Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P300,2024-06-14 09:00 AM,0.0,1970-07-29,53,Female,African American,249.6,78.2,90,Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P300,2024-07-14 09:00 AM,0.0,1970-07-29,53,Female,African American,249.2,79.9,90,Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P301,2024-03-16 09:15 AM,1.0,1972-03-11,52,Female,White,275.3,53.7,96,Non-Diabetic,Smoker,Not on Treatment,100.0,50,0.0,8,100.0,0,1.0
+P301,2024-04-15 09:15 AM,1.0,1972-03-11,52,Female,White,270.6,55.4,93,Non-Diabetic,Smoker,Not on Treatment,100.0,50,0.0,8,100.0,0,1.0
+P301,2024-05-15 09:15 AM,1.0,1972-03-11,52,Female,White,268.5,57.8,94,Non-Diabetic,Smoker,Not on Treatment,100.0,50,0.0,8,100.0,0,1.0
+P301,2024-06-14 09:15 AM,1.0,1972-03-11,52,Female,White,263.7,59.1,93,Non-Diabetic,Smoker,Not on Treatment,100.0,50,0.0,8,100.0,0,1.0
+P301,2024-07-14 09:15 AM,1.0,1972-03-11,52,Female,White,261.7,59.4,92,Non-Diabetic,Smoker,Not on Treatment,100.0,50,0.0,8,100.0,0,1.0
+P302,2024-03-16 09:30 AM,0.0,1975-08-08,48,Female,African American,204.7,97.6,111,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P302,2024-04-15 09:30 AM,0.0,1975-08-08,48,Female,African American,206.1,97.3,112,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P302,2024-05-15 09:30 AM,0.0,1975-08-08,48,Female,African American,204.7,97.9,113,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P302,2024-06-14 09:30 AM,0.0,1975-08-08,48,Female,African American,204.6,97.3,114,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P302,2024-07-14 09:30 AM,0.0,1975-08-08,48,Female,African American,206.3,97.7,114,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P303,2024-03-16 09:45 AM,0.0,1969-02-06,55,Male,African American,227.2,60.1,150,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P303,2024-04-15 09:45 AM,0.0,1969-02-06,55,Male,African American,224.9,60.5,148,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P303,2024-05-15 09:45 AM,0.0,1969-02-06,55,Male,African American,222.4,62.7,145,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P303,2024-06-14 09:45 AM,0.0,1969-02-06,55,Male,African American,222.1,64.0,143,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P303,2024-07-14 09:45 AM,0.0,1969-02-06,55,Male,African American,218.2,66.5,141,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P304,2024-03-16 10:00 AM,0.0,1971-02-03,53,Female,African American,151.8,72.5,151,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P304,2024-04-15 10:00 AM,0.0,1971-02-03,53,Female,African American,150.3,71.9,151,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P304,2024-05-15 10:00 AM,0.0,1971-02-03,53,Female,African American,151.8,72.2,152,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P304,2024-06-14 10:00 AM,0.0,1971-02-03,53,Female,African American,150.8,73.2,153,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P304,2024-07-14 10:00 AM,0.0,1971-02-03,53,Female,African American,152.2,72.4,152,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P305,2024-03-16 10:15 AM,0.0,1972-08-31,51,Female,African American,239.8,84.6,166,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P305,2024-04-15 10:15 AM,0.0,1972-08-31,51,Female,African American,244.2,83.4,168,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P305,2024-05-15 10:15 AM,0.0,1972-08-31,51,Female,African American,245.8,81.4,170,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P305,2024-06-14 10:15 AM,0.0,1972-08-31,51,Female,African American,249.8,79.2,170,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P305,2024-07-14 10:15 AM,0.0,1972-08-31,51,Female,African American,249.9,78.6,171,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P306,2024-03-16 10:30 AM,1.0,1966-02-18,58,Female,White,179.8,50.5,97,Non-Diabetic,Smoker,Not on Treatment,100.0,39,0.0,8,100.0,0,1.0
+P306,2024-04-15 10:30 AM,1.0,1966-02-18,58,Female,White,178.9,50.6,94,Non-Diabetic,Smoker,Not on Treatment,100.0,39,0.0,8,100.0,0,1.0
+P306,2024-05-15 10:30 AM,1.0,1966-02-18,58,Female,White,176.3,50.7,94,Non-Diabetic,Smoker,Not on Treatment,100.0,39,0.0,8,100.0,0,1.0
+P306,2024-06-14 10:30 AM,0.977,1966-02-18,58,Female,White,175.3,53.2,94,Non-Diabetic,Smoker,Not on Treatment,97.7,39,0.0,8,97.7,0,0.977
+P306,2024-07-14 10:30 AM,0.8320000000000001,1966-02-18,58,Female,White,172.8,55.4,95,Non-Diabetic,Smoker,Not on Treatment,83.2,39,0.0,8,83.2,0,0.8320000000000001
+P307,2024-03-16 10:45 AM,1.0,1980-04-07,43,Male,White,200.9,78.9,151,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P307,2024-04-15 10:45 AM,1.0,1980-04-07,43,Male,White,201.9,78.3,152,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P307,2024-05-15 10:45 AM,1.0,1980-04-07,43,Male,White,203.4,76.9,154,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P307,2024-06-14 10:45 AM,1.0,1980-04-07,43,Male,White,206.2,74.6,153,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P307,2024-07-14 10:45 AM,1.0,1980-04-07,43,Male,White,211.3,73.0,154,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P308,2024-03-16 11:00 AM,1.0,1969-12-25,54,Male,White,167.5,73.9,135,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,36,100.0,5,0.0,0,1.0
+P308,2024-04-15 11:00 AM,1.0,1969-12-25,54,Male,White,171.4,72.8,135,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,36,100.0,5,0.0,0,1.0
+P308,2024-05-15 11:00 AM,1.0,1969-12-25,54,Male,White,175.3,71.4,134,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,36,100.0,5,0.0,0,1.0
+P308,2024-06-14 11:00 AM,1.0,1969-12-25,54,Male,White,176.5,70.0,133,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,36,100.0,5,0.0,0,1.0
+P308,2024-07-14 11:00 AM,1.0,1969-12-25,54,Male,White,178.6,67.5,136,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,36,100.0,5,0.0,0,1.0
+P309,2024-03-16 11:15 AM,0.161,1970-08-07,53,Female,White,269.6,96.2,129,Non-Diabetic,Non-Smoker,On Treatment,16.1,50,0.0,8,16.1,1,0.161
+P309,2024-04-15 11:15 AM,0.099,1970-08-07,53,Female,White,265.7,98.5,126,Non-Diabetic,Non-Smoker,On Treatment,9.9,50,0.0,8,9.9,1,0.099
+P309,2024-05-15 11:15 AM,0.09300000000000001,1970-08-07,53,Female,White,265.0,98.7,124,Non-Diabetic,Non-Smoker,On Treatment,9.3,50,0.0,8,9.3,1,0.09300000000000001
+P309,2024-06-14 11:15 AM,0.057999999999999996,1970-08-07,53,Female,White,259.0,100.0,124,Non-Diabetic,Non-Smoker,On Treatment,5.8,50,0.0,8,5.8,1,0.057999999999999996
+P309,2024-07-14 11:15 AM,0.045,1970-08-07,53,Female,White,253.1,99.6,121,Non-Diabetic,Non-Smoker,On Treatment,4.5,50,0.0,8,4.5,1,0.045
+P310,2024-03-16 11:30 AM,0.0,1965-06-14,58,Female,African American,203.8,51.6,114,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P310,2024-04-15 11:30 AM,0.0,1965-06-14,58,Female,African American,203.2,50.7,114,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P310,2024-05-15 11:30 AM,0.0,1965-06-14,58,Female,African American,204.9,50.5,113,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P310,2024-06-14 11:30 AM,0.0,1965-06-14,58,Female,African American,206.6,50.8,112,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P310,2024-07-14 11:30 AM,0.0,1965-06-14,58,Female,African American,207.5,50.5,113,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P311,2024-03-16 11:45 AM,0.0,1976-06-16,47,Female,African American,279.7,70.6,94,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P311,2024-04-15 11:45 AM,0.0,1976-06-16,47,Female,African American,278.3,71.3,95,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P311,2024-05-15 11:45 AM,0.0,1976-06-16,47,Female,African American,278.6,71.9,95,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P311,2024-06-14 11:45 AM,0.0,1976-06-16,47,Female,African American,280.0,71.0,96,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P311,2024-07-14 11:45 AM,0.0,1976-06-16,47,Female,African American,280.0,70.5,95,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P312,2024-03-16 12:00 PM,1.0,1967-09-25,56,Female,White,248.7,62.8,153,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,39,0.0,8,100.0,1,1.0
+P312,2024-04-15 12:00 PM,1.0,1967-09-25,56,Female,White,251.7,62.5,154,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,39,0.0,8,100.0,1,1.0
+P312,2024-05-15 12:00 PM,1.0,1967-09-25,56,Female,White,255.6,60.9,155,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,39,0.0,8,100.0,1,1.0
+P312,2024-06-14 12:00 PM,1.0,1967-09-25,56,Female,White,259.1,60.2,155,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,39,0.0,8,100.0,1,1.0
+P312,2024-07-14 12:00 PM,1.0,1967-09-25,56,Female,White,258.7,58.5,154,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,39,0.0,8,100.0,1,1.0
+P313,2024-03-16 12:15 PM,0.0,1973-04-21,50,Male,African American,277.5,40.5,173,Non-Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P313,2024-04-15 12:15 PM,0.0,1973-04-21,50,Male,African American,279.8,40.0,174,Non-Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P313,2024-05-15 12:15 PM,0.0,1973-04-21,50,Male,African American,279.7,40.4,177,Non-Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P313,2024-06-14 12:15 PM,0.0,1973-04-21,50,Male,African American,280.0,40.9,179,Non-Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P313,2024-07-14 12:15 PM,0.0,1973-04-21,50,Male,African American,279.3,40.1,179,Non-Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P314,2024-03-16 12:30 PM,0.0,1978-06-02,45,Male,African American,263.8,77.3,140,Non-Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P314,2024-04-15 12:30 PM,0.0,1978-06-02,45,Male,African American,266.6,75.1,142,Non-Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P314,2024-05-15 12:30 PM,0.0,1978-06-02,45,Male,African American,270.9,75.0,143,Non-Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P314,2024-06-14 12:30 PM,0.0,1978-06-02,45,Male,African American,274.4,72.6,143,Non-Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P314,2024-07-14 12:30 PM,0.0,1978-06-02,45,Male,African American,277.2,72.2,142,Non-Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P315,2024-03-16 12:45 PM,0.0,1968-01-03,56,Female,African American,204.5,63.7,137,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P315,2024-04-15 12:45 PM,0.0,1968-01-03,56,Female,African American,207.2,64.0,137,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P315,2024-05-15 12:45 PM,0.0,1968-01-03,56,Female,African American,209.3,61.7,139,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P315,2024-06-14 12:45 PM,0.0,1968-01-03,56,Female,African American,211.6,59.9,140,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P315,2024-07-14 12:45 PM,0.0,1968-01-03,56,Female,African American,214.9,58.3,141,Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P316,2024-03-16 01:00 PM,0.0,1965-09-25,58,Male,African American,171.5,82.9,125,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P316,2024-04-15 01:00 PM,0.0,1965-09-25,58,Male,African American,174.2,81.3,128,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P316,2024-05-15 01:00 PM,0.0,1965-09-25,58,Male,African American,178.4,80.8,127,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P316,2024-06-14 01:00 PM,0.0,1965-09-25,58,Male,African American,182.9,79.4,126,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P316,2024-07-14 01:00 PM,0.0,1965-09-25,58,Male,African American,184.5,78.3,128,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P317,2024-03-16 01:15 PM,1.0,1969-05-25,54,Male,White,240.2,63.3,97,Non-Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P317,2024-04-15 01:15 PM,1.0,1969-05-25,54,Male,White,233.9,65.1,95,Non-Diabetic,Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P317,2024-05-15 01:15 PM,1.0,1969-05-25,54,Male,White,229.6,66.6,95,Non-Diabetic,Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P317,2024-06-14 01:15 PM,1.0,1969-05-25,54,Male,White,227.7,66.8,94,Non-Diabetic,Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P317,2024-07-14 01:15 PM,1.0,1969-05-25,54,Male,White,227.2,67.7,93,Non-Diabetic,Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P318,2024-03-16 01:30 PM,0.0,1969-04-22,54,Male,African American,171.8,85.6,126,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P318,2024-04-15 01:30 PM,0.0,1969-04-22,54,Male,African American,165.4,86.4,125,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P318,2024-05-15 01:30 PM,0.0,1969-04-22,54,Male,African American,159.4,88.4,126,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P318,2024-06-14 01:30 PM,0.0,1969-04-22,54,Male,African American,156.4,89.1,125,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P318,2024-07-14 01:30 PM,0.0,1969-04-22,54,Male,African American,151.1,89.9,124,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P319,2024-03-16 01:45 PM,0.0,1980-01-10,44,Female,African American,233.3,91.8,127,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P319,2024-04-15 01:45 PM,0.0,1980-01-10,44,Female,African American,233.0,92.5,128,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P319,2024-05-15 01:45 PM,0.0,1980-01-10,44,Female,African American,234.0,92.5,127,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P319,2024-06-14 01:45 PM,0.0,1980-01-10,44,Female,African American,232.5,93.4,128,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P319,2024-07-14 01:45 PM,0.0,1980-01-10,44,Female,African American,233.3,93.0,129,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P320,2024-03-16 02:00 PM,0.0,1972-09-25,51,Female,African American,257.0,95.2,160,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P320,2024-04-15 02:00 PM,0.0,1972-09-25,51,Female,African American,250.1,95.3,159,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P320,2024-05-15 02:00 PM,0.0,1972-09-25,51,Female,African American,246.4,94.8,157,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P320,2024-06-14 02:00 PM,0.0,1972-09-25,51,Female,African American,245.1,97.3,157,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P320,2024-07-14 02:00 PM,0.0,1972-09-25,51,Female,African American,243.9,98.4,157,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P321,2024-03-16 02:15 PM,0.0,1969-03-23,55,Female,African American,199.2,93.7,178,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,0,0.0
+P321,2024-04-15 02:15 PM,0.0,1969-03-23,55,Female,African American,198.3,94.8,179,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,0,0.0
+P321,2024-05-15 02:15 PM,0.0,1969-03-23,55,Female,African American,195.1,94.9,178,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,0,0.0
+P321,2024-06-14 02:15 PM,0.0,1969-03-23,55,Female,African American,192.6,97.2,178,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,0,0.0
+P321,2024-07-14 02:15 PM,0.0,1969-03-23,55,Female,African American,188.8,98.8,176,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,0,0.0
+P322,2024-03-16 02:30 PM,0.0,1973-01-16,51,Female,African American,261.6,45.2,118,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P322,2024-04-15 02:30 PM,0.0,1973-01-16,51,Female,African American,266.0,43.6,120,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P322,2024-05-15 02:30 PM,0.0,1973-01-16,51,Female,African American,270.7,43.2,121,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P322,2024-06-14 02:30 PM,0.0,1973-01-16,51,Female,African American,275.1,41.8,120,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P322,2024-07-14 02:30 PM,0.0,1973-01-16,51,Female,African American,276.2,40.0,119,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P323,2024-03-16 02:45 PM,1.0,1968-10-14,55,Male,White,176.7,76.8,148,Non-Diabetic,Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P323,2024-04-15 02:45 PM,1.0,1968-10-14,55,Male,White,176.6,77.5,148,Non-Diabetic,Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P323,2024-05-15 02:45 PM,1.0,1968-10-14,55,Male,White,174.6,77.8,147,Non-Diabetic,Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P323,2024-06-14 02:45 PM,1.0,1968-10-14,55,Male,White,175.0,77.1,147,Non-Diabetic,Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P323,2024-07-14 02:45 PM,1.0,1968-10-14,55,Male,White,173.2,76.1,148,Non-Diabetic,Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P324,2024-03-16 03:00 PM,0.927,1968-12-18,55,Female,White,200.3,60.1,112,Diabetic,Non-Smoker,Not on Treatment,92.7,39,0.0,8,92.7,1,0.927
+P324,2024-04-15 03:00 PM,0.79,1968-12-18,55,Female,White,197.3,61.5,112,Diabetic,Non-Smoker,Not on Treatment,79.0,39,0.0,8,79.0,1,0.79
+P324,2024-05-15 03:00 PM,0.59,1968-12-18,55,Female,White,196.4,63.8,113,Diabetic,Non-Smoker,Not on Treatment,59.0,39,0.0,8,59.0,1,0.59
+P324,2024-06-14 03:00 PM,0.39899999999999997,1968-12-18,55,Female,White,193.2,65.4,114,Diabetic,Non-Smoker,Not on Treatment,39.9,39,0.0,8,39.9,1,0.39899999999999997
+P324,2024-07-14 03:00 PM,0.223,1968-12-18,55,Female,White,189.9,67.7,114,Diabetic,Non-Smoker,Not on Treatment,22.3,39,0.0,8,22.3,1,0.223
+P325,2024-03-16 03:15 PM,1.0,1978-06-15,45,Male,White,167.0,73.4,148,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P325,2024-04-15 03:15 PM,1.0,1978-06-15,45,Male,White,164.2,74.2,145,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P325,2024-05-15 03:15 PM,1.0,1978-06-15,45,Male,White,161.2,76.6,143,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P325,2024-06-14 03:15 PM,1.0,1978-06-15,45,Male,White,158.7,77.6,143,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P325,2024-07-14 03:15 PM,1.0,1978-06-15,45,Male,White,155.9,79.6,142,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P326,2024-03-16 03:30 PM,0.0,1976-01-07,48,Male,African American,235.8,41.2,114,Non-Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P326,2024-04-15 03:30 PM,0.0,1976-01-07,48,Male,African American,231.0,41.9,115,Non-Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P326,2024-05-15 03:30 PM,0.0,1976-01-07,48,Male,African American,229.9,43.0,115,Non-Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P326,2024-06-14 03:30 PM,0.0,1976-01-07,48,Male,African American,224.0,45.4,114,Non-Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P326,2024-07-14 03:30 PM,0.0,1976-01-07,48,Male,African American,223.9,45.7,115,Non-Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,0,0.0
+P327,2024-03-16 03:45 PM,0.0,1978-04-19,45,Female,African American,276.9,100.0,128,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P327,2024-04-15 03:45 PM,0.0,1978-04-19,45,Female,African American,275.5,100.0,127,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P327,2024-05-15 03:45 PM,0.0,1978-04-19,45,Female,African American,270.7,99.0,126,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P327,2024-06-14 03:45 PM,0.0,1978-04-19,45,Female,African American,266.7,100.0,125,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P327,2024-07-14 03:45 PM,0.0,1978-04-19,45,Female,African American,264.3,100.0,124,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P328,2024-03-16 04:00 PM,1.0,1976-06-03,47,Male,White,180.9,41.0,113,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,36,100.0,5,0.0,1,1.0
+P328,2024-04-15 04:00 PM,1.0,1976-06-03,47,Male,White,183.4,40.0,114,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,36,100.0,5,0.0,1,1.0
+P328,2024-05-15 04:00 PM,1.0,1976-06-03,47,Male,White,188.1,41.0,114,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,36,100.0,5,0.0,1,1.0
+P328,2024-06-14 04:00 PM,1.0,1976-06-03,47,Male,White,191.9,40.0,117,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,36,100.0,5,0.0,1,1.0
+P328,2024-07-14 04:00 PM,1.0,1976-06-03,47,Male,White,194.1,40.0,117,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,36,100.0,5,0.0,1,1.0
+P329,2024-03-16 04:15 PM,0.0,1972-10-26,51,Male,African American,280.0,58.3,153,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P329,2024-04-15 04:15 PM,0.0,1972-10-26,51,Male,African American,280.0,57.3,154,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P329,2024-05-15 04:15 PM,0.0,1972-10-26,51,Male,African American,279.8,56.2,155,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P329,2024-06-14 04:15 PM,0.0,1972-10-26,51,Male,African American,278.5,55.3,157,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P329,2024-07-14 04:15 PM,0.0,1972-10-26,51,Male,African American,279.7,54.1,159,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P330,2024-03-16 04:30 PM,0.001,1979-02-13,45,Female,White,161.0,79.0,147,Non-Diabetic,Smoker,Not on Treatment,0.1,39,0.0,8,0.1,0,0.001
+P330,2024-04-15 04:30 PM,0.0,1979-02-13,45,Female,White,156.9,81.0,145,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P330,2024-05-15 04:30 PM,0.0,1979-02-13,45,Female,White,155.8,82.3,142,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P330,2024-06-14 04:30 PM,0.0,1979-02-13,45,Female,White,151.3,82.5,142,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P330,2024-07-14 04:30 PM,0.0,1979-02-13,45,Female,White,150.0,82.6,141,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P331,2024-03-16 04:45 PM,0.0,1982-03-24,42,Female,African American,156.2,52.7,90,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P331,2024-04-15 04:45 PM,0.0,1982-03-24,42,Female,African American,154.9,52.7,90,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P331,2024-05-15 04:45 PM,0.0,1982-03-24,42,Female,African American,152.7,53.7,91,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P331,2024-06-14 04:45 PM,0.0,1982-03-24,42,Female,African American,151.8,54.5,90,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P331,2024-07-14 04:45 PM,0.0,1982-03-24,42,Female,African American,150.0,56.0,90,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P332,2024-03-16 05:00 PM,0.998,1969-04-16,54,Female,White,193.9,54.0,173,Non-Diabetic,Non-Smoker,Not on Treatment,99.8,39,0.0,8,99.8,0,0.998
+P332,2024-04-15 05:00 PM,0.9470000000000001,1969-04-16,54,Female,White,190.6,56.0,174,Non-Diabetic,Non-Smoker,Not on Treatment,94.7,39,0.0,8,94.7,0,0.9470000000000001
+P332,2024-05-15 05:00 PM,0.9179999999999999,1969-04-16,54,Female,White,189.3,56.3,174,Non-Diabetic,Non-Smoker,Not on Treatment,91.8,39,0.0,8,91.8,0,0.9179999999999999
+P332,2024-06-14 05:00 PM,0.7809999999999999,1969-04-16,54,Female,White,186.7,57.6,173,Non-Diabetic,Non-Smoker,Not on Treatment,78.1,39,0.0,8,78.1,0,0.7809999999999999
+P332,2024-07-14 05:00 PM,0.494,1969-04-16,54,Female,White,182.7,59.8,172,Non-Diabetic,Non-Smoker,Not on Treatment,49.4,39,0.0,8,49.4,0,0.494
+P333,2024-03-16 05:15 PM,0.0,1965-05-29,58,Female,African American,166.1,80.5,143,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P333,2024-04-15 05:15 PM,0.0,1965-05-29,58,Female,African American,163.9,81.5,142,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P333,2024-05-15 05:15 PM,0.0,1965-05-29,58,Female,African American,158.2,82.4,141,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P333,2024-06-14 05:15 PM,0.0,1965-05-29,58,Female,African American,155.6,84.5,139,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P333,2024-07-14 05:15 PM,0.0,1965-05-29,58,Female,African American,151.6,85.7,137,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P334,2024-03-16 05:30 PM,0.015,1976-07-21,47,Female,White,249.8,99.2,140,Diabetic,Smoker,On Treatment,1.5,50,0.0,8,1.5,0,0.015
+P334,2024-04-15 05:30 PM,0.016,1976-07-21,47,Female,White,248.9,98.5,140,Diabetic,Smoker,On Treatment,1.6,50,0.0,8,1.6,0,0.016
+P334,2024-05-15 05:30 PM,0.013000000000000001,1976-07-21,47,Female,White,247.8,99.2,139,Diabetic,Smoker,On Treatment,1.3,50,0.0,8,1.3,0,0.013000000000000001
+P334,2024-06-14 05:30 PM,0.012,1976-07-21,47,Female,White,248.3,100.0,139,Diabetic,Smoker,On Treatment,1.2,50,0.0,8,1.2,0,0.012
+P334,2024-07-14 05:30 PM,0.012,1976-07-21,47,Female,White,247.8,99.9,138,Diabetic,Smoker,On Treatment,1.2,50,0.0,8,1.2,0,0.012
+P335,2024-03-16 05:45 PM,1.0,1979-09-23,44,Male,White,198.6,72.9,147,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P335,2024-04-15 05:45 PM,1.0,1979-09-23,44,Male,White,196.6,74.0,148,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P335,2024-05-15 05:45 PM,1.0,1979-09-23,44,Male,White,195.8,75.4,146,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P335,2024-06-14 05:45 PM,1.0,1979-09-23,44,Male,White,190.3,77.7,146,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P335,2024-07-14 05:45 PM,1.0,1979-09-23,44,Male,White,187.3,78.2,146,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P336,2024-03-16 06:00 PM,0.0,1966-05-28,57,Female,African American,179.9,52.9,180,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P336,2024-04-15 06:00 PM,0.0,1966-05-28,57,Female,African American,178.7,53.8,180,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P336,2024-05-15 06:00 PM,0.0,1966-05-28,57,Female,African American,176.1,55.7,178,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P336,2024-06-14 06:00 PM,0.0,1966-05-28,57,Female,African American,174.8,57.2,176,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P336,2024-07-14 06:00 PM,0.0,1966-05-28,57,Female,African American,171.9,58.2,174,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P337,2024-03-16 06:15 PM,1.0,1979-09-24,44,Male,White,183.7,40.6,130,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,1,1.0
+P337,2024-04-15 06:15 PM,1.0,1979-09-24,44,Male,White,178.2,41.8,128,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,1,1.0
+P337,2024-05-15 06:15 PM,1.0,1979-09-24,44,Male,White,175.7,42.7,125,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,1,1.0
+P337,2024-06-14 06:15 PM,1.0,1979-09-24,44,Male,White,170.3,44.2,124,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,1,1.0
+P337,2024-07-14 06:15 PM,1.0,1979-09-24,44,Male,White,164.8,46.0,125,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,1,1.0
+P338,2024-03-16 06:30 PM,0.0,1968-06-27,55,Female,African American,180.1,62.8,128,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P338,2024-04-15 06:30 PM,0.0,1968-06-27,55,Female,African American,178.7,62.9,127,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P338,2024-05-15 06:30 PM,0.0,1968-06-27,55,Female,African American,178.3,63.5,126,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P338,2024-06-14 06:30 PM,0.0,1968-06-27,55,Female,African American,178.2,62.5,125,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P338,2024-07-14 06:30 PM,0.0,1968-06-27,55,Female,African American,179.8,62.9,125,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P339,2024-03-16 06:45 PM,1.0,1974-04-11,49,Male,White,267.7,80.1,170,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P339,2024-04-15 06:45 PM,1.0,1974-04-11,49,Male,White,265.9,81.3,167,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P339,2024-05-15 06:45 PM,1.0,1974-04-11,49,Male,White,262.7,83.2,164,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P339,2024-06-14 06:45 PM,1.0,1974-04-11,49,Male,White,259.4,84.8,164,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P339,2024-07-14 06:45 PM,1.0,1974-04-11,49,Male,White,255.2,86.7,161,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P340,2024-03-16 07:00 PM,1.0,1976-01-11,48,Female,White,255.3,54.3,176,Diabetic,Smoker,On Treatment,100.0,50,0.0,8,100.0,1,1.0
+P340,2024-04-15 07:00 PM,1.0,1976-01-11,48,Female,White,250.4,54.0,175,Diabetic,Smoker,On Treatment,100.0,50,0.0,8,100.0,1,1.0
+P340,2024-05-15 07:00 PM,1.0,1976-01-11,48,Female,White,246.2,55.8,174,Diabetic,Smoker,On Treatment,100.0,50,0.0,8,100.0,1,1.0
+P340,2024-06-14 07:00 PM,1.0,1976-01-11,48,Female,White,244.6,56.5,175,Diabetic,Smoker,On Treatment,100.0,50,0.0,8,100.0,1,1.0
+P340,2024-07-14 07:00 PM,1.0,1976-01-11,48,Female,White,244.1,58.9,173,Diabetic,Smoker,On Treatment,100.0,50,0.0,8,100.0,1,1.0
+P341,2024-03-16 07:15 PM,1.0,1977-08-06,46,Male,White,223.1,85.6,114,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P341,2024-04-15 07:15 PM,1.0,1977-08-06,46,Male,White,219.2,87.8,112,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P341,2024-05-15 07:15 PM,1.0,1977-08-06,46,Male,White,217.0,89.4,113,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P341,2024-06-14 07:15 PM,1.0,1977-08-06,46,Male,White,211.4,91.1,114,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P341,2024-07-14 07:15 PM,1.0,1977-08-06,46,Male,White,207.9,93.1,115,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P342,2024-03-16 07:30 PM,0.0,1968-07-15,55,Female,African American,155.3,71.7,174,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,8,0.0,0,0.0
+P342,2024-04-15 07:30 PM,0.0,1968-07-15,55,Female,African American,150.6,72.8,174,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,8,0.0,0,0.0
+P342,2024-05-15 07:30 PM,0.0,1968-07-15,55,Female,African American,150.8,74.3,172,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,8,0.0,0,0.0
+P342,2024-06-14 07:30 PM,0.0,1968-07-15,55,Female,African American,151.6,75.7,171,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,8,0.0,0,0.0
+P342,2024-07-14 07:30 PM,0.0,1968-07-15,55,Female,African American,150.0,76.6,170,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,8,0.0,0,0.0
+P343,2024-03-16 07:45 PM,0.93,1968-09-09,55,Female,White,151.7,45.5,116,Diabetic,Smoker,On Treatment,93.0,50,0.0,8,93.0,1,0.93
+P343,2024-04-15 07:45 PM,0.903,1968-09-09,55,Female,White,150.9,45.7,117,Diabetic,Smoker,On Treatment,90.3,50,0.0,8,90.3,1,0.903
+P343,2024-05-15 07:45 PM,0.93,1968-09-09,55,Female,White,150.7,45.2,117,Diabetic,Smoker,On Treatment,93.0,50,0.0,8,93.0,1,0.93
+P343,2024-06-14 07:45 PM,0.868,1968-09-09,55,Female,White,150.0,45.9,117,Diabetic,Smoker,On Treatment,86.8,50,0.0,8,86.8,1,0.868
+P343,2024-07-14 07:45 PM,0.8079999999999999,1968-09-09,55,Female,White,150.0,46.6,118,Diabetic,Smoker,On Treatment,80.8,50,0.0,8,80.8,1,0.8079999999999999
+P344,2024-03-16 08:00 PM,0.0,1966-11-15,57,Female,African American,221.1,76.8,94,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P344,2024-04-15 08:00 PM,0.0,1966-11-15,57,Female,African American,218.7,78.6,92,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P344,2024-05-15 08:00 PM,0.0,1966-11-15,57,Female,African American,216.1,79.8,90,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P344,2024-06-14 08:00 PM,0.0,1966-11-15,57,Female,African American,209.9,82.1,90,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P344,2024-07-14 08:00 PM,0.0,1966-11-15,57,Female,African American,210.1,82.6,90,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,0,0.0
+P345,2024-03-16 08:15 PM,0.0,1965-12-30,58,Male,African American,227.7,95.7,159,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P345,2024-04-15 08:15 PM,0.0,1965-12-30,58,Male,African American,232.5,95.3,162,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P345,2024-05-15 08:15 PM,0.0,1965-12-30,58,Male,African American,233.1,95.0,163,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P345,2024-06-14 08:15 PM,0.0,1965-12-30,58,Male,African American,234.4,93.9,163,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P345,2024-07-14 08:15 PM,0.0,1965-12-30,58,Male,African American,237.4,92.7,166,Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P346,2024-03-16 08:30 PM,1.0,1983-11-12,40,Male,White,269.0,56.0,164,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P346,2024-04-15 08:30 PM,1.0,1983-11-12,40,Male,White,264.9,58.1,164,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P346,2024-05-15 08:30 PM,1.0,1983-11-12,40,Male,White,260.4,59.4,165,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P346,2024-06-14 08:30 PM,1.0,1983-11-12,40,Male,White,259.1,59.5,166,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P346,2024-07-14 08:30 PM,1.0,1983-11-12,40,Male,White,253.4,61.6,164,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,1,1.0
+P347,2024-03-16 08:45 PM,1.0,1979-01-12,45,Male,White,258.5,75.4,155,Non-Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P347,2024-04-15 08:45 PM,1.0,1979-01-12,45,Male,White,255.3,76.1,153,Non-Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P347,2024-05-15 08:45 PM,1.0,1979-01-12,45,Male,White,249.4,77.2,153,Non-Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P347,2024-06-14 08:45 PM,1.0,1979-01-12,45,Male,White,245.8,78.6,150,Non-Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P347,2024-07-14 08:45 PM,1.0,1979-01-12,45,Male,White,243.9,79.7,148,Non-Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P348,2024-03-16 09:00 PM,0.0,1972-05-16,51,Female,African American,180.4,73.0,107,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P348,2024-04-15 09:00 PM,0.0,1972-05-16,51,Female,African American,180.3,73.2,107,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P348,2024-05-15 09:00 PM,0.0,1972-05-16,51,Female,African American,179.1,75.0,105,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P348,2024-06-14 09:00 PM,0.0,1972-05-16,51,Female,African American,173.3,76.2,105,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P348,2024-07-14 09:00 PM,0.0,1972-05-16,51,Female,African American,171.0,76.4,104,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P349,2024-03-16 09:15 PM,0.0,1968-05-20,55,Male,African American,215.5,56.1,108,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P349,2024-04-15 09:15 PM,0.0,1968-05-20,55,Male,African American,215.3,56.9,108,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P349,2024-05-15 09:15 PM,0.0,1968-05-20,55,Male,African American,213.8,57.0,107,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P349,2024-06-14 09:15 PM,0.0,1968-05-20,55,Male,African American,212.9,57.6,107,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P349,2024-07-14 09:15 PM,0.0,1968-05-20,55,Male,African American,212.5,58.3,108,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P350,2024-03-16 09:30 PM,0.0,1971-04-18,52,Male,African American,233.9,79.8,147,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,46,0.0,5,0.0,1,0.0
+P350,2024-04-15 09:30 PM,0.0,1971-04-18,52,Male,African American,233.9,79.8,147,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,46,0.0,5,0.0,1,0.0
+P350,2024-05-15 09:30 PM,0.0,1971-04-18,52,Male,African American,233.2,80.6,147,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,46,0.0,5,0.0,1,0.0
+P350,2024-06-14 09:30 PM,0.0,1971-04-18,52,Male,African American,233.6,79.6,147,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,46,0.0,5,0.0,1,0.0
+P350,2024-07-14 09:30 PM,0.0,1971-04-18,52,Male,African American,235.0,80.4,147,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,46,0.0,5,0.0,1,0.0
+P351,2024-03-16 09:45 PM,0.002,1969-06-10,54,Female,White,152.6,78.3,113,Non-Diabetic,Smoker,Not on Treatment,0.2,39,0.0,8,0.2,1,0.002
+P351,2024-04-15 09:45 PM,0.002,1969-06-10,54,Female,White,152.9,77.0,113,Non-Diabetic,Smoker,Not on Treatment,0.2,39,0.0,8,0.2,1,0.002
+P351,2024-05-15 09:45 PM,0.003,1969-06-10,54,Female,White,153.1,75.7,113,Non-Diabetic,Smoker,Not on Treatment,0.3,39,0.0,8,0.3,1,0.003
+P351,2024-06-14 09:45 PM,0.005,1969-06-10,54,Female,White,156.1,73.7,114,Non-Diabetic,Smoker,Not on Treatment,0.5,39,0.0,8,0.5,1,0.005
+P351,2024-07-14 09:45 PM,0.006,1969-06-10,54,Female,White,159.5,73.6,113,Non-Diabetic,Smoker,Not on Treatment,0.6,39,0.0,8,0.6,1,0.006
+P352,2024-03-16 10:00 PM,1.0,1977-11-16,46,Male,White,178.1,59.9,114,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,5,100.0,5,0.0,0,1.0
+P352,2024-04-15 10:00 PM,1.0,1977-11-16,46,Male,White,175.3,60.4,114,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,5,100.0,5,0.0,0,1.0
+P352,2024-05-15 10:00 PM,1.0,1977-11-16,46,Male,White,172.0,62.0,113,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,5,100.0,5,0.0,0,1.0
+P352,2024-06-14 10:00 PM,1.0,1977-11-16,46,Male,White,169.3,62.8,110,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,5,100.0,5,0.0,0,1.0
+P352,2024-07-14 10:00 PM,1.0,1977-11-16,46,Male,White,168.4,64.3,108,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,5,100.0,5,0.0,0,1.0
+P353,2024-03-16 10:15 PM,0.0,1976-02-04,48,Female,African American,243.5,95.7,108,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P353,2024-04-15 10:15 PM,0.0,1976-02-04,48,Female,African American,245.1,96.2,108,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P353,2024-05-15 10:15 PM,0.0,1976-02-04,48,Female,African American,245.0,96.5,109,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P353,2024-06-14 10:15 PM,0.0,1976-02-04,48,Female,African American,245.5,96.2,110,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P353,2024-07-14 10:15 PM,0.0,1976-02-04,48,Female,African American,246.7,96.2,109,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P354,2024-03-16 10:30 PM,0.0,1976-07-13,47,Male,African American,240.0,82.2,92,Non-Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,1,0.0
+P354,2024-04-15 10:30 PM,0.0,1976-07-13,47,Male,African American,239.1,84.2,91,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P354,2024-05-15 10:30 PM,0.0,1976-07-13,47,Male,African American,232.2,86.1,91,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P354,2024-06-14 10:30 PM,0.0,1976-07-13,47,Male,African American,228.2,87.5,90,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P354,2024-07-14 10:30 PM,0.0,1976-07-13,47,Male,African American,224.5,89.7,90,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P355,2024-03-16 10:45 PM,0.0,1982-12-03,41,Male,African American,174.1,91.3,100,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,5,0.0,5,0.0,0,0.0
+P355,2024-04-15 10:45 PM,0.0,1982-12-03,41,Male,African American,175.1,90.0,103,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,5,0.0,5,0.0,0,0.0
+P355,2024-05-15 10:45 PM,0.0,1982-12-03,41,Male,African American,178.3,90.0,104,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,5,0.0,5,0.0,0,0.0
+P355,2024-06-14 10:45 PM,0.0,1982-12-03,41,Male,African American,182.8,89.2,106,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,36,0.0,5,0.0,0,0.0
+P355,2024-07-14 10:45 PM,0.0,1982-12-03,41,Male,African American,185.8,87.3,105,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,36,0.0,5,0.0,0,0.0
+P356,2024-03-16 11:00 PM,1.0,1979-02-23,45,Male,White,171.5,97.6,150,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,46,100.0,5,0.0,0,1.0
+P356,2024-04-15 11:00 PM,1.0,1979-02-23,45,Male,White,169.7,99.3,150,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,46,100.0,5,0.0,0,1.0
+P356,2024-05-15 11:00 PM,1.0,1979-02-23,45,Male,White,165.7,100.0,149,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,46,100.0,5,0.0,0,1.0
+P356,2024-06-14 11:00 PM,1.0,1979-02-23,45,Male,White,162.6,99.2,147,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,46,100.0,5,0.0,0,1.0
+P356,2024-07-14 11:00 PM,1.0,1979-02-23,45,Male,White,158.5,100.0,147,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,46,100.0,5,0.0,0,1.0
+P357,2024-03-16 11:15 PM,1.0,1983-04-08,40,Male,White,236.7,85.3,156,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P357,2024-04-15 11:15 PM,1.0,1983-04-08,40,Male,White,239.6,84.6,158,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,0,1.0
+P357,2024-05-15 11:15 PM,1.0,1983-04-08,40,Male,White,240.4,82.7,158,Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P357,2024-06-14 11:15 PM,1.0,1983-04-08,40,Male,White,242.2,81.3,159,Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P357,2024-07-14 11:15 PM,1.0,1983-04-08,40,Male,White,242.6,81.1,160,Diabetic,Non-Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P358,2024-03-16 11:30 PM,0.0,1968-07-18,55,Male,African American,263.1,68.3,139,Diabetic,Non-Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P358,2024-04-15 11:30 PM,0.0,1968-07-18,55,Male,African American,264.7,68.4,139,Diabetic,Non-Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P358,2024-05-15 11:30 PM,0.0,1968-07-18,55,Male,African American,264.0,68.9,140,Diabetic,Non-Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P358,2024-06-14 11:30 PM,0.0,1968-07-18,55,Male,African American,264.3,69.5,139,Diabetic,Non-Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P358,2024-07-14 11:30 PM,0.0,1968-07-18,55,Male,African American,264.6,69.4,138,Diabetic,Non-Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P359,2024-03-16 11:45 PM,1.0,1983-06-21,40,Male,White,189.7,70.5,109,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,0,1.0
+P359,2024-04-15 11:45 PM,1.0,1983-06-21,40,Male,White,186.7,73.0,110,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,0,1.0
+P359,2024-05-15 11:45 PM,1.0,1983-06-21,40,Male,White,182.8,74.3,109,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,0,1.0
+P359,2024-06-14 11:45 PM,1.0,1983-06-21,40,Male,White,181.5,77.2,109,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,0,1.0
+P359,2024-07-14 11:45 PM,1.0,1983-06-21,40,Male,White,176.7,79.2,110,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,0,1.0
+P360,2024-03-17 12:00 AM,1.0,1970-03-27,54,Male,White,165.2,72.2,95,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,5,100.0,5,0.0,1,1.0
+P360,2024-04-16 12:00 AM,1.0,1970-03-27,54,Male,White,169.5,71.1,94,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,5,100.0,5,0.0,1,1.0
+P360,2024-05-16 12:00 AM,1.0,1970-03-27,54,Male,White,174.3,69.6,93,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,5,100.0,5,0.0,1,1.0
+P360,2024-06-15 12:00 AM,1.0,1970-03-27,54,Male,White,173.9,68.3,95,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,5,100.0,5,0.0,1,1.0
+P360,2024-07-15 12:00 AM,1.0,1970-03-27,54,Male,White,176.7,67.6,97,Non-Diabetic,Non-Smoker,Not on Treatment,100.0,5,100.0,5,0.0,1,1.0
+P361,2024-03-17 12:15 AM,0.0,1977-09-06,46,Female,White,165.8,91.9,113,Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P361,2024-04-16 12:15 AM,0.0,1977-09-06,46,Female,White,171.7,90.6,114,Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P361,2024-05-16 12:15 AM,0.0,1977-09-06,46,Female,White,175.5,89.7,114,Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,1,0.0
+P361,2024-06-15 12:15 AM,0.001,1977-09-06,46,Female,White,175.3,87.8,113,Diabetic,Smoker,Not on Treatment,0.1,50,0.0,8,0.1,1,0.001
+P361,2024-07-15 12:15 AM,0.001,1977-09-06,46,Female,White,175.9,86.9,114,Diabetic,Smoker,Not on Treatment,0.1,50,0.0,8,0.1,1,0.001
+P362,2024-03-17 12:30 AM,0.0,1972-12-06,51,Female,African American,170.3,55.6,91,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P362,2024-04-16 12:30 AM,0.0,1972-12-06,51,Female,African American,164.8,57.8,91,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P362,2024-05-16 12:30 AM,0.0,1972-12-06,51,Female,African American,164.8,60.0,92,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P362,2024-06-15 12:30 AM,0.0,1972-12-06,51,Female,African American,160.8,60.7,92,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P362,2024-07-15 12:30 AM,0.0,1972-12-06,51,Female,African American,156.1,61.6,92,Diabetic,Non-Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P363,2024-03-17 12:45 AM,0.0,1971-10-03,52,Male,African American,260.1,62.9,104,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P363,2024-04-16 12:45 AM,0.0,1971-10-03,52,Male,African American,262.7,61.9,105,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P363,2024-05-16 12:45 AM,0.0,1971-10-03,52,Male,African American,265.2,59.6,105,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P363,2024-06-15 12:45 AM,0.0,1971-10-03,52,Male,African American,267.1,58.5,105,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P363,2024-07-15 12:45 AM,0.0,1971-10-03,52,Male,African American,268.0,56.5,107,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P364,2024-03-17 01:00 AM,0.932,1976-11-05,47,Female,White,150.0,40.7,123,Non-Diabetic,Non-Smoker,Not on Treatment,93.2,27,0.0,8,93.2,1,0.932
+P364,2024-04-16 01:00 AM,0.93,1976-11-05,47,Female,White,150.2,40.8,123,Non-Diabetic,Non-Smoker,Not on Treatment,93.0,27,0.0,8,93.0,1,0.93
+P364,2024-05-16 01:00 AM,0.97,1976-11-05,47,Female,White,150.3,40.0,124,Non-Diabetic,Non-Smoker,Not on Treatment,97.0,27,0.0,8,97.0,1,0.97
+P364,2024-06-15 01:00 AM,0.9670000000000001,1976-11-05,47,Female,White,150.0,40.0,124,Non-Diabetic,Non-Smoker,Not on Treatment,96.7,27,0.0,8,96.7,1,0.9670000000000001
+P364,2024-07-15 01:00 AM,0.975,1976-11-05,47,Female,White,150.9,40.0,123,Non-Diabetic,Non-Smoker,Not on Treatment,97.5,27,0.0,8,97.5,1,0.975
+P365,2024-03-17 01:15 AM,1.0,1977-08-31,46,Male,White,162.1,100.0,114,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,1,1.0
+P365,2024-04-16 01:15 AM,1.0,1977-08-31,46,Male,White,158.4,99.3,115,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,1,1.0
+P365,2024-05-16 01:15 AM,1.0,1977-08-31,46,Male,White,155.4,100.0,115,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,1,1.0
+P365,2024-06-15 01:15 AM,1.0,1977-08-31,46,Male,White,155.6,99.2,113,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,1,1.0
+P365,2024-07-15 01:15 AM,1.0,1977-08-31,46,Male,White,152.9,100.0,112,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,1,1.0
+P366,2024-03-17 01:30 AM,0.0,1982-12-07,41,Male,African American,280.0,45.4,130,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P366,2024-04-16 01:30 AM,0.0,1982-12-07,41,Male,African American,278.7,44.2,132,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P366,2024-05-16 01:30 AM,0.0,1982-12-07,41,Male,African American,280.0,43.5,132,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P366,2024-06-15 01:30 AM,0.0,1982-12-07,41,Male,African American,280.0,42.4,134,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P366,2024-07-15 01:30 AM,0.0,1982-12-07,41,Male,African American,278.8,42.5,135,Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,0,0.0
+P367,2024-03-17 01:45 AM,0.40299999999999997,1977-04-30,46,Female,White,162.9,49.3,162,Non-Diabetic,Smoker,On Treatment,40.3,50,0.0,8,40.3,1,0.40299999999999997
+P367,2024-04-16 01:45 AM,0.17,1977-04-30,46,Female,White,156.9,51.2,163,Non-Diabetic,Smoker,On Treatment,17.0,50,0.0,8,17.0,1,0.17
+P367,2024-05-16 01:45 AM,0.128,1977-04-30,46,Female,White,153.4,51.2,162,Non-Diabetic,Smoker,On Treatment,12.8,50,0.0,8,12.8,1,0.128
+P367,2024-06-15 01:45 AM,0.075,1977-04-30,46,Female,White,150.0,52.2,161,Non-Diabetic,Smoker,On Treatment,7.5,50,0.0,8,7.5,1,0.075
+P367,2024-07-15 01:45 AM,0.054000000000000006,1977-04-30,46,Female,White,150.0,53.5,162,Non-Diabetic,Smoker,On Treatment,5.4,50,0.0,8,5.4,1,0.054000000000000006
+P368,2024-03-17 02:00 AM,0.17,1980-10-31,43,Female,White,162.4,51.1,120,Diabetic,Non-Smoker,Not on Treatment,17.0,39,0.0,8,17.0,1,0.17
+P368,2024-04-16 02:00 AM,0.11800000000000001,1980-10-31,43,Female,White,160.8,52.1,121,Diabetic,Non-Smoker,Not on Treatment,11.8,39,0.0,8,11.8,1,0.11800000000000001
+P368,2024-05-16 02:00 AM,0.12,1980-10-31,43,Female,White,160.1,51.8,121,Diabetic,Non-Smoker,Not on Treatment,12.0,39,0.0,8,12.0,1,0.12
+P368,2024-06-15 02:00 AM,0.107,1980-10-31,43,Female,White,160.8,52.5,121,Diabetic,Non-Smoker,Not on Treatment,10.7,39,0.0,8,10.7,1,0.107
+P368,2024-07-15 02:00 AM,0.091,1980-10-31,43,Female,White,160.3,53.0,120,Diabetic,Non-Smoker,Not on Treatment,9.1,39,0.0,8,9.1,1,0.091
+P369,2024-03-17 02:15 AM,1.0,1971-04-16,52,Male,White,156.8,61.0,131,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,1,1.0
+P369,2024-04-16 02:15 AM,1.0,1971-04-16,52,Male,White,156.9,61.7,130,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,1,1.0
+P369,2024-05-16 02:15 AM,1.0,1971-04-16,52,Male,White,153.0,62.4,129,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,1,1.0
+P369,2024-06-15 02:15 AM,1.0,1971-04-16,52,Male,White,150.0,63.9,127,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,1,1.0
+P369,2024-07-15 02:15 AM,1.0,1971-04-16,52,Male,White,150.0,65.8,125,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,1,1.0
+P370,2024-03-17 02:30 AM,0.0,1975-05-01,48,Female,African American,173.8,86.4,149,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P370,2024-04-16 02:30 AM,0.0,1975-05-01,48,Female,African American,172.9,86.4,150,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P370,2024-05-16 02:30 AM,0.0,1975-05-01,48,Female,African American,174.6,86.1,151,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P370,2024-06-15 02:30 AM,0.0,1975-05-01,48,Female,African American,174.1,87.0,151,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P370,2024-07-15 02:30 AM,0.0,1975-05-01,48,Female,African American,173.5,87.6,150,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P371,2024-03-17 02:45 AM,1.0,1974-11-13,49,Male,White,208.1,82.8,167,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P371,2024-04-16 02:45 AM,1.0,1974-11-13,49,Male,White,207.8,82.3,168,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P371,2024-05-16 02:45 AM,1.0,1974-11-13,49,Male,White,207.0,81.6,169,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P371,2024-06-15 02:45 AM,1.0,1974-11-13,49,Male,White,206.0,81.4,169,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P371,2024-07-15 02:45 AM,1.0,1974-11-13,49,Male,White,204.7,81.7,168,Diabetic,Smoker,Not on Treatment,100.0,69,100.0,5,0.0,0,1.0
+P372,2024-03-17 03:00 AM,0.021,1975-09-19,48,Female,White,160.4,62.9,151,Diabetic,Smoker,Not on Treatment,2.1,50,0.0,8,2.1,1,0.021
+P372,2024-04-16 03:00 AM,0.027999999999999997,1975-09-19,48,Female,White,163.2,62.6,152,Diabetic,Smoker,Not on Treatment,2.8,50,0.0,8,2.8,1,0.027999999999999997
+P372,2024-05-16 03:00 AM,0.033,1975-09-19,48,Female,White,164.7,62.5,152,Diabetic,Smoker,Not on Treatment,3.3,50,0.0,8,3.3,1,0.033
+P372,2024-06-15 03:00 AM,0.053,1975-09-19,48,Female,White,166.9,61.1,154,Diabetic,Smoker,Not on Treatment,5.3,50,0.0,8,5.3,1,0.053
+P372,2024-07-15 03:00 AM,0.099,1975-09-19,48,Female,White,170.5,59.5,154,Diabetic,Smoker,Not on Treatment,9.9,50,0.0,8,9.9,1,0.099
+P373,2024-03-17 03:15 AM,0.0,1975-08-15,48,Female,African American,194.5,66.5,109,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P373,2024-04-16 03:15 AM,0.0,1975-08-15,48,Female,African American,193.5,66.3,108,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P373,2024-05-16 03:15 AM,0.0,1975-08-15,48,Female,African American,193.0,66.4,109,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P373,2024-06-15 03:15 AM,0.0,1975-08-15,48,Female,African American,191.1,66.1,110,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P373,2024-07-15 03:15 AM,0.0,1975-08-15,48,Female,African American,191.7,66.4,111,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P374,2024-03-17 03:30 AM,1.0,1975-07-21,48,Male,White,184.0,68.0,157,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P374,2024-04-16 03:30 AM,1.0,1975-07-21,48,Male,White,181.4,69.1,156,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P374,2024-05-16 03:30 AM,1.0,1975-07-21,48,Male,White,177.6,69.4,155,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P374,2024-06-15 03:30 AM,1.0,1975-07-21,48,Male,White,174.0,70.7,155,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P374,2024-07-15 03:30 AM,1.0,1975-07-21,48,Male,White,170.3,72.1,156,Diabetic,Non-Smoker,Not on Treatment,100.0,50,100.0,5,0.0,1,1.0
+P375,2024-03-17 03:45 AM,0.0,1983-12-24,40,Female,African American,190.4,53.1,145,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P375,2024-04-16 03:45 AM,0.0,1983-12-24,40,Female,African American,188.4,53.1,144,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P375,2024-05-16 03:45 AM,0.0,1983-12-24,40,Female,African American,186.8,53.1,143,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P375,2024-06-15 03:45 AM,0.0,1983-12-24,40,Female,African American,188.1,53.3,144,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P375,2024-07-15 03:45 AM,0.0,1983-12-24,40,Female,African American,189.8,54.1,145,Non-Diabetic,Smoker,On Treatment,0.0,50,0.0,8,0.0,1,0.0
+P376,2024-03-17 04:00 AM,1.0,1975-11-02,48,Male,White,258.3,67.6,108,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,1,1.0
+P376,2024-04-16 04:00 AM,1.0,1975-11-02,48,Male,White,260.6,66.2,110,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,1,1.0
+P376,2024-05-16 04:00 AM,1.0,1975-11-02,48,Male,White,262.7,64.9,112,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,1,1.0
+P376,2024-06-15 04:00 AM,1.0,1975-11-02,48,Male,White,267.0,62.7,113,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,1,1.0
+P376,2024-07-15 04:00 AM,1.0,1975-11-02,48,Male,White,272.6,61.6,112,Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,1,1.0
+P377,2024-03-17 04:15 AM,0.002,1982-07-19,41,Female,White,208.5,89.1,154,Diabetic,Non-Smoker,Not on Treatment,0.2,39,0.0,8,0.2,1,0.002
+P377,2024-04-16 04:15 AM,0.002,1982-07-19,41,Female,White,209.9,89.3,155,Diabetic,Non-Smoker,Not on Treatment,0.2,39,0.0,8,0.2,1,0.002
+P377,2024-05-16 04:15 AM,0.002,1982-07-19,41,Female,White,208.3,88.8,155,Diabetic,Non-Smoker,Not on Treatment,0.2,39,0.0,8,0.2,1,0.002
+P377,2024-06-15 04:15 AM,0.002,1982-07-19,41,Female,White,208.2,89.1,156,Diabetic,Non-Smoker,Not on Treatment,0.2,39,0.0,8,0.2,1,0.002
+P377,2024-07-15 04:15 AM,0.002,1982-07-19,41,Female,White,209.8,89.4,156,Diabetic,Non-Smoker,Not on Treatment,0.2,39,0.0,8,0.2,1,0.002
+P378,2024-03-17 04:30 AM,0.54,1981-12-19,42,Female,White,269.7,75.4,144,Diabetic,Smoker,On Treatment,54.0,50,0.0,8,54.0,0,0.54
+P378,2024-04-16 04:30 AM,0.557,1981-12-19,42,Female,White,267.8,74.6,144,Diabetic,Smoker,On Treatment,55.7,50,0.0,8,55.7,0,0.557
+P378,2024-05-16 04:30 AM,0.613,1981-12-19,42,Female,White,269.4,74.2,144,Diabetic,Smoker,On Treatment,61.3,50,0.0,8,61.3,0,0.613
+P378,2024-06-15 04:30 AM,0.589,1981-12-19,42,Female,White,268.8,74.4,143,Diabetic,Smoker,On Treatment,58.9,50,0.0,8,58.9,0,0.589
+P378,2024-07-15 04:30 AM,0.603,1981-12-19,42,Female,White,268.5,74.1,144,Diabetic,Smoker,On Treatment,60.3,50,0.0,8,60.3,0,0.603
+P379,2024-03-17 04:45 AM,0.22,1970-11-07,53,Female,White,244.9,85.2,139,Diabetic,Non-Smoker,On Treatment,22.0,50,0.0,8,22.0,1,0.22
+P379,2024-04-16 04:45 AM,0.17300000000000001,1970-11-07,53,Female,White,243.0,86.2,140,Diabetic,Non-Smoker,On Treatment,17.3,50,0.0,8,17.3,1,0.17300000000000001
+P379,2024-05-16 04:45 AM,0.18,1970-11-07,53,Female,White,241.7,85.5,140,Diabetic,Non-Smoker,On Treatment,18.0,50,0.0,8,18.0,1,0.18
+P379,2024-06-15 04:45 AM,0.21600000000000003,1970-11-07,53,Female,White,243.4,84.8,139,Diabetic,Non-Smoker,On Treatment,21.6,50,0.0,8,21.6,1,0.21600000000000003
+P379,2024-07-15 04:45 AM,0.21100000000000002,1970-11-07,53,Female,White,243.5,85.0,138,Diabetic,Non-Smoker,On Treatment,21.1,50,0.0,8,21.1,1,0.21100000000000002
+P380,2024-03-17 05:00 AM,0.0,1974-10-27,49,Male,African American,208.3,89.9,167,Non-Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,1,0.0
+P380,2024-04-16 05:00 AM,0.0,1974-10-27,49,Male,African American,211.1,88.5,166,Non-Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,1,0.0
+P380,2024-05-16 05:00 AM,0.0,1974-10-27,49,Male,African American,215.8,86.9,169,Non-Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,1,0.0
+P380,2024-06-15 05:00 AM,0.0,1974-10-27,49,Male,African American,218.9,85.9,170,Non-Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,1,0.0
+P380,2024-07-15 05:00 AM,0.0,1974-10-27,49,Male,African American,220.5,84.2,172,Non-Diabetic,Smoker,Not on Treatment,0.0,69,0.0,5,0.0,1,0.0
+P381,2024-03-17 05:15 AM,1.0,1968-08-30,55,Male,White,240.6,78.3,175,Non-Diabetic,Non-Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P381,2024-04-16 05:15 AM,1.0,1968-08-30,55,Male,White,239.2,78.5,174,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,0,1.0
+P381,2024-05-16 05:15 AM,1.0,1968-08-30,55,Male,White,239.0,78.2,173,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,0,1.0
+P381,2024-06-15 05:15 AM,1.0,1968-08-30,55,Male,White,237.0,78.2,174,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,0,1.0
+P381,2024-07-15 05:15 AM,1.0,1968-08-30,55,Male,White,238.0,78.3,175,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,0,1.0
+P382,2024-03-17 05:30 AM,0.065,1977-06-14,46,Female,White,262.4,92.2,147,Diabetic,Smoker,On Treatment,6.5,50,0.0,8,6.5,0,0.065
+P382,2024-04-16 05:30 AM,0.085,1977-06-14,46,Female,White,267.9,92.2,148,Diabetic,Smoker,On Treatment,8.5,50,0.0,8,8.5,0,0.085
+P382,2024-05-16 05:30 AM,0.152,1977-06-14,46,Female,White,272.9,89.7,150,Diabetic,Smoker,On Treatment,15.2,50,0.0,8,15.2,0,0.152
+P382,2024-06-15 05:30 AM,0.22899999999999998,1977-06-14,46,Female,White,275.9,87.7,151,Diabetic,Smoker,On Treatment,22.9,50,0.0,8,22.9,0,0.22899999999999998
+P382,2024-07-15 05:30 AM,0.29,1977-06-14,46,Female,White,277.7,86.5,153,Diabetic,Smoker,On Treatment,29.0,50,0.0,8,29.0,0,0.29
+P383,2024-03-17 05:45 AM,0.003,1976-08-27,47,Female,White,178.7,81.0,114,Non-Diabetic,Smoker,Not on Treatment,0.3,39,0.0,8,0.3,0,0.003
+P383,2024-04-16 05:45 AM,0.002,1976-08-27,47,Female,White,177.0,81.8,114,Non-Diabetic,Smoker,Not on Treatment,0.2,39,0.0,8,0.2,0,0.002
+P383,2024-05-16 05:45 AM,0.002,1976-08-27,47,Female,White,178.1,81.2,115,Non-Diabetic,Smoker,Not on Treatment,0.2,39,0.0,8,0.2,0,0.002
+P383,2024-06-15 05:45 AM,0.002,1976-08-27,47,Female,White,176.7,80.8,116,Non-Diabetic,Smoker,Not on Treatment,0.2,39,0.0,8,0.2,0,0.002
+P383,2024-07-15 05:45 AM,0.002,1976-08-27,47,Female,White,177.2,80.5,117,Non-Diabetic,Smoker,Not on Treatment,0.2,39,0.0,8,0.2,0,0.002
+P384,2024-03-17 06:00 AM,1.0,1966-08-23,57,Male,White,202.0,41.8,99,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P384,2024-04-16 06:00 AM,1.0,1966-08-23,57,Male,White,203.4,40.1,99,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P384,2024-05-16 06:00 AM,1.0,1966-08-23,57,Male,White,209.6,40.0,99,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P384,2024-06-15 06:00 AM,1.0,1966-08-23,57,Male,White,209.2,40.0,101,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P384,2024-07-15 06:00 AM,1.0,1966-08-23,57,Male,White,211.9,40.7,103,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P385,2024-03-17 06:15 AM,0.0,1969-12-24,54,Male,African American,151.4,63.2,106,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,5,0.0,5,0.0,1,0.0
+P385,2024-04-16 06:15 AM,0.0,1969-12-24,54,Male,African American,150.2,62.9,105,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,5,0.0,5,0.0,1,0.0
+P385,2024-05-16 06:15 AM,0.0,1969-12-24,54,Male,African American,150.0,62.8,106,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,5,0.0,5,0.0,1,0.0
+P385,2024-06-15 06:15 AM,0.0,1969-12-24,54,Male,African American,150.2,63.5,107,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,5,0.0,5,0.0,1,0.0
+P385,2024-07-15 06:15 AM,0.0,1969-12-24,54,Male,African American,150.0,63.4,108,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,5,0.0,5,0.0,1,0.0
+P386,2024-03-17 06:30 AM,1.0,1965-04-09,58,Male,White,202.3,76.5,154,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P386,2024-04-16 06:30 AM,1.0,1965-04-09,58,Male,White,201.6,78.5,155,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P386,2024-05-16 06:30 AM,1.0,1965-04-09,58,Male,White,198.6,78.9,155,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P386,2024-06-15 06:30 AM,1.0,1965-04-09,58,Male,White,193.8,80.1,156,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P386,2024-07-15 06:30 AM,1.0,1965-04-09,58,Male,White,189.8,80.0,155,Diabetic,Smoker,On Treatment,100.0,69,100.0,5,0.0,0,1.0
+P387,2024-03-17 06:45 AM,0.0,1973-08-19,50,Male,African American,245.5,83.5,116,Non-Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P387,2024-04-16 06:45 AM,0.0,1973-08-19,50,Male,African American,240.6,85.8,114,Non-Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P387,2024-05-16 06:45 AM,0.0,1973-08-19,50,Male,African American,236.2,87.4,112,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,5,0.0,1,0.0
+P387,2024-06-15 06:45 AM,0.0,1973-08-19,50,Male,African American,232.4,88.5,111,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,5,0.0,1,0.0
+P387,2024-07-15 06:45 AM,0.0,1973-08-19,50,Male,African American,233.0,89.6,112,Non-Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,5,0.0,1,0.0
+P388,2024-03-17 07:00 AM,0.0,1977-03-23,47,Female,African American,255.4,97.9,118,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,0,0.0
+P388,2024-04-16 07:00 AM,0.0,1977-03-23,47,Female,African American,252.2,98.6,115,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,0,0.0
+P388,2024-05-16 07:00 AM,0.0,1977-03-23,47,Female,African American,250.3,98.7,113,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,0,0.0
+P388,2024-06-15 07:00 AM,0.0,1977-03-23,47,Female,African American,250.4,99.9,112,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,0,0.0
+P388,2024-07-15 07:00 AM,0.0,1977-03-23,47,Female,African American,246.9,99.9,113,Non-Diabetic,Smoker,Not on Treatment,0.0,50,0.0,8,0.0,0,0.0
+P389,2024-03-17 07:15 AM,0.0,1968-10-13,55,Female,African American,250.5,70.7,177,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P389,2024-04-16 07:15 AM,0.0,1968-10-13,55,Female,African American,253.2,70.5,178,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P389,2024-05-16 07:15 AM,0.0,1968-10-13,55,Female,African American,254.9,70.6,180,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P389,2024-06-15 07:15 AM,0.0,1968-10-13,55,Female,African American,257.3,69.8,180,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P389,2024-07-15 07:15 AM,0.0,1968-10-13,55,Female,African American,258.7,67.4,180,Diabetic,Non-Smoker,On Treatment,0.0,50,0.0,8,0.0,0,0.0
+P390,2024-03-17 07:30 AM,0.0,1978-01-24,46,Male,African American,267.1,50.1,172,Non-Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P390,2024-04-16 07:30 AM,0.0,1978-01-24,46,Male,African American,269.7,49.3,174,Non-Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P390,2024-05-16 07:30 AM,0.0,1978-01-24,46,Male,African American,273.7,47.9,175,Non-Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P390,2024-06-15 07:30 AM,0.0,1978-01-24,46,Male,African American,279.0,46.3,176,Non-Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P390,2024-07-15 07:30 AM,0.0,1978-01-24,46,Male,African American,278.9,44.3,176,Non-Diabetic,Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P391,2024-03-17 07:45 AM,0.225,1967-09-04,56,Female,White,247.2,89.1,104,Non-Diabetic,Smoker,Not on Treatment,22.5,50,0.0,8,22.5,0,0.225
+P391,2024-04-16 07:45 AM,0.217,1967-09-04,56,Female,White,247.3,89.4,104,Non-Diabetic,Smoker,Not on Treatment,21.7,50,0.0,8,21.7,0,0.217
+P391,2024-05-16 07:45 AM,0.191,1967-09-04,56,Female,White,246.6,90.1,105,Non-Diabetic,Smoker,Not on Treatment,19.1,50,0.0,8,19.1,0,0.191
+P391,2024-06-15 07:45 AM,0.212,1967-09-04,56,Female,White,247.6,89.7,105,Non-Diabetic,Smoker,Not on Treatment,21.2,50,0.0,8,21.2,0,0.212
+P391,2024-07-15 07:45 AM,0.19699999999999998,1967-09-04,56,Female,White,246.7,89.9,106,Non-Diabetic,Smoker,Not on Treatment,19.7,50,0.0,8,19.7,0,0.19699999999999998
+P392,2024-03-17 08:00 AM,0.0,1978-03-27,46,Female,White,150.0,79.0,125,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,27,0.0,8,0.0,0,0.0
+P392,2024-04-16 08:00 AM,0.0,1978-03-27,46,Female,White,150.0,80.7,123,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,27,0.0,8,0.0,0,0.0
+P392,2024-05-16 08:00 AM,0.0,1978-03-27,46,Female,White,150.3,82.0,123,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,27,0.0,8,0.0,0,0.0
+P392,2024-06-15 08:00 AM,0.0,1978-03-27,46,Female,White,151.4,84.7,123,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,27,0.0,8,0.0,0,0.0
+P392,2024-07-15 08:00 AM,0.0,1978-03-27,46,Female,White,150.0,85.9,122,Non-Diabetic,Non-Smoker,Not on Treatment,0.0,27,0.0,8,0.0,0,0.0
+P393,2024-03-17 08:15 AM,0.04,1981-10-16,42,Female,White,181.6,63.1,139,Non-Diabetic,Smoker,Not on Treatment,4.0,39,0.0,8,4.0,1,0.04
+P393,2024-04-16 08:15 AM,0.038,1981-10-16,42,Female,White,181.1,63.2,140,Non-Diabetic,Smoker,Not on Treatment,3.8,39,0.0,8,3.8,1,0.038
+P393,2024-05-16 08:15 AM,0.024,1981-10-16,42,Female,White,180.7,65.2,139,Non-Diabetic,Smoker,Not on Treatment,2.4,39,0.0,8,2.4,1,0.024
+P393,2024-06-15 08:15 AM,0.013999999999999999,1981-10-16,42,Female,White,175.0,65.9,140,Non-Diabetic,Smoker,Not on Treatment,1.4,39,0.0,8,1.4,1,0.013999999999999999
+P393,2024-07-15 08:15 AM,0.008,1981-10-16,42,Female,White,171.7,67.3,141,Non-Diabetic,Smoker,Not on Treatment,0.8,39,0.0,8,0.8,1,0.008
+P394,2024-03-17 08:30 AM,0.0,1971-08-13,52,Male,African American,268.3,92.4,176,Non-Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P394,2024-04-16 08:30 AM,0.0,1971-08-13,52,Male,African American,271.7,91.1,175,Non-Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P394,2024-05-16 08:30 AM,0.0,1971-08-13,52,Male,African American,274.1,90.0,178,Non-Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P394,2024-06-15 08:30 AM,0.0,1971-08-13,52,Male,African American,276.8,89.1,178,Non-Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P394,2024-07-15 08:30 AM,0.0,1971-08-13,52,Male,African American,280.0,86.8,180,Non-Diabetic,Non-Smoker,On Treatment,0.0,69,0.0,5,0.0,1,0.0
+P395,2024-03-17 08:45 AM,0.0,1967-06-17,56,Female,White,157.4,96.6,119,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P395,2024-04-16 08:45 AM,0.0,1967-06-17,56,Female,White,151.8,97.8,118,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P395,2024-05-16 08:45 AM,0.0,1967-06-17,56,Female,White,151.0,98.9,117,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P395,2024-06-15 08:45 AM,0.0,1967-06-17,56,Female,White,150.2,100.0,114,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P395,2024-07-15 08:45 AM,0.0,1967-06-17,56,Female,White,150.0,99.5,112,Non-Diabetic,Non-Smoker,On Treatment,0.0,39,0.0,8,0.0,1,0.0
+P396,2024-03-17 09:00 AM,0.0,1966-07-08,57,Male,African American,239.0,47.8,106,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P396,2024-04-16 09:00 AM,0.0,1966-07-08,57,Male,African American,238.6,48.4,105,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P396,2024-05-16 09:00 AM,0.0,1966-07-08,57,Male,African American,240.4,48.0,104,Diabetic,Non-Smoker,Not on Treatment,0.0,69,0.0,5,0.0,1,0.0
+P396,2024-06-15 09:00 AM,0.0,1966-07-08,57,Male,African American,238.7,48.3,105,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P396,2024-07-15 09:00 AM,0.0,1966-07-08,57,Male,African American,238.2,48.5,104,Diabetic,Non-Smoker,Not on Treatment,0.0,50,0.0,5,0.0,1,0.0
+P397,2024-03-17 09:15 AM,0.765,1972-06-18,51,Female,White,213.7,63.7,140,Diabetic,Non-Smoker,Not on Treatment,76.5,39,0.0,8,76.5,0,0.765
+P397,2024-04-16 09:15 AM,0.713,1972-06-18,51,Female,White,211.7,63.8,139,Diabetic,Non-Smoker,Not on Treatment,71.3,39,0.0,8,71.3,0,0.713
+P397,2024-05-16 09:15 AM,0.6609999999999999,1972-06-18,51,Female,White,209.8,63.9,140,Diabetic,Non-Smoker,Not on Treatment,66.1,39,0.0,8,66.1,0,0.6609999999999999
+P397,2024-06-15 09:15 AM,0.687,1972-06-18,51,Female,White,209.9,63.6,140,Diabetic,Non-Smoker,Not on Treatment,68.7,39,0.0,8,68.7,0,0.687
+P397,2024-07-15 09:15 AM,0.6659999999999999,1972-06-18,51,Female,White,209.0,63.6,140,Diabetic,Non-Smoker,Not on Treatment,66.6,39,0.0,8,66.6,0,0.6659999999999999
+P398,2024-03-17 09:30 AM,0.0,1975-08-04,48,Female,African American,192.5,70.8,128,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P398,2024-04-16 09:30 AM,0.0,1975-08-04,48,Female,African American,191.4,71.6,128,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P398,2024-05-16 09:30 AM,0.0,1975-08-04,48,Female,African American,193.3,71.5,127,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P398,2024-06-15 09:30 AM,0.0,1975-08-04,48,Female,African American,192.7,71.6,127,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P398,2024-07-15 09:30 AM,0.0,1975-08-04,48,Female,African American,194.7,72.6,127,Non-Diabetic,Smoker,Not on Treatment,0.0,39,0.0,8,0.0,1,0.0
+P399,2024-03-17 09:45 AM,1.0,1977-04-07,46,Female,White,277.8,49.9,106,Diabetic,Smoker,On Treatment,100.0,50,0.0,8,100.0,1,1.0
+P399,2024-04-16 09:45 AM,1.0,1977-04-07,46,Female,White,278.1,47.9,106,Diabetic,Smoker,On Treatment,100.0,50,0.0,8,100.0,1,1.0
+P399,2024-05-16 09:45 AM,1.0,1977-04-07,46,Female,White,280.0,46.2,108,Diabetic,Smoker,On Treatment,100.0,50,0.0,8,100.0,1,1.0
+P399,2024-06-15 09:45 AM,1.0,1977-04-07,46,Female,White,280.0,44.1,111,Diabetic,Smoker,On Treatment,100.0,50,0.0,8,100.0,1,1.0
+P399,2024-07-15 09:45 AM,1.0,1977-04-07,46,Female,White,279.0,43.1,112,Diabetic,Smoker,On Treatment,100.0,50,0.0,8,100.0,1,1.0
+P400,2024-03-17 10:00 AM,1.0,1965-05-03,58,Male,White,182.9,46.9,139,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,1,1.0
+P400,2024-04-16 10:00 AM,1.0,1965-05-03,58,Male,White,186.8,46.3,142,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,1,1.0
+P400,2024-05-16 10:00 AM,1.0,1965-05-03,58,Male,White,189.6,44.2,145,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,1,1.0
+P400,2024-06-15 10:00 AM,1.0,1965-05-03,58,Male,White,191.9,41.6,147,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,1,1.0
+P400,2024-07-15 10:00 AM,1.0,1965-05-03,58,Male,White,192.4,40.0,148,Non-Diabetic,Non-Smoker,On Treatment,100.0,50,100.0,5,0.0,1,1.0
